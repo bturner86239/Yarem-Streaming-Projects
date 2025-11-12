@@ -1,0 +1,686 @@
+[2025-11-12 14:28:53.758 INF] Streamer.bot (1.0.1)
+[2025-11-12 14:28:53.760 INF] Startup Path: C:\Users\tekki\Downloads\Streamer.bot-x64-1.0.1
+[2025-11-12 14:28:53.760 INF] Startup Args: 
+[2025-11-12 14:28:53.760 INF] Startup Mode: UI
+[2025-11-12 14:28:53.760 INF] Logging Level: Debug
+[2025-11-12 14:28:53.760 INF] Instance Id: 1e2a1a08-285a-444e-9667-2caddc49e11c
+[2025-11-12 14:28:53.760 INF] Instance Name: Streamer.bot
+[2025-11-12 14:28:53.760 INF] Operating System: Windows
+[2025-11-12 14:28:53.760 INF] UserInteractive: True
+[2025-11-12 14:28:53.760 INF] WebView2: Found (v142.0.3595.53)
+[2025-11-12 14:28:53.767 INF] Backing up data files
+[2025-11-12 14:28:53.788 INF] Loading config
+[2025-11-12 14:28:54.008 DBG] Users :: Time to save 4.3875ms
+[2025-11-12 14:28:54.017 DBG] Twitch Rewards :: Time to save 5.3761ms
+[2025-11-12 14:28:54.556 DBG] Globals :: Performing DB upgrade, please be patient, this could take a while if you heavily use global variables.
+[2025-11-12 14:28:54.560 DBG] Globals :: DB Upgrade performed in 3.9864ms
+[2025-11-12 14:28:54.581 ERR] Global :: Duplicate userId and variable names found (1) in the User Global data, attempting to fix.
+[2025-11-12 14:28:54.585 ERR] Global :: Duplicate userId and variable names cleaned up, 0 records deleted in the User Global data.
+[2025-11-12 14:28:54.834 DBG] Actions :: Time to save 8.6943ms
+[2025-11-12 14:28:54.840 DBG] OBS Settings :: Time to save 2.6763ms
+[2025-11-12 14:28:54.845 DBG] MeldStudio Settings :: Time to save 2.3947ms
+[2025-11-12 14:28:54.861 DBG] Commands :: Time to save 3.3019ms
+[2025-11-12 14:28:55.017 DBG] Midi :: Time to save 3.8096ms
+[2025-11-12 14:28:58.323 DBG] Events Service :: Starting event queue thread
+[2025-11-12 14:28:58.323 DBG] Events Service :: Starting application event queue thread
+[2025-11-12 14:28:58.323 DBG] Events Service :: Starting raw event queue thread
+[2025-11-12 14:28:58.327 DBG] Trigger Service :: Initialized
+[2025-11-12 14:28:58.331 DBG] ActionQueue :: Starting queue 00000000-0000-0000-0000-000000000000 thread
+[2025-11-12 14:28:58.337 DBG] Quotes :: Time to save 2.6334ms
+[2025-11-12 14:28:59.329 DBG] Viewers :: 0.2571ms to populate view model
+[2025-11-12 14:28:59.595 DBG] OBS Service :: Starting event thread
+[2025-11-12 14:28:59.595 DBG] MeldStudio Service :: Starting event thread
+[2025-11-12 14:28:59.595 DBG] TwitchService :: Initializing
+[2025-11-12 14:28:59.602 DBG] TwitchService :: Logging into Broadcaster account
+[2025-11-12 14:28:59.603 INF] TwitchService :: Broadcaster OAuth refresh token invalid, unable to login to Broadcaster account
+[2025-11-12 14:28:59.607 DBG] TwitchService :: Logging into Bot account
+[2025-11-12 14:28:59.608 INF] TwitchService :: Bot OAuth refresh token invalid, unable to login to Bot account
+[2025-11-12 14:28:59.609 DBG] Websocket Client :: Auto connecting to clients
+[2025-11-12 14:28:59.610 DBG] Websocket Custom Server :: Auto starting servers
+[2025-11-12 14:28:59.613 INF] MIDI Service :: Initializing 0 MIDI devices
+[2025-11-12 14:28:59.614 INF] Input Service: Found 0 valid key inputs.
+[2025-11-12 14:28:59.615 DBG] MIDI Service :: Starting event thread
+[2025-11-12 14:28:59.617 DBG] UsbRemovalWatcher :: Disposed
+[2025-11-12 14:29:03.643 DBG] Users :: Time to save 9.1488ms
+[2025-11-12 14:29:03.649 DBG] Actions :: Time to save 6.4846ms
+[2025-11-12 14:29:03.654 DBG] Commands :: Time to save 5.5573ms
+[2025-11-12 14:29:03.660 DBG] Twitch Rewards :: Time to save 5.51ms
+[2025-11-12 14:29:03.666 DBG] Midi :: Time to save 5.735ms
+[2025-11-12 14:29:03.671 DBG] OBS Settings :: Time to save 5.2683ms
+[2025-11-12 14:29:03.677 DBG] MeldStudio Settings :: Time to save 5.4494ms
+[2025-11-12 14:29:03.683 DBG] Credits :: Time to save 5.0869ms
+[2025-11-12 14:29:03.689 DBG] Quotes :: Time to save 6.1845ms
+[2025-11-12 14:29:03.898 DBG] Config :: Time to save 51.8523ms
+[2025-11-12 14:30:56.851 DBG] TwitchService :: Logging into Broadcaster account
+[2025-11-12 14:31:00.617 INF] TwitchService :: Fetching Broadcaster account information
+[2025-11-12 14:31:00.808 INF] TwitchService :: Broadcaster account (apexdagryph) authenticated
+[2025-11-12 14:31:00.980 DBG] Twitch Service :: Initializing Third Party Emote Handlers
+[2025-11-12 14:31:00.982 DBG] Twitch Service :: Init rest
+[2025-11-12 14:31:00.983 INF] 7TV :: Initializing user '160840198', on twitch
+[2025-11-12 14:31:00.991 INF] BTTV :: Initializing user '160840198', on twitch
+[2025-11-12 14:31:00.993 INF] BetterTTV.Socket :: Connecting to BTTV WebSocket, monitoring for changes for user '160840198' on twitch
+[2025-11-12 14:31:01.002 INF] FFZ :: Initializing user 'apexdagryph' (160840198), on twitch
+[2025-11-12 14:31:01.125 INF] BTTV :: Loaded 65 global emotes
+[2025-11-12 14:31:01.128 INF] FFZ :: Loaded 15 global emotes
+[2025-11-12 14:31:01.155 DBG] Twitch Service :: Loaded 33 Twitch cheer emotes
+[2025-11-12 14:31:01.171 WRN] FFZ :: Room not found, user does not have channel emotes configured.
+[2025-11-12 14:31:01.171 INF] FFZ :: Loaded 0 channel emotes
+[2025-11-12 14:31:01.203 DBG] Twitch Service :: Loaded 300 Twitch user emotes
+[2025-11-12 14:31:01.203 ERR] BTTV :: Response error NotFound from BTTV channel endpoint.
+[2025-11-12 14:31:01.224 DBG] Twitch Service :: Loaded 182 Twitch badges
+[2025-11-12 14:31:01.242 INF] BTTV :: WebSocket Connected
+[2025-11-12 14:31:03.693 INF] 7TV :: Loaded 43 global emotes
+[2025-11-12 14:31:04.325 ERR] 7TV :: Response error NotFound from 7TV channel endpoint.
+[2025-11-12 14:31:04.567 DBG] Getting viewers for channel "apexdagryph" (1)
+[2025-11-12 14:31:04.568 DBG] Twitch Service :: Fetched viewers for channel (1)
+[2025-11-12 14:31:04.570 DBG] Twitch Service :: (1) - Existing: 1, New Users: 0 (3.032ms)
+[2025-11-12 14:31:04.571 DBG] Twitch Service :: Viewers init in 242.9135ms
+[2025-11-12 14:31:04.573 DBG] Twitch Service :: Loading editors for channel apexdagryph
+[2025-11-12 14:31:04.647 DBG] Twitch Service :: Found 0 editors for channel apexdagryph
+[2025-11-12 14:31:04.747 INF] Twitch Service :: Found 0 Moderators for the channel apexdagryph
+[2025-11-12 14:31:04.928 INF] Twitch Service :: Found 0 VIPs for the channel apexdagryph
+[2025-11-12 14:31:04.931 DBG] ViewerRepo :: Time to update mods and VIPs, 0.373ms (nm: 0, em: 0, nv: 0, ev: 0, ru: 0)
+[2025-11-12 14:31:04.931 DBG] Twitch Service :: Time to update/add mods and vips for the channel apexdagryph, 281.5045ms
+[2025-11-12 14:31:04.933 DBG] Twitch Service :: "apexdagryph" is not a partner or affiliate, skipping getting subscriber list.
+[2025-11-12 14:31:04.938 INF] TwitchService :: Connecting to Broadcaster Chat Client
+[2025-11-12 14:31:04.943 INF] TwitchService :: Connecting to Broadcaster EventSub
+[2025-11-12 14:31:04.948 DBG] Twitch EventSub (Broadcaster) :: Opening connection
+[2025-11-12 14:31:05.017 DBG] Twitch (Broadcaster) :: Opening connection
+[2025-11-12 14:31:05.134 DBG] Twitch (Broadcaster) :: Connected to irc.chat.twitch.tv:6697 (34.212.92.60:6697)
+[2025-11-12 14:31:05.134 DBG] Twitch (Broadcaster) :: Negotiating SSL stream with irc.chat.twitch.tv
+[2025-11-12 14:31:05.176 DBG] Twitch EventSub (Broadcaster) :: Subscribing to 31 events
+[2025-11-12 14:31:05.422 DBG] Twitch (Broadcaster) :: Twitch Client Socket opened
+[2025-11-12 14:31:05.611 DBG] Twitch (Broadcaster) :: Listening and Authenticated
+[2025-11-12 14:31:05.613 DBG] Twitch (Broadcaster) :: Joining chanel #apexdagryph
+[2025-11-12 14:31:05.616 INF] TwitchService :: Connected to Broadcaster Chat Client
+[2025-11-12 14:31:08.682 INF] TwitchService :: Connected to Broadcaster EventSub, and authenticated
+[2025-11-12 14:32:05.436 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.1085ms
+[2025-11-12 14:32:05.506 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.8431ms)
+[2025-11-12 14:32:06.891 DBG] Twitch (Broadcaster) :: Disconnected
+[2025-11-12 14:32:06.893 INF] TwitchService :: Disconnected from Broadcaster Chat Client
+[2025-11-12 14:32:07.117 DBG] Twitch EventSub (Broadcaster) :: Disconnected
+[2025-11-12 14:32:07.117 INF] TwitchService :: Disconnected from Broadcaster EventSub
+[2025-11-12 14:32:07.189 INF] BTTV :: WebSocket Disconnected
+[2025-11-12 14:33:55.699 DBG] Credits :: Time to save 8.9066ms
+[2025-11-12 14:33:58.451 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 14:33:58.462 DBG] Users :: Time to save 11.0658ms
+[2025-11-12 14:33:58.468 DBG] Actions :: Time to save 6.1689ms
+[2025-11-12 14:33:58.475 DBG] Commands :: Time to save 6.6641ms
+[2025-11-12 14:33:58.481 DBG] Twitch Rewards :: Time to save 6.2844ms
+[2025-11-12 14:33:58.487 DBG] Midi :: Time to save 5.6893ms
+[2025-11-12 14:33:58.494 DBG] OBS Settings :: Time to save 7.0046ms
+[2025-11-12 14:33:58.500 DBG] MeldStudio Settings :: Time to save 6.3663ms
+[2025-11-12 14:33:58.506 DBG] Credits :: Time to save 5.8389ms
+[2025-11-12 14:33:58.512 DBG] Quotes :: Time to save 5.6415ms
+[2025-11-12 14:33:58.664 DBG] Config :: Time to save 11.7195ms
+[2025-11-12 14:38:55.703 DBG] Credits :: Time to save 8.8271ms
+[2025-11-12 14:38:58.629 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 14:38:58.638 DBG] Users :: Time to save 9.9235ms
+[2025-11-12 14:38:58.646 DBG] Actions :: Time to save 7.9452ms
+[2025-11-12 14:38:58.657 DBG] Commands :: Time to save 10.8367ms
+[2025-11-12 14:38:58.666 DBG] Twitch Rewards :: Time to save 8.7241ms
+[2025-11-12 14:38:58.676 DBG] Midi :: Time to save 9.0922ms
+[2025-11-12 14:38:58.685 DBG] OBS Settings :: Time to save 9.3452ms
+[2025-11-12 14:38:58.694 DBG] MeldStudio Settings :: Time to save 8.5908ms
+[2025-11-12 14:38:58.703 DBG] Credits :: Time to save 10.5605ms
+[2025-11-12 14:38:58.712 DBG] Quotes :: Time to save 7.283ms
+[2025-11-12 14:38:58.832 DBG] Config :: Time to save 3.1302ms
+[2025-11-12 14:41:41.451 DBG] TwitchService :: Logging into Broadcaster account
+[2025-11-12 14:41:42.284 INF] TwitchService :: Fetching Broadcaster account information
+[2025-11-12 14:41:42.405 INF] TwitchService :: Broadcaster account (apexdagryph) authenticated
+[2025-11-12 14:41:42.548 DBG] Twitch Service :: Initializing Third Party Emote Handlers
+[2025-11-12 14:41:42.548 DBG] Twitch Service :: Init rest
+[2025-11-12 14:41:42.548 INF] 7TV :: Initializing user '160840198', on twitch
+[2025-11-12 14:41:42.548 INF] BTTV :: Initializing user '160840198', on twitch
+[2025-11-12 14:41:42.548 INF] BetterTTV.Socket :: Connecting to BTTV WebSocket, monitoring for changes for user '160840198' on twitch
+[2025-11-12 14:41:42.548 INF] FFZ :: Initializing user 'apexdagryph' (160840198), on twitch
+[2025-11-12 14:41:42.668 INF] BTTV :: Loaded 65 global emotes
+[2025-11-12 14:41:42.679 INF] FFZ :: Loaded 15 global emotes
+[2025-11-12 14:41:42.681 DBG] Twitch Service :: Loaded 33 Twitch cheer emotes
+[2025-11-12 14:41:42.722 WRN] FFZ :: Room not found, user does not have channel emotes configured.
+[2025-11-12 14:41:42.722 INF] FFZ :: Loaded 0 channel emotes
+[2025-11-12 14:41:42.735 DBG] Twitch Service :: Loaded 182 Twitch badges
+[2025-11-12 14:41:42.744 DBG] Twitch Service :: Loaded 300 Twitch user emotes
+[2025-11-12 14:41:42.788 ERR] BTTV :: Response error NotFound from BTTV channel endpoint.
+[2025-11-12 14:41:42.789 INF] BTTV :: WebSocket Connected
+[2025-11-12 14:41:43.030 INF] 7TV :: Loaded 43 global emotes
+[2025-11-12 14:41:43.278 ERR] 7TV :: Response error NotFound from 7TV channel endpoint.
+[2025-11-12 14:41:43.497 DBG] Getting viewers for channel "apexdagryph" (1)
+[2025-11-12 14:41:43.497 DBG] Twitch Service :: Fetched viewers for channel (1)
+[2025-11-12 14:41:43.497 DBG] Twitch Service :: (1) - Existing: 1, New Users: 0 (0.0515ms)
+[2025-11-12 14:41:43.497 DBG] Twitch Service :: Viewers init in 219.3657ms
+[2025-11-12 14:41:43.497 DBG] Twitch Service :: Loading editors for channel apexdagryph
+[2025-11-12 14:41:43.570 DBG] Twitch Service :: Found 0 editors for channel apexdagryph
+[2025-11-12 14:41:43.677 INF] Twitch Service :: Found 0 Moderators for the channel apexdagryph
+[2025-11-12 14:41:43.775 INF] Twitch Service :: Found 0 VIPs for the channel apexdagryph
+[2025-11-12 14:41:43.775 DBG] ViewerRepo :: Time to update mods and VIPs, 0.0203ms (nm: 0, em: 0, nv: 0, ev: 0, ru: 0)
+[2025-11-12 14:41:43.775 DBG] Twitch Service :: Time to update/add mods and vips for the channel apexdagryph, 205.735ms
+[2025-11-12 14:41:43.775 DBG] Twitch Service :: "apexdagryph" is not a partner or affiliate, skipping getting subscriber list.
+[2025-11-12 14:41:43.775 INF] TwitchService :: Connecting to Broadcaster Chat Client
+[2025-11-12 14:41:43.776 INF] TwitchService :: Connecting to Broadcaster EventSub
+[2025-11-12 14:41:43.776 DBG] Twitch EventSub (Broadcaster) :: Opening connection
+[2025-11-12 14:41:43.839 INF] BTTV :: WebSocket Disconnected
+[2025-11-12 14:41:43.843 DBG] Twitch (Broadcaster) :: Opening connection
+[2025-11-12 14:41:43.950 DBG] Twitch (Broadcaster) :: Connected to irc.chat.twitch.tv:6697 (34.212.92.60:6697)
+[2025-11-12 14:41:43.950 DBG] Twitch (Broadcaster) :: Negotiating SSL stream with irc.chat.twitch.tv
+[2025-11-12 14:41:43.956 DBG] Twitch EventSub (Broadcaster) :: Subscribing to 31 events
+[2025-11-12 14:41:44.328 DBG] Twitch (Broadcaster) :: Twitch Client Socket opened
+[2025-11-12 14:41:44.513 DBG] Twitch (Broadcaster) :: Listening and Authenticated
+[2025-11-12 14:41:44.513 DBG] Twitch (Broadcaster) :: Joining chanel #apexdagryph
+[2025-11-12 14:41:44.513 INF] TwitchService :: Connected to Broadcaster Chat Client
+[2025-11-12 14:41:46.861 DBG] TwitchService :: Forgetting broadcaster account
+[2025-11-12 14:41:47.003 WRN] TwitchHelix :: Call unauthorized, tokens may need refreshing 'eventsub/subscriptions'
+[2025-11-12 14:41:47.003 DBG] Twitch EventSub (Broadcaster) :: Unable to subscribe to 'channel.goal.begin:1' event, authorization token invalid, disconnecting from event sub
+[2025-11-12 14:41:47.167 WRN] TwitchHelix :: Call unauthorized, tokens may need refreshing 'eventsub/subscriptions'
+[2025-11-12 14:41:47.167 DBG] Twitch EventSub (Broadcaster) :: Unable to subscribe to 'channel.shoutout.create:1' event, authorization token invalid, disconnecting from event sub
+[2025-11-12 14:41:47.334 WRN] TwitchHelix :: Call unauthorized, tokens may need refreshing 'eventsub/subscriptions'
+[2025-11-12 14:41:47.334 DBG] Twitch EventSub (Broadcaster) :: Unable to subscribe to 'channel.shared_chat.update:1' event, authorization token invalid, disconnecting from event sub
+[2025-11-12 14:41:47.448 DBG] Twitch EventSub (Broadcaster) :: Disconnected
+[2025-11-12 14:41:47.448 INF] TwitchService :: Disconnected from Broadcaster EventSub
+[2025-11-12 14:41:49.400 DBG] TwitchService :: Logging into Broadcaster account
+[2025-11-12 14:41:52.475 INF] TwitchService :: Fetching Broadcaster account information
+[2025-11-12 14:41:52.550 INF] TwitchService :: Broadcaster account (yarem4) authenticated
+[2025-11-12 14:41:52.617 DBG] Twitch Service :: Initializing Third Party Emote Handlers
+[2025-11-12 14:41:52.617 DBG] Twitch Service :: Init rest
+[2025-11-12 14:41:52.617 INF] 7TV :: Initializing user '236924052', on twitch
+[2025-11-12 14:41:52.617 INF] BTTV :: Initializing user '236924052', on twitch
+[2025-11-12 14:41:52.617 INF] BetterTTV.Socket :: Connecting to BTTV WebSocket, monitoring for changes for user '236924052' on twitch
+[2025-11-12 14:41:52.618 INF] FFZ :: Initializing user 'yarem4' (236924052), on twitch
+[2025-11-12 14:41:52.653 INF] BTTV :: Loaded 65 global emotes
+[2025-11-12 14:41:52.691 INF] FFZ :: Loaded 15 global emotes
+[2025-11-12 14:41:52.707 DBG] Twitch Service :: Loaded 33 Twitch cheer emotes
+[2025-11-12 14:41:52.723 ERR] BTTV :: Response error NotFound from BTTV channel endpoint.
+[2025-11-12 14:41:52.737 WRN] FFZ :: Room not found, user does not have channel emotes configured.
+[2025-11-12 14:41:52.737 INF] FFZ :: Loaded 0 channel emotes
+[2025-11-12 14:41:52.765 DBG] Twitch Service :: Loaded 182 Twitch badges
+[2025-11-12 14:41:52.777 DBG] Twitch Service :: Loaded 300 Twitch user emotes
+[2025-11-12 14:41:52.855 INF] BTTV :: WebSocket Connected
+[2025-11-12 14:41:52.963 DBG] Twitch Rewards :: Time to save 9.9742ms
+[2025-11-12 14:41:52.973 DBG] Twitch Rewards :: Time to save 8.3285ms
+[2025-11-12 14:41:52.981 DBG] Twitch Rewards :: Time to save 7.8122ms
+[2025-11-12 14:41:52.989 DBG] Twitch Rewards :: Time to save 7.6368ms
+[2025-11-12 14:41:53.093 INF] 7TV :: Loaded 43 global emotes
+[2025-11-12 14:41:53.358 ERR] 7TV :: Response error NotFound from 7TV channel endpoint.
+[2025-11-12 14:41:53.588 DBG] Getting viewers for channel "yarem4" (4)
+[2025-11-12 14:41:53.588 DBG] Twitch Service :: Fetched viewers for channel (4)
+[2025-11-12 14:41:53.588 DBG] Twitch Service :: (4) - Existing: 1, New Users: 3 (0.0671ms)
+[2025-11-12 14:41:53.591 DBG] Twitch Service :: Added 3 new viewers
+[2025-11-12 14:41:53.591 DBG] Twitch Service :: Viewers init in 232.8051ms
+[2025-11-12 14:41:53.591 DBG] Twitch Service :: Loading editors for channel yarem4
+[2025-11-12 14:41:53.761 DBG] Twitch Service :: Found 0 editors for channel yarem4
+[2025-11-12 14:41:53.867 INF] Twitch Service :: Found 2 Moderators for the channel yarem4
+[2025-11-12 14:41:54.052 INF] Twitch Service :: Found 0 VIPs for the channel yarem4
+[2025-11-12 14:41:54.052 DBG] ViewerRepo :: Time to update mods and VIPs, 0.1962ms (nm: 0, em: 0, nv: 0, ev: 0, ru: 0)
+[2025-11-12 14:41:54.052 DBG] Twitch Service :: Time to update/add mods and vips for the channel yarem4, 290.9322ms
+[2025-11-12 14:41:54.052 DBG] Twitch Service :: Loading subscribers for yarem4
+[2025-11-12 14:41:54.356 DBG] Twitch Service :: "Yarem4" has 5 subscriptions.
+[2025-11-12 14:41:54.371 DBG] Twitch Service :: Subscribed Viewers :: Added 4 new viewers
+[2025-11-12 14:41:54.371 INF] TwitchService :: Connecting to Broadcaster EventSub
+[2025-11-12 14:41:54.371 DBG] Twitch EventSub (Broadcaster) :: Opening connection
+[2025-11-12 14:41:54.521 DBG] Twitch EventSub (Broadcaster) :: Subscribing to 56 events
+[2025-11-12 14:42:00.776 INF] TwitchService :: Connected to Broadcaster EventSub, and authenticated
+[2025-11-12 14:42:44.335 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0204ms
+[2025-11-12 14:42:44.409 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.5202ms)
+[2025-11-12 14:42:54.383 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0126ms
+[2025-11-12 14:42:54.451 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.6939ms)
+[2025-11-12 14:43:44.343 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0126ms
+[2025-11-12 14:43:44.417 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.196ms)
+[2025-11-12 14:43:54.396 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0126ms
+[2025-11-12 14:43:54.464 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.4154ms)
+[2025-11-12 14:43:55.719 DBG] Credits :: Time to save 9.4938ms
+[2025-11-12 14:43:58.857 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 14:43:58.868 DBG] Users :: Time to save 11.0785ms
+[2025-11-12 14:43:58.876 DBG] Actions :: Time to save 8.3059ms
+[2025-11-12 14:43:58.883 DBG] Commands :: Time to save 7.2949ms
+[2025-11-12 14:43:58.891 DBG] Twitch Rewards :: Time to save 7.9413ms
+[2025-11-12 14:43:58.899 DBG] Midi :: Time to save 6.959ms
+[2025-11-12 14:43:58.904 DBG] OBS Settings :: Time to save 6.6303ms
+[2025-11-12 14:43:58.911 DBG] MeldStudio Settings :: Time to save 6.4599ms
+[2025-11-12 14:43:58.918 DBG] Credits :: Time to save 6.1021ms
+[2025-11-12 14:43:58.924 DBG] Quotes :: Time to save 6.6997ms
+[2025-11-12 14:43:59.061 DBG] Config :: Time to save 3.3316ms
+[2025-11-12 14:44:35.053 DBG] Users :: Time to save 10.2567ms
+[2025-11-12 14:44:35.061 DBG] Actions :: Time to save 7.8154ms
+[2025-11-12 14:44:35.068 DBG] Commands :: Time to save 7.0227ms
+[2025-11-12 14:44:35.076 DBG] Twitch Rewards :: Time to save 7.9101ms
+[2025-11-12 14:44:35.082 DBG] Midi :: Time to save 6.6357ms
+[2025-11-12 14:44:35.089 DBG] OBS Settings :: Time to save 6.8612ms
+[2025-11-12 14:44:35.095 DBG] MeldStudio Settings :: Time to save 5.9993ms
+[2025-11-12 14:44:35.102 DBG] Credits :: Time to save 6.6342ms
+[2025-11-12 14:44:35.109 DBG] Quotes :: Time to save 6.3503ms
+[2025-11-12 14:44:35.110 INF] Shutting down...
+[2025-11-12 14:44:35.172 INF] Closing services...
+[2025-11-12 14:44:35.172 DBG] UsbRemovalWatcher :: Disposed
+[2025-11-12 14:44:35.172 DBG] ProcessWatcher :: Disposed
+[2025-11-12 14:44:35.173 DBG] ProcessWatcher :: Disposed
+[2025-11-12 14:44:35.173 DBG] Events Service :: Shutting down event queue thread
+[2025-11-12 14:44:35.173 DBG] Events Service :: Shutting down raw event queue thread
+[2025-11-12 14:44:35.173 DBG] Events Service :: Shutting down application event queue thread
+[2025-11-12 14:44:35.189 DBG] Http Listener :: Channel is not active
+[2025-11-12 14:44:35.189 DBG] MIDI Service :: Stopping service
+[2025-11-12 14:44:35.189 DBG] MIDI Service :: Shutting down event thread
+[2025-11-12 14:44:35.190 DBG] DonorDrive :: Stopping service
+[2025-11-12 14:44:35.191 DBG] FileWatcherDaemon :: Waiting for file watchers to shut down
+[2025-11-12 14:44:35.191 DBG] Websocket Client :: Disconnecting from all connected clients
+[2025-11-12 14:44:35.192 DBG] FileTailDaemon :: Waiting for file tails to shut down
+[2025-11-12 14:44:35.192 DBG] ActionDispatcher :: Shutting down action queues
+[2025-11-12 14:44:35.192 DBG] Websocket Custom Server :: Stopping all servers
+[2025-11-12 14:44:35.192 DBG] SLOBS Service :: Stopping service
+[2025-11-12 14:44:35.193 DBG] Twitch (Broadcaster) :: Disconnected
+[2025-11-12 14:44:35.193 INF] TwitchService :: Disconnected from Broadcaster Chat Client
+[2025-11-12 14:44:35.194 DBG] ActionQueue :: Shutting down queue 00000000-0000-0000-0000-000000000000 thread
+[2025-11-12 14:44:35.194 DBG] SpeechToText :: Channel was null when trying to stop
+[2025-11-12 14:44:35.195 INF] InlineCode :: Cleaning up '0' execute code instances
+[2025-11-12 14:44:35.197 DBG] InlineCode :: Cleaned up execute code instances
+[2025-11-12 14:44:35.209 DBG] OBS Service :: Stopping service
+[2025-11-12 14:44:35.209 DBG] OBS Service :: Shutting down event thread
+[2025-11-12 14:44:35.209 DBG] MeldStudio Service :: Stopping service
+[2025-11-12 14:44:35.209 DBG] MeldStudio Service :: Shutting down event thread
+[2025-11-12 14:44:35.263 DBG] Config :: Time to save 10.9958ms
+[2025-11-12 14:44:35.418 DBG] Twitch EventSub (Broadcaster) :: Disconnected
+[2025-11-12 14:44:35.418 INF] TwitchService :: Disconnected from Broadcaster EventSub
+[2025-11-12 14:44:35.488 INF] BTTV :: WebSocket Disconnected
+[2025-11-12 14:44:35.520 DBG] Config :: Time to save 7.1418ms
+[2025-11-12 14:44:35.527 DBG] MeldStudio Settings :: Time to save 13.9682ms
+[2025-11-12 14:44:35.527 DBG] Commands :: Time to save 14.1794ms
+[2025-11-12 14:44:35.527 DBG] OBS Settings :: Time to save 14.2474ms
+[2025-11-12 14:44:35.527 DBG] Midi :: Time to save 14.6951ms
+[2025-11-12 14:44:35.527 DBG] Twitch Rewards :: Time to save 14.8725ms
+[2025-11-12 14:44:35.527 DBG] Actions :: Time to save 14.9326ms
+[2025-11-12 14:44:35.528 DBG] Quotes :: Time to save 15.1487ms
+[2025-11-12 14:44:35.528 DBG] Users :: Time to save 15.3836ms
+[2025-11-12 14:44:35.528 DBG] Credits :: Time to save 15.4577ms
+[2025-11-12 14:44:35.528 INF] Streamer.bot exited
+[2025-11-12 14:44:57.036 INF] Streamer.bot (1.0.1)
+[2025-11-12 14:44:57.038 INF] Startup Path: C:\Users\tekki\Desktop\Yarem Stream Setup\Streamer.bot-x64-1.0.1
+[2025-11-12 14:44:57.038 INF] Startup Args: 
+[2025-11-12 14:44:57.038 INF] Startup Mode: UI
+[2025-11-12 14:44:57.038 INF] Logging Level: Debug
+[2025-11-12 14:44:57.038 INF] Instance Id: 1e2a1a08-285a-444e-9667-2caddc49e11c
+[2025-11-12 14:44:57.038 INF] Instance Name: Streamer.bot
+[2025-11-12 14:44:57.038 INF] Operating System: Windows
+[2025-11-12 14:44:57.038 INF] UserInteractive: True
+[2025-11-12 14:44:57.038 INF] WebView2: Found (v142.0.3595.53)
+[2025-11-12 14:44:57.044 INF] Backing up data files
+[2025-11-12 14:44:57.069 INF] Loading config
+[2025-11-12 14:44:57.255 INF] Users :: Upgrade checks finished, 0.1817ms
+[2025-11-12 14:44:57.261 DBG] Users :: Loaded 9 users.
+[2025-11-12 14:44:57.270 DBG] Twitch Rewards :: Loaded 3 rewards.
+[2025-11-12 14:44:57.645 DBG] Actions :: Loaded 0 actions.
+[2025-11-12 14:44:57.649 DBG] OBS Settings :: Loaded.
+[2025-11-12 14:44:57.652 DBG] MeldStudio Settings :: Loaded.
+[2025-11-12 14:44:57.671 DBG] Commands :: Loaded 0 commands.
+[2025-11-12 14:44:57.685 DBG] Commands :: Time to save 12.4238ms
+[2025-11-12 14:44:57.757 DBG] MIDI :: Loaded 0 actions.
+[2025-11-12 14:45:00.770 DBG] Events Service :: Starting event queue thread
+[2025-11-12 14:45:00.770 DBG] Events Service :: Starting application event queue thread
+[2025-11-12 14:45:00.770 DBG] Events Service :: Starting raw event queue thread
+[2025-11-12 14:45:00.773 DBG] Trigger Service :: Initialized
+[2025-11-12 14:45:00.777 DBG] ActionQueue :: Starting queue 00000000-0000-0000-0000-000000000000 thread
+[2025-11-12 14:45:00.782 DBG] Quotes :: Loaded 0 quotes.
+[2025-11-12 14:45:01.731 DBG] Viewers :: 3.6762ms to populate view model
+[2025-11-12 14:45:01.951 DBG] OBS Service :: Starting event thread
+[2025-11-12 14:45:01.951 DBG] MeldStudio Service :: Starting event thread
+[2025-11-12 14:45:01.951 DBG] TwitchService :: Initializing
+[2025-11-12 14:45:01.957 DBG] TwitchService :: Logging into Broadcaster account
+[2025-11-12 14:45:01.965 DBG] TwitchService :: Logging into Bot account
+[2025-11-12 14:45:01.967 INF] TwitchService :: Bot OAuth refresh token invalid, unable to login to Bot account
+[2025-11-12 14:45:01.968 DBG] Websocket Client :: Auto connecting to clients
+[2025-11-12 14:45:01.969 DBG] Websocket Custom Server :: Auto starting servers
+[2025-11-12 14:45:01.972 INF] MIDI Service :: Initializing 0 MIDI devices
+[2025-11-12 14:45:01.973 INF] Input Service: Found 0 valid key inputs.
+[2025-11-12 14:45:01.973 DBG] MIDI Service :: Starting event thread
+[2025-11-12 14:45:01.975 DBG] UsbRemovalWatcher :: Disposed
+[2025-11-12 14:45:02.623 INF] TwitchService :: Fetching Broadcaster account information
+[2025-11-12 14:45:02.779 INF] TwitchService :: Broadcaster account (yarem4) authenticated
+[2025-11-12 14:45:02.860 DBG] Twitch Service :: Initializing Third Party Emote Handlers
+[2025-11-12 14:45:02.861 DBG] Twitch Service :: Init rest
+[2025-11-12 14:45:02.862 INF] 7TV :: Initializing user '236924052', on twitch
+[2025-11-12 14:45:02.870 INF] BTTV :: Initializing user '236924052', on twitch
+[2025-11-12 14:45:02.871 INF] BetterTTV.Socket :: Connecting to BTTV WebSocket, monitoring for changes for user '236924052' on twitch
+[2025-11-12 14:45:02.880 INF] FFZ :: Initializing user 'yarem4' (236924052), on twitch
+[2025-11-12 14:45:02.953 INF] BTTV :: Loaded 65 global emotes
+[2025-11-12 14:45:02.982 INF] FFZ :: Loaded 15 global emotes
+[2025-11-12 14:45:03.016 ERR] BTTV :: Response error NotFound from BTTV channel endpoint.
+[2025-11-12 14:45:03.027 WRN] FFZ :: Room not found, user does not have channel emotes configured.
+[2025-11-12 14:45:03.027 INF] FFZ :: Loaded 0 channel emotes
+[2025-11-12 14:45:03.107 DBG] Twitch Service :: Loaded 182 Twitch badges
+[2025-11-12 14:45:03.110 DBG] Twitch Service :: Loaded 300 Twitch user emotes
+[2025-11-12 14:45:03.121 INF] BTTV :: WebSocket Connected
+[2025-11-12 14:45:03.179 DBG] Twitch Rewards :: Time to save 12.262ms
+[2025-11-12 14:45:03.184 DBG] Twitch Service :: Loaded 33 Twitch cheer emotes
+[2025-11-12 14:45:03.504 INF] 7TV :: Loaded 43 global emotes
+[2025-11-12 14:45:03.708 ERR] 7TV :: Response error NotFound from 7TV channel endpoint.
+[2025-11-12 14:45:03.961 DBG] Getting viewers for channel "yarem4" (4)
+[2025-11-12 14:45:03.962 DBG] Twitch Service :: Fetched viewers for channel (4)
+[2025-11-12 14:45:03.964 DBG] Twitch Service :: (4) - Existing: 4, New Users: 0 (2.5372ms)
+[2025-11-12 14:45:03.964 DBG] Twitch Service :: Viewers init in 252.7356ms
+[2025-11-12 14:45:03.966 DBG] Twitch Service :: Loading editors for channel yarem4
+[2025-11-12 14:45:04.053 DBG] Twitch Service :: Found 0 editors for channel yarem4
+[2025-11-12 14:45:04.173 INF] Twitch Service :: Found 2 Moderators for the channel yarem4
+[2025-11-12 14:45:04.265 INF] Twitch Service :: Found 0 VIPs for the channel yarem4
+[2025-11-12 14:45:04.268 DBG] ViewerRepo :: Time to update mods and VIPs, 0.4073ms (nm: 0, em: 0, nv: 0, ev: 0, ru: 0)
+[2025-11-12 14:45:04.268 DBG] Twitch Service :: Time to update/add mods and vips for the channel yarem4, 213.3919ms
+[2025-11-12 14:45:04.270 DBG] Twitch Service :: Loading subscribers for yarem4
+[2025-11-12 14:45:04.479 DBG] Twitch Service :: "Yarem4" has 5 subscriptions.
+[2025-11-12 14:45:04.503 INF] TwitchService :: Connecting to Broadcaster Chat Client
+[2025-11-12 14:45:04.509 INF] TwitchService :: Connecting to Broadcaster EventSub
+[2025-11-12 14:45:04.513 DBG] Twitch EventSub (Broadcaster) :: Opening connection
+[2025-11-12 14:45:04.582 DBG] Twitch (Broadcaster) :: Opening connection
+[2025-11-12 14:45:04.688 DBG] Twitch (Broadcaster) :: Connected to irc.chat.twitch.tv:6697 (44.237.40.50:6697)
+[2025-11-12 14:45:04.688 DBG] Twitch (Broadcaster) :: Negotiating SSL stream with irc.chat.twitch.tv
+[2025-11-12 14:45:04.733 DBG] Twitch EventSub (Broadcaster) :: Subscribing to 56 events
+[2025-11-12 14:45:05.078 DBG] Twitch (Broadcaster) :: Twitch Client Socket opened
+[2025-11-12 14:45:05.272 DBG] Twitch (Broadcaster) :: Listening and Authenticated
+[2025-11-12 14:45:05.274 DBG] Twitch (Broadcaster) :: Joining chanel #yarem4
+[2025-11-12 14:45:05.277 INF] TwitchService :: Connected to Broadcaster Chat Client
+[2025-11-12 14:45:11.143 INF] TwitchService :: Connected to Broadcaster EventSub, and authenticated
+[2025-11-12 14:46:05.099 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.147ms
+[2025-11-12 14:46:05.183 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.868ms)
+[2025-11-12 14:47:05.095 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0139ms
+[2025-11-12 14:47:05.164 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.3742ms)
+[2025-11-12 14:48:05.100 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0122ms
+[2025-11-12 14:48:05.170 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.181ms)
+[2025-11-12 14:49:05.102 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0144ms
+[2025-11-12 14:49:05.175 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.1937ms)
+[2025-11-12 14:49:58.299 DBG] Credits :: Time to save 12.4902ms
+[2025-11-12 14:50:00.844 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 14:50:00.857 DBG] Users :: Time to save 12.3043ms
+[2025-11-12 14:50:00.868 DBG] Actions :: Time to save 9.052ms
+[2025-11-12 14:50:00.874 DBG] Commands :: Time to save 6.3459ms
+[2025-11-12 14:50:00.881 DBG] Twitch Rewards :: Time to save 6.7769ms
+[2025-11-12 14:50:00.891 DBG] Midi :: Time to save 8.6203ms
+[2025-11-12 14:50:00.899 DBG] OBS Settings :: Time to save 8.0319ms
+[2025-11-12 14:50:00.909 DBG] MeldStudio Settings :: Time to save 8.3601ms
+[2025-11-12 14:50:00.916 DBG] Credits :: Time to save 6.5964ms
+[2025-11-12 14:50:00.925 DBG] Quotes :: Time to save 7.7001ms
+[2025-11-12 14:50:01.097 DBG] Config :: Time to save 34.4206ms
+[2025-11-12 14:50:05.106 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.02ms
+[2025-11-12 14:50:05.181 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.427ms)
+[2025-11-12 14:51:05.119 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0121ms
+[2025-11-12 14:51:05.194 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.1705ms)
+[2025-11-12 14:52:05.136 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0191ms
+[2025-11-12 14:52:05.208 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.8802ms)
+[2025-11-12 14:53:05.141 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0172ms
+[2025-11-12 14:53:05.215 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.6014ms)
+[2025-11-12 14:54:05.149 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0139ms
+[2025-11-12 14:54:05.221 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.428ms)
+[2025-11-12 14:54:58.307 DBG] Credits :: Time to save 9.4401ms
+[2025-11-12 14:55:01.012 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 14:55:01.023 DBG] Users :: Time to save 11.1687ms
+[2025-11-12 14:55:01.032 DBG] Actions :: Time to save 8.3468ms
+[2025-11-12 14:55:01.039 DBG] Commands :: Time to save 7.7524ms
+[2025-11-12 14:55:01.047 DBG] Twitch Rewards :: Time to save 8.769ms
+[2025-11-12 14:55:01.055 DBG] Midi :: Time to save 7.0734ms
+[2025-11-12 14:55:01.062 DBG] OBS Settings :: Time to save 6.8684ms
+[2025-11-12 14:55:01.069 DBG] MeldStudio Settings :: Time to save 7.1404ms
+[2025-11-12 14:55:01.076 DBG] Credits :: Time to save 7.1505ms
+[2025-11-12 14:55:01.083 DBG] Quotes :: Time to save 6.8472ms
+[2025-11-12 14:55:01.239 DBG] Config :: Time to save 11.4731ms
+[2025-11-12 14:55:05.151 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0137ms
+[2025-11-12 14:55:05.223 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.4809ms)
+[2025-11-12 14:56:05.157 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0119ms
+[2025-11-12 14:56:05.224 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.3296ms)
+[2025-11-12 14:57:05.171 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0148ms
+[2025-11-12 14:57:05.245 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.1202ms)
+[2025-11-12 14:58:05.179 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0123ms
+[2025-11-12 14:58:05.248 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.0334ms)
+[2025-11-12 14:59:05.186 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0154ms
+[2025-11-12 14:59:05.254 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.3996ms)
+[2025-11-12 14:59:58.330 DBG] Credits :: Time to save 13.2377ms
+[2025-11-12 15:00:01.192 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 15:00:01.203 DBG] Users :: Time to save 10.817ms
+[2025-11-12 15:00:01.229 DBG] Actions :: Time to save 25.69ms
+[2025-11-12 15:00:01.240 DBG] Commands :: Time to save 11.2842ms
+[2025-11-12 15:00:01.248 DBG] Twitch Rewards :: Time to save 7.9391ms
+[2025-11-12 15:00:01.256 DBG] Midi :: Time to save 8.1079ms
+[2025-11-12 15:00:01.263 DBG] OBS Settings :: Time to save 6.7601ms
+[2025-11-12 15:00:01.273 DBG] MeldStudio Settings :: Time to save 9.2706ms
+[2025-11-12 15:00:01.280 DBG] Credits :: Time to save 7.7673ms
+[2025-11-12 15:00:01.288 DBG] Quotes :: Time to save 8.0386ms
+[2025-11-12 15:00:01.405 DBG] Config :: Time to save 12.0878ms
+[2025-11-12 15:00:05.190 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0137ms
+[2025-11-12 15:00:05.263 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.8884ms)
+[2025-11-12 15:01:05.195 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0162ms
+[2025-11-12 15:01:05.269 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.5428ms)
+[2025-11-12 15:02:05.196 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0165ms
+[2025-11-12 15:02:05.263 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.2186ms)
+[2025-11-12 15:03:05.202 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.012ms
+[2025-11-12 15:03:05.273 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.2863ms)
+[2025-11-12 15:03:30.936 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by apexdagryph with 42 arguments
+[2025-11-12 15:03:30.938 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-12 15:03:30.938 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-12 15:03:30.944 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 843dee7d-d9fd-44ad-8126-ede1d0f97476), initiated by apexdagryph with 43 arguments
+[2025-11-12 15:03:30.985 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-12 15:04:05.214 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0135ms
+[2025-11-12 15:04:05.285 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.7686ms)
+[2025-11-12 15:04:58.351 DBG] Credits :: Time to save 10.6786ms
+[2025-11-12 15:05:01.380 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 15:05:01.391 DBG] Users :: Time to save 11.0058ms
+[2025-11-12 15:05:01.401 DBG] Actions :: Time to save 10.3446ms
+[2025-11-12 15:05:01.410 DBG] Commands :: Time to save 8.1342ms
+[2025-11-12 15:05:01.419 DBG] Twitch Rewards :: Time to save 9.3711ms
+[2025-11-12 15:05:01.426 DBG] Midi :: Time to save 7.3845ms
+[2025-11-12 15:05:01.434 DBG] OBS Settings :: Time to save 7.6438ms
+[2025-11-12 15:05:01.441 DBG] MeldStudio Settings :: Time to save 6.9381ms
+[2025-11-12 15:05:01.448 DBG] Credits :: Time to save 7.6066ms
+[2025-11-12 15:05:01.455 DBG] Quotes :: Time to save 6.7294ms
+[2025-11-12 15:05:01.584 DBG] Config :: Time to save 3.4457ms
+[2025-11-12 15:05:05.219 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0119ms
+[2025-11-12 15:05:05.291 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.2201ms)
+[2025-11-12 15:06:05.221 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0145ms
+[2025-11-12 15:06:05.292 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.6193ms)
+[2025-11-12 15:07:05.236 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0131ms
+[2025-11-12 15:07:05.316 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.3329ms)
+[2025-11-12 15:08:05.249 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0146ms
+[2025-11-12 15:08:05.319 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.8154ms)
+[2025-11-12 15:09:05.258 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0201ms
+[2025-11-12 15:09:05.329 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.5209ms)
+[2025-11-12 15:09:58.357 DBG] Credits :: Time to save 10.0128ms
+[2025-11-12 15:10:01.560 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 15:10:01.576 DBG] Users :: Time to save 15.0938ms
+[2025-11-12 15:10:01.589 DBG] Actions :: Time to save 13.0697ms
+[2025-11-12 15:10:01.597 DBG] Commands :: Time to save 8.4692ms
+[2025-11-12 15:10:01.606 DBG] Twitch Rewards :: Time to save 8.9313ms
+[2025-11-12 15:10:01.614 DBG] Midi :: Time to save 8.0836ms
+[2025-11-12 15:10:01.622 DBG] OBS Settings :: Time to save 7.5991ms
+[2025-11-12 15:10:01.629 DBG] MeldStudio Settings :: Time to save 7.0553ms
+[2025-11-12 15:10:01.636 DBG] Credits :: Time to save 6.8183ms
+[2025-11-12 15:10:01.642 DBG] Quotes :: Time to save 7.1518ms
+[2025-11-12 15:10:01.764 DBG] Config :: Time to save 3.5294ms
+[2025-11-12 15:10:05.267 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0167ms
+[2025-11-12 15:10:05.342 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.9755ms)
+[2025-11-12 15:11:05.273 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0147ms
+[2025-11-12 15:11:05.343 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.5058ms)
+[2025-11-12 15:12:05.282 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0132ms
+[2025-11-12 15:12:05.357 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.8765ms)
+[2025-11-12 15:12:59.378 DBG] OBS :: Opening websocket connection to My OBS Instance (127.0.0.1:4455)
+[2025-11-12 15:12:59.380 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-12 15:13:01.432 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-12 15:13:01.433 DBG] OBS :: Disconnected from My OBS Instance (127.0.0.1:4455)
+[2025-11-12 15:13:05.298 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0117ms
+[2025-11-12 15:13:05.370 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.2149ms)
+[2025-11-12 15:13:55.549 DBG] OBS :: Opening websocket connection to My OBS Instance (127.0.0.1:4455)
+[2025-11-12 15:13:55.549 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-12 15:13:57.588 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-12 15:13:57.588 DBG] OBS :: Disconnected from My OBS Instance (127.0.0.1:4455)
+[2025-11-12 15:14:05.300 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0208ms
+[2025-11-12 15:14:05.386 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.5481ms)
+[2025-11-12 15:14:41.002 DBG] OBS :: Opening websocket connection to My OBS Instance (127.0.0.1:4455)
+[2025-11-12 15:14:41.002 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-12 15:14:43.036 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-12 15:14:43.036 DBG] OBS :: Disconnected from My OBS Instance (127.0.0.1:4455)
+[2025-11-12 15:14:58.362 DBG] Credits :: Time to save 10.4186ms
+[2025-11-12 15:15:01.723 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 15:15:01.733 DBG] Users :: Time to save 10.6471ms
+[2025-11-12 15:15:01.742 DBG] Actions :: Time to save 8.8761ms
+[2025-11-12 15:15:01.750 DBG] Commands :: Time to save 7.7094ms
+[2025-11-12 15:15:01.758 DBG] Twitch Rewards :: Time to save 7.9445ms
+[2025-11-12 15:15:01.764 DBG] Midi :: Time to save 6.6501ms
+[2025-11-12 15:15:01.773 DBG] OBS Settings :: Time to save 8.149ms
+[2025-11-12 15:15:01.780 DBG] MeldStudio Settings :: Time to save 7.0421ms
+[2025-11-12 15:15:01.786 DBG] Credits :: Time to save 6.4763ms
+[2025-11-12 15:15:01.794 DBG] Quotes :: Time to save 7.5435ms
+[2025-11-12 15:15:01.941 DBG] Config :: Time to save 3.3552ms
+[2025-11-12 15:15:05.315 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0143ms
+[2025-11-12 15:15:05.407 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (92.1103ms)
+[2025-11-12 15:15:18.626 DBG] OBS :: Opening websocket connection to My OBS Instance (192.168.1.22:4455)
+[2025-11-12 15:15:18.626 DBG] OBS-Websocket5 :: Opening connection (ws://192.168.1.22:4455/api/websocket)
+[2025-11-12 15:15:20.668 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-12 15:15:20.668 DBG] OBS :: Disconnected from My OBS Instance (192.168.1.22:4455)
+[2025-11-12 15:15:51.962 DBG] OBS :: Opening websocket connection to My OBS Connection (127.0.0.1:4455)
+[2025-11-12 15:15:51.962 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-12 15:15:53.995 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-12 15:15:53.996 DBG] OBS :: Disconnected from My OBS Connection (127.0.0.1:4455)
+[2025-11-12 15:16:05.315 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0162ms
+[2025-11-12 15:16:05.394 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.5329ms)
+[2025-11-12 15:16:37.007 DBG] OBS :: Opening websocket connection to My OBS Connection (127.0.0.1:4455)
+[2025-11-12 15:16:37.007 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-12 15:16:37.045 DBG] OBS :: Connected to My OBS Connection (127.0.0.1:4455)
+[2025-11-12 15:16:45.153 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-12 15:16:45.153 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-12 15:16:45.153 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-12 15:16:45.153 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 12695466-3887-40d3-a8a7-c218cc874c2a), initiated by yarem4 with 44 arguments
+[2025-11-12 15:16:45.162 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-12 15:17:05.325 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.014ms
+[2025-11-12 15:17:05.397 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.1122ms)
+[2025-11-12 15:18:05.341 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0152ms
+[2025-11-12 15:18:05.416 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.3181ms)
+[2025-11-12 15:19:05.343 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0122ms
+[2025-11-12 15:19:05.419 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.5954ms)
+[2025-11-12 15:19:58.365 DBG] Credits :: Time to save 9.9821ms
+[2025-11-12 15:20:01.903 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 15:20:01.914 DBG] Users :: Time to save 11.129ms
+[2025-11-12 15:20:01.923 DBG] Actions :: Time to save 8.7205ms
+[2025-11-12 15:20:01.932 DBG] Commands :: Time to save 8.3863ms
+[2025-11-12 15:20:01.940 DBG] Twitch Rewards :: Time to save 8.3403ms
+[2025-11-12 15:20:01.949 DBG] Midi :: Time to save 9.6329ms
+[2025-11-12 15:20:01.958 DBG] OBS Settings :: Time to save 8.188ms
+[2025-11-12 15:20:01.967 DBG] MeldStudio Settings :: Time to save 9.7228ms
+[2025-11-12 15:20:01.976 DBG] Credits :: Time to save 8.1053ms
+[2025-11-12 15:20:01.985 DBG] Quotes :: Time to save 8.9428ms
+[2025-11-12 15:20:02.107 DBG] Config :: Time to save 3.2301ms
+[2025-11-12 15:20:05.359 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0164ms
+[2025-11-12 15:20:05.429 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.0594ms)
+[2025-11-12 15:21:05.374 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0133ms
+[2025-11-12 15:21:05.441 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.2397ms)
+[2025-11-12 15:22:05.381 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0135ms
+[2025-11-12 15:22:05.460 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.511ms)
+[2025-11-12 15:23:05.396 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0162ms
+[2025-11-12 15:23:05.475 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.1749ms)
+[2025-11-12 15:24:05.408 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0122ms
+[2025-11-12 15:24:05.477 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.9006ms)
+[2025-11-12 15:24:58.379 DBG] Credits :: Time to save 10.0136ms
+[2025-11-12 15:25:02.094 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 15:25:02.104 DBG] Users :: Time to save 10.5888ms
+[2025-11-12 15:25:02.113 DBG] Actions :: Time to save 8.7506ms
+[2025-11-12 15:25:02.120 DBG] Commands :: Time to save 7.5053ms
+[2025-11-12 15:25:02.128 DBG] Twitch Rewards :: Time to save 7.1271ms
+[2025-11-12 15:25:02.135 DBG] Midi :: Time to save 7.2601ms
+[2025-11-12 15:25:02.145 DBG] OBS Settings :: Time to save 9.6581ms
+[2025-11-12 15:25:02.154 DBG] MeldStudio Settings :: Time to save 8.7274ms
+[2025-11-12 15:25:02.161 DBG] Credits :: Time to save 6.806ms
+[2025-11-12 15:25:02.167 DBG] Quotes :: Time to save 6.005ms
+[2025-11-12 15:25:02.312 DBG] Config :: Time to save 3.4179ms
+[2025-11-12 15:25:05.414 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0236ms
+[2025-11-12 15:25:05.483 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.4027ms)
+[2025-11-12 15:26:05.427 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0145ms
+[2025-11-12 15:26:05.496 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.059ms)
+[2025-11-12 15:27:05.442 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0135ms
+[2025-11-12 15:27:05.519 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (77.386ms)
+[2025-11-12 15:28:05.457 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0181ms
+[2025-11-12 15:28:05.524 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.1436ms)
+[2025-11-12 15:29:05.463 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0147ms
+[2025-11-12 15:29:05.534 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.261ms)
+[2025-11-12 15:29:58.382 DBG] Credits :: Time to save 9.6331ms
+[2025-11-12 15:30:02.279 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 15:30:02.290 DBG] Users :: Time to save 11.3456ms
+[2025-11-12 15:30:02.300 DBG] Actions :: Time to save 10.7373ms
+[2025-11-12 15:30:02.310 DBG] Commands :: Time to save 9.3718ms
+[2025-11-12 15:30:02.319 DBG] Twitch Rewards :: Time to save 8.5108ms
+[2025-11-12 15:30:02.328 DBG] Midi :: Time to save 8.7411ms
+[2025-11-12 15:30:02.336 DBG] OBS Settings :: Time to save 8.7975ms
+[2025-11-12 15:30:02.344 DBG] MeldStudio Settings :: Time to save 7.9865ms
+[2025-11-12 15:30:02.353 DBG] Credits :: Time to save 8.0903ms
+[2025-11-12 15:30:02.361 DBG] Quotes :: Time to save 8.7284ms
+[2025-11-12 15:30:02.483 DBG] Config :: Time to save 3.281ms
+[2025-11-12 15:30:05.473 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0177ms
+[2025-11-12 15:30:05.554 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.4796ms)
+[2025-11-12 15:31:05.492 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0162ms
+[2025-11-12 15:31:05.564 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.0999ms)
+[2025-11-12 15:32:05.503 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0175ms
+[2025-11-12 15:32:05.572 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.6495ms)
+[2025-11-12 15:33:05.514 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0141ms
+[2025-11-12 15:33:05.585 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.595ms)
+[2025-11-12 15:34:05.520 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0155ms
+[2025-11-12 15:34:05.588 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.6176ms)
+[2025-11-12 15:34:58.389 DBG] Credits :: Time to save 10.5841ms
+[2025-11-12 15:35:02.475 DBG] AutoSave :: Auto saving settings...
+[2025-11-12 15:35:02.486 DBG] Users :: Time to save 10.8363ms
+[2025-11-12 15:35:02.496 DBG] Actions :: Time to save 10.4803ms
+[2025-11-12 15:35:02.506 DBG] Commands :: Time to save 9.1047ms
+[2025-11-12 15:35:02.515 DBG] Twitch Rewards :: Time to save 9.1161ms
+[2025-11-12 15:35:02.522 DBG] Midi :: Time to save 7.4498ms
+[2025-11-12 15:35:02.530 DBG] OBS Settings :: Time to save 7.984ms
+[2025-11-12 15:35:02.538 DBG] MeldStudio Settings :: Time to save 7.1372ms
+[2025-11-12 15:35:02.545 DBG] Credits :: Time to save 7.6156ms
+[2025-11-12 15:35:02.552 DBG] Quotes :: Time to save 6.8615ms
+[2025-11-12 15:35:02.688 DBG] Config :: Time to save 11.8963ms
+[2025-11-12 15:35:05.534 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.012ms
+[2025-11-12 15:35:05.604 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.3143ms)
+[2025-11-12 15:35:40.719 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-12 15:35:40.719 DBG] OBS :: Disconnected from My OBS Connection (127.0.0.1:4455)
+[2025-11-12 15:36:05.539 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0112ms
+[2025-11-12 15:36:05.612 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.1436ms)
+[2025-11-12 15:36:06.662 DBG] Users :: Time to save 10.7265ms
+[2025-11-12 15:36:06.672 DBG] Actions :: Time to save 8.9512ms
+[2025-11-12 15:36:06.680 DBG] Commands :: Time to save 7.3619ms
+[2025-11-12 15:36:06.688 DBG] Twitch Rewards :: Time to save 8.5131ms
+[2025-11-12 15:36:06.694 DBG] Midi :: Time to save 6.5257ms
+[2025-11-12 15:36:06.701 DBG] OBS Settings :: Time to save 6.3674ms
+[2025-11-12 15:36:06.707 DBG] MeldStudio Settings :: Time to save 5.8969ms
+[2025-11-12 15:36:06.713 DBG] Credits :: Time to save 6.1523ms
+[2025-11-12 15:36:06.720 DBG] Quotes :: Time to save 6.8876ms
+[2025-11-12 15:36:06.727 INF] Shutting down...
+[2025-11-12 15:36:06.775 INF] Closing services...
+[2025-11-12 15:36:06.775 DBG] UsbRemovalWatcher :: Disposed
+[2025-11-12 15:36:06.775 DBG] ProcessWatcher :: Disposed
+[2025-11-12 15:36:06.775 DBG] ProcessWatcher :: Disposed
+[2025-11-12 15:36:06.776 DBG] Events Service :: Shutting down event queue thread
+[2025-11-12 15:36:06.776 DBG] Events Service :: Shutting down application event queue thread
+[2025-11-12 15:36:06.776 DBG] Events Service :: Shutting down raw event queue thread
+[2025-11-12 15:36:06.779 DBG] DonorDrive :: Stopping service
+[2025-11-12 15:36:06.780 DBG] Http Listener :: Channel is not active
+[2025-11-12 15:36:06.780 DBG] Websocket Client :: Disconnecting from all connected clients
+[2025-11-12 15:36:06.781 DBG] OBS Service :: Stopping service
+[2025-11-12 15:36:06.781 DBG] FileTailDaemon :: Waiting for file tails to shut down
+[2025-11-12 15:36:06.781 DBG] MIDI Service :: Stopping service
+[2025-11-12 15:36:06.781 DBG] Websocket Custom Server :: Stopping all servers
+[2025-11-12 15:36:06.781 DBG] MIDI Service :: Shutting down event thread
+[2025-11-12 15:36:06.781 DBG] SLOBS Service :: Stopping service
+[2025-11-12 15:36:06.781 DBG] FileWatcherDaemon :: Waiting for file watchers to shut down
+[2025-11-12 15:36:06.782 DBG] OBS Service :: Shutting down event thread
+[2025-11-12 15:36:06.783 DBG] ActionDispatcher :: Shutting down action queues
+[2025-11-12 15:36:06.785 DBG] ActionQueue :: Shutting down queue 00000000-0000-0000-0000-000000000000 thread
+[2025-11-12 15:36:06.785 DBG] SpeechToText :: Channel was null when trying to stop
+[2025-11-12 15:36:06.788 DBG] Twitch (Broadcaster) :: Disconnected
+[2025-11-12 15:36:06.788 INF] InlineCode :: Cleaning up '0' execute code instances
+[2025-11-12 15:36:06.790 DBG] InlineCode :: Cleaned up execute code instances
+[2025-11-12 15:36:06.790 INF] TwitchService :: Disconnected from Broadcaster Chat Client
+[2025-11-12 15:36:06.797 DBG] MeldStudio Service :: Stopping service
+[2025-11-12 15:36:06.797 DBG] MeldStudio Service :: Shutting down event thread
+[2025-11-12 15:36:06.876 DBG] Config :: Time to save 11.2197ms
+[2025-11-12 15:36:07.016 DBG] Twitch EventSub (Broadcaster) :: Disconnected
+[2025-11-12 15:36:07.018 INF] TwitchService :: Disconnected from Broadcaster EventSub
+[2025-11-12 15:36:07.089 INF] BTTV :: WebSocket Disconnected
+[2025-11-12 15:36:07.121 DBG] Config :: Time to save 7.1789ms
+[2025-11-12 15:36:07.126 DBG] Quotes :: Time to save 12.6592ms
+[2025-11-12 15:36:07.127 DBG] Credits :: Time to save 13.3795ms
+[2025-11-12 15:36:07.127 DBG] Midi :: Time to save 13.4648ms
+[2025-11-12 15:36:07.127 DBG] MeldStudio Settings :: Time to save 13.4515ms
+[2025-11-12 15:36:07.127 DBG] Commands :: Time to save 13.4456ms
+[2025-11-12 15:36:07.128 DBG] OBS Settings :: Time to save 13.7872ms
+[2025-11-12 15:36:07.128 DBG] Users :: Time to save 13.9113ms
+[2025-11-12 15:36:07.128 DBG] Twitch Rewards :: Time to save 14.0526ms
+[2025-11-12 15:36:07.128 DBG] Actions :: Time to save 14.3172ms
+[2025-11-12 15:36:07.129 INF] Streamer.bot exited

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "t": "2025-11-12T15:36:07.1139675-05:00",
+  "connections": [
+    {
+      "id": "b2fc2b16-b74c-4c6a-9233-19154a1f3379",
+      "name": "My OBS Connection",
+      "obsVersion": 1,
+      "host": "127.0.0.1",
+      "port": 4455,
+      "autoConnect": true,
+      "reconnectOnDisconnect": false,
+      "password": null,
+      "retryInterval": 5,
+      "default": true
+    }
+  ]
+}

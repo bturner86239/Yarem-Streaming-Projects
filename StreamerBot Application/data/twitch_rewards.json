@@ -1,0 +1,41 @@
+{
+  "collapsedGroups": [],
+  "version": 2,
+  "t": "2025-11-12T15:36:07.1139675-05:00",
+  "rewards": [
+    {
+      "id": "53b7cef6-c487-474c-b6b5-acda0f53b14b",
+      "name": "CAST Ghost Hand",
+      "prompt": "Beware cold hands",
+      "group": null,
+      "cost": 5,
+      "userInput": false,
+      "persistCounter": false,
+      "persistUserCounter": false,
+      "backgroundColor": "#00FFFF"
+    },
+    {
+      "id": "de17bf2e-7c08-47ad-b71f-1ec17cc923e0",
+      "name": "CAST Fireball",
+      "prompt": "Unleash a fireball of death on the demon",
+      "group": null,
+      "cost": 250,
+      "userInput": false,
+      "persistCounter": false,
+      "persistUserCounter": false,
+      "backgroundColor": "#D15924"
+    },
+    {
+      "id": "06516d57-e0b8-40f0-9a11-58f8108dbdbd",
+      "name": "CAST Heal",
+      "prompt": "Revive the demon",
+      "group": null,
+      "cost": 200,
+      "userInput": false,
+      "persistCounter": false,
+      "persistUserCounter": false,
+      "backgroundColor": "#41D689"
+    }
+  ],
+  "autoRewards": []
+}

@@ -1,0 +1,115 @@
+{
+  "version": 9,
+  "t": "2025-11-12T15:36:07.1139675-05:00",
+  "groups": [],
+  "users": {
+    "twitch_1143744201": {
+      "id": "1143744201",
+      "name": "its_innis",
+      "display": "Its_Innis",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-12T14:44:57.2606675-05:00",
+      "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_236924052": {
+      "id": "236924052",
+      "name": "yarem4",
+      "display": "Yarem4",
+      "role": 4,
+      "subscribed": true,
+      "type": "twitch",
+      "present": true,
+      "previousActive": "2025-11-12T14:45:03.9649186-05:00",
+      "lastActive": "2025-11-12T15:16:45.0778502-05:00",
+      "exempt": false
+    },
+    "twitch_402337290": {
+      "id": "402337290",
+      "name": "sery_bot",
+      "display": "Sery_Bot",
+      "role": 3,
+      "subscribed": false,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-12T14:41:53.5883236-05:00",
+      "lastActive": "2025-11-12T14:45:03.9649186-05:00",
+      "exempt": false
+    },
+    "twitch_55010194": {
+      "id": "55010194",
+      "name": "n30npum4",
+      "display": "N30NPUM4",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-12T14:44:57.2611702-05:00",
+      "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_431199284": {
+      "id": "431199284",
+      "name": "kofistreambot",
+      "display": "KofiStreamBot",
+      "role": 3,
+      "subscribed": false,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-12T14:41:53.5883236-05:00",
+      "lastActive": "2025-11-12T14:45:03.9649186-05:00",
+      "exempt": false
+    },
+    "twitch_644005299": {
+      "id": "644005299",
+      "name": "rustiplants",
+      "display": "RustiPlants",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-12T14:44:57.2611702-05:00",
+      "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_100135110": {
+      "id": "100135110",
+      "name": "streamelements",
+      "display": "StreamElements",
+      "role": 1,
+      "subscribed": false,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-12T14:41:53.5883236-05:00",
+      "lastActive": "2025-11-12T14:45:03.9649186-05:00",
+      "exempt": false
+    },
+    "twitch_146326437": {
+      "id": "146326437",
+      "name": "toshykozui",
+      "display": "ToshyKozui",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-12T14:44:57.2611702-05:00",
+      "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_160840198": {
+      "id": "160840198",
+      "name": "apexdagryph",
+      "display": "apexdagryph",
+      "role": 1,
+      "subscribed": false,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-12T14:41:43.4974106-05:00",
+      "lastActive": "2025-11-12T15:03:30.8036035-05:00",
+      "exempt": false
+    }
+  }
+}

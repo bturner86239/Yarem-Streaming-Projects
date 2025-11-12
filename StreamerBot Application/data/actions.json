@@ -1,0 +1,457 @@
+{
+  "collapsedGroups": [],
+  "groups": [
+    "Twitch commands funny"
+  ],
+  "version": 23,
+  "t": "2025-11-12T15:36:07.1139675-05:00",
+  "blocking": false,
+  "queues": [],
+  "actions": [
+    {
+      "id": "6e537ac1-b676-42a7-a353-d9fc85d81375",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "!Nom",
+      "group": "Twitch commands funny",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [],
+      "subActions": [],
+      "collapsedGroups": []
+    },
+    {
+      "id": "eef9aa9e-83cf-4379-a546-c023bfc16fc9",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Fireball",
+      "group": "Twitch commands funny",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "commandId": "5f2f023a-1da2-4cd9-916c-15c6fee4fe6a",
+          "id": "86ec2c23-1a2e-4831-b7da-2a1fe6aa1fc1",
+          "type": 401,
+          "enabled": true,
+          "exclusions": []
+        },
+        {
+          "rewardId": "de17bf2e-7c08-47ad-b71f-1ec17cc923e0",
+          "id": "31e2082d-e276-4e23-9e27-ef22ebab8b34",
+          "type": 112,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "sceneName": "Visual Funnies",
+          "sourceName": "Boom",
+          "state": 2,
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "id": "72d479e3-04c3-41c9-958c-963156eaf86a",
+          "weight": 0.0,
+          "type": 30,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "device": null,
+          "soundFile": "C:\\Users\\reyni\\Yarred\\Resources\\Assets\\SFX\\Firebomb.mp3",
+          "finishBeforeContinuing": false,
+          "volume": 0.5,
+          "soundName": null,
+          "useFileNameAsName": false,
+          "id": "b6e784dc-3135-4979-a51d-1836a1692f03",
+          "weight": 0.0,
+          "type": 1,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        },
+        {
+          "key": 100,
+          "modifiers": 0,
+          "id": "ac0a621a-4e18-4f05-b9b6-54f238880124",
+          "weight": 0.0,
+          "type": 1012,
+          "parentId": null,
+          "enabled": true,
+          "index": 2
+        },
+        {
+          "value": "1500",
+          "maxValue": null,
+          "random": false,
+          "id": "1ea1bfbe-9e87-4d15-9b09-176460db31e7",
+          "weight": 0.0,
+          "type": 1002,
+          "parentId": null,
+          "enabled": true,
+          "index": 3
+        },
+        {
+          "sceneName": "Visual Funnies",
+          "sourceName": "Boom",
+          "state": 2,
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "id": "8213ef14-e745-4758-9fc4-ea0acadff165",
+          "weight": 0.0,
+          "type": 30,
+          "parentId": null,
+          "enabled": true,
+          "index": 4
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "eb2d0f0f-f585-4f09-9635-d6544a1ebf10",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Heal",
+      "group": "Twitch commands funny",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "commandId": "1b70d40d-5a5b-454c-85cd-c2a4f6ec760e",
+          "id": "4c77b05c-e899-411c-9922-a24bb0811ad6",
+          "type": 401,
+          "enabled": true,
+          "exclusions": []
+        },
+        {
+          "rewardId": "06516d57-e0b8-40f0-9a11-58f8108dbdbd",
+          "id": "10b98db0-6616-4779-aa99-2f6aea924f9f",
+          "type": 112,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "sceneName": "Visual Funnies",
+          "sourceName": "Heal",
+          "state": 2,
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "id": "0496482b-f417-4bc1-84c8-13207f36b2e1",
+          "weight": 0.0,
+          "type": 30,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "device": null,
+          "soundFile": "C:\\Users\\reyni\\Yarred\\Resources\\Assets\\SFX\\Heal.mp3",
+          "finishBeforeContinuing": false,
+          "volume": 0.4,
+          "soundName": "Healing",
+          "useFileNameAsName": false,
+          "id": "01ba4cbd-fb20-442d-b329-d8ba64e2edad",
+          "weight": 0.0,
+          "type": 1,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        },
+        {
+          "value": "700",
+          "maxValue": null,
+          "random": false,
+          "id": "f494e608-146a-4a79-8bc6-32292c803755",
+          "weight": 0.0,
+          "type": 1002,
+          "parentId": null,
+          "enabled": true,
+          "index": 2
+        },
+        {
+          "key": 97,
+          "modifiers": 0,
+          "id": "079ead90-464d-4d59-baaa-d186fe98486f",
+          "weight": 0.0,
+          "type": 1012,
+          "parentId": null,
+          "enabled": true,
+          "index": 3
+        },
+        {
+          "value": "2000",
+          "maxValue": null,
+          "random": false,
+          "id": "1c085b5a-596c-434e-a3c5-7b436b658369",
+          "weight": 0.0,
+          "type": 1002,
+          "parentId": null,
+          "enabled": true,
+          "index": 4
+        },
+        {
+          "sceneName": "Visual Funnies",
+          "sourceName": "Heal",
+          "state": 2,
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "id": "0aa0e672-d298-4b2d-9a78-ddb5df8cbc95",
+          "weight": 0.0,
+          "type": 30,
+          "parentId": null,
+          "enabled": true,
+          "index": 5
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "a42f079e-0bcf-470d-a614-bf0e52d2c7df",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Pet",
+      "group": "Twitch commands funny",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "rewardId": "53b7cef6-c487-474c-b6b5-acda0f53b14b",
+          "id": "2aa0a2d9-21be-4475-818f-a50a5f61871a",
+          "type": 112,
+          "enabled": true,
+          "exclusions": []
+        },
+        {
+          "commandId": "43df74a3-2778-49a2-b24b-ca464709812d",
+          "id": "884d1e35-15cf-44dc-98ff-31136ecbfd71",
+          "type": 401,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "sceneName": "Visual Funnies",
+          "sourceName": "Pettin",
+          "state": 2,
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "id": "d425b502-228c-4674-aa9c-8afb42a9af36",
+          "weight": 0.0,
+          "type": 30,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "value": "1300",
+          "maxValue": null,
+          "random": false,
+          "id": "23d7b0d5-61bb-4bda-bdc1-12a206859039",
+          "weight": 0.0,
+          "type": 1002,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        },
+        {
+          "sceneName": "Visual Funnies",
+          "sourceName": "Pettin",
+          "state": 2,
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "id": "98a2e150-5b41-4936-b08a-076ae4c279c9",
+          "weight": 0.0,
+          "type": 30,
+          "parentId": null,
+          "enabled": true,
+          "index": 2
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "708218de-5b45-4e93-ac76-b7fdbacb3f59",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Ad times",
+      "group": "",
+      "alwaysRun": true,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "minutes": [
+            2
+          ],
+          "id": "e7a209f3-f3b6-49cb-bb07-a8b61e73fe22",
+          "type": 186,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "text": "Ads shall spawn in %minutes% minutes",
+          "useBot": true,
+          "fallback": true,
+          "id": "2a464ecf-6e17-4e4f-a68f-26756c9cb5f8",
+          "weight": 0.0,
+          "type": 10,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "67c8e017-97c5-4817-8d67-90d7f10a8b8b",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Ads Begin",
+      "group": "",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "id": "956468d0-1b01-4167-a9bf-8aa91e45952d",
+          "type": 139,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "description": "Ads running",
+          "id": "b42f5106-85a1-40d0-978b-64f11fb8b1d6",
+          "weight": 0.0,
+          "type": 17,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "text": "Ads are running for %adLength% seconds! Brew a potion or conjure a sandwitch till a demon gets back. ",
+          "useBot": true,
+          "fallback": true,
+          "id": "9af8214f-853e-482b-8e0d-a324029b7def",
+          "weight": 0.0,
+          "type": 10,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        },
+        {
+          "key": 100,
+          "modifiers": 0,
+          "id": "b8799a2a-5b27-4140-bc32-9c12228d2783",
+          "weight": 0.0,
+          "type": 1012,
+          "parentId": null,
+          "enabled": true,
+          "index": 2
+        },
+        {
+          "value": "%adLengthMs%",
+          "maxValue": null,
+          "random": false,
+          "id": "0048d8f0-dcb6-4ed5-8d19-1ccd7127cf2d",
+          "weight": 0.0,
+          "type": 1002,
+          "parentId": null,
+          "enabled": true,
+          "index": 3
+        },
+        {
+          "actionId": "796e48d7-0067-48f1-b45d-bb951426cceb",
+          "runImmedately": false,
+          "id": "7194adc5-a0ab-44d1-9f61-dba4d72a4c1c",
+          "weight": 0.0,
+          "type": 4,
+          "parentId": null,
+          "enabled": true,
+          "index": 4
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "796e48d7-0067-48f1-b45d-bb951426cceb",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Ads End",
+      "group": "",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [],
+      "subActions": [
+        {
+          "text": "Ads have been routed! And so the rituals continue...",
+          "useBot": true,
+          "fallback": true,
+          "id": "da74e731-29e1-4b34-9eda-645b195367a1",
+          "weight": 0.0,
+          "type": 10,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "9d768fd5-527b-4ad8-a8ac-7ccc4b4a958b",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Discord link",
+      "group": "",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "commandId": "5f86b08f-edd8-4ce0-a658-b806755e0077",
+          "id": "3252efa1-44eb-405c-9e4f-0d7b6311764b",
+          "type": 401,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "text": "Join the Summoning Circle for updates on our demonic overlord! https://discord.gg/ewqJEsNyPv",
+          "useBot": true,
+          "fallback": true,
+          "id": "67537c27-23df-4851-8ddb-1986c2e648d7",
+          "weight": 0.0,
+          "type": 10,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        }
+      ],
+      "collapsedGroups": []
+    }
+  ]
+}
