@@ -1,10 +1,11 @@
 {
   "collapsedGroups": [],
   "groups": [
-    "Twitch commands funny"
+    "Twitch commands funny",
+    "Experience Bar"
   ],
   "version": 23,
-  "t": "2025-11-12T15:36:07.1139675-05:00",
+  "t": "2025-11-12T17:26:11.7466135-05:00",
   "blocking": false,
   "queues": [],
   "actions": [
@@ -446,6 +447,48 @@
           "id": "67537c27-23df-4851-8ddb-1986c2e648d7",
           "weight": 0.0,
           "type": 10,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "4f1b3234-bde0-4d69-9a48-fb071e20b5f4",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Update Experience Bar",
+      "group": "Experience Bar",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "3eaa90ab-b3ae-4247-b201-858a102bee51",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "name": null,
+          "description": null,
+          "references": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll"
+          ],
+          "byteCode": "dXNpbmcgU3lzdGVtOw0KdXNpbmcgRmxlY2s7DQoNCnB1YmxpYyBjbGFzcyBDUEhJbmxpbmUNCnsNCglwdWJsaWMgYm9vbCBFeGVjdXRlKCkNCgl7DQoJCQ0KCX0NCn0=",
+          "precompile": false,
+          "delayStart": false,
+          "saveResultToVariable": false,
+          "saveToVariable": null,
+          "id": "e95ccc03-03ef-475e-8456-a413f0447d2d",
+          "weight": 0.0,
+          "type": 99999,
           "parentId": null,
           "enabled": true,
           "index": 0
