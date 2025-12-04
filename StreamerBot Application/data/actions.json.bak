@@ -2,10 +2,13 @@
   "collapsedGroups": [],
   "groups": [
     "Twitch commands funny",
-    "Experience Bar"
+    "Experience Bar",
+    "Zaygnor Random Shower",
+    "Common Actions (Functions)",
+    "Options"
   ],
   "version": 23,
-  "t": "2025-11-12T17:26:11.2844529-05:00",
+  "t": "2025-12-04T14:00:55.5051551-05:00",
   "blocking": false,
   "queues": [],
   "actions": [
@@ -110,6 +113,16 @@
           "parentId": null,
           "enabled": true,
           "index": 4
+        },
+        {
+          "actionId": "e01380e4-c584-42ab-9936-2b6a213299c6",
+          "runImmedately": true,
+          "id": "31c6b168-f40e-4e36-8f28-d05de4bc41ff",
+          "weight": 0.0,
+          "type": 4,
+          "parentId": null,
+          "enabled": true,
+          "index": 5
         }
       ],
       "collapsedGroups": []
@@ -211,6 +224,16 @@
           "parentId": null,
           "enabled": true,
           "index": 5
+        },
+        {
+          "actionId": "e01380e4-c584-42ab-9936-2b6a213299c6",
+          "runImmedately": true,
+          "id": "bd49f277-9c21-4891-9fa6-5a915a37891d",
+          "weight": 0.0,
+          "type": 4,
+          "parentId": null,
+          "enabled": true,
+          "index": 6
         }
       ],
       "collapsedGroups": []
@@ -277,6 +300,16 @@
           "parentId": null,
           "enabled": true,
           "index": 2
+        },
+        {
+          "actionId": "e01380e4-c584-42ab-9936-2b6a213299c6",
+          "runImmedately": true,
+          "id": "e81dfaa0-9940-4519-8812-d15fe27c1b5d",
+          "weight": 0.0,
+          "type": 4,
+          "parentId": null,
+          "enabled": true,
+          "index": 3
         }
       ],
       "collapsedGroups": []
@@ -472,6 +505,14 @@
           "type": 702,
           "enabled": true,
           "exclusions": []
+        },
+        {
+          "variableName": "redeemCount",
+          "persisted": 0,
+          "id": "51d04baf-e0b1-404f-b799-12389eb8ea8e",
+          "type": 709,
+          "enabled": true,
+          "exclusions": []
         }
       ],
       "subActions": [
@@ -481,7 +522,7 @@
           "references": [
             "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll"
           ],
-          "byteCode": "dXNpbmcgU3lzdGVtOw0KdXNpbmcgRmxlY2s7DQoNCnB1YmxpYyBjbGFzcyBDUEhJbmxpbmUNCnsNCglwdWJsaWMgYm9vbCBFeGVjdXRlKCkNCgl7DQoJCQ0KCX0NCn0=",
+          "byteCode": "dXNpbmcgU3lzdGVtOw0KdXNpbmcgU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWM7DQp1c2luZyBTeXN0ZW0uSU87DQoNCnB1YmxpYyBjbGFzcyBDUEhJbmxpbmUNCnsNCiAgICBwdWJsaWMgYm9vbCBFeGVjdXRlKCkNCiAgICB7DQogICAgICAgIC8vIEdldCBnbG9iYWwgdmFyaWFibGVzIGZyb20gU3RyZWFtZXIuYm90DQogICAgICAgIGludCByZWRlZW1Db3VudCA9IENQSC5HZXRHbG9iYWxWYXI8aW50PigicmVkZWVtQ291bnQiLCB0cnVlKTsNCiAgICAgICAgaW50IGJhck1heGltdW0gPSBDUEguR2V0R2xvYmFsVmFyPGludD4oImdvYWxCYXJNYXhpbXVtIiwgdHJ1ZSk7DQogICAgICAgIHN0cmluZyBjb2xvciA9IENQSC5HZXRHbG9iYWxWYXI8c3RyaW5nPigiZ29hbEJhckNvbG9yMSIsIHRydWUpOyAvLyBvcHRpb25hbA0KICAgICAgICBzdHJpbmcgZXhwZXJpZW5jZUJhckxlZnRUZXh0ID0gQ1BILkdldEdsb2JhbFZhcjxzdHJpbmc+KCJnb2FsQmFyTGVmdFRleHQiLCB0cnVlKTsNCg0KICAgICAgICBkb3VibGUgcGVyY2VudCA9IChkb3VibGUpcmVkZWVtQ291bnQgLyBiYXJNYXhpbXVtICogMTAwOw0KDQogICAgICAgIERpY3Rpb25hcnk8aW50LCBpbnQ+IGFibm9ybWFsR29hbFZhbHVlTGlzdCA9IG5ldyBEaWN0aW9uYXJ5PGludCwgaW50PigpOw0KDQogICAgICAgIGFibm9ybWFsR29hbFZhbHVlTGlzdC5BZGQoMSxDUEguR2V0R2xvYmFsVmFyPGludD4oImdvYWxCYXJHb2FsVmFsdWUxIiwgdHJ1ZSkpOw0KICAgICAgICBhYm5vcm1hbEdvYWxWYWx1ZUxpc3QuQWRkKDIsQ1BILkdldEdsb2JhbFZhcjxpbnQ+KCJnb2FsQmFyR29hbFZhbHVlMiIsIHRydWUpKTsNCiAgICAgICAgYWJub3JtYWxHb2FsVmFsdWVMaXN0LkFkZCgzLENQSC5HZXRHbG9iYWxWYXI8aW50PigiZ29hbEJhckdvYWxWYWx1ZTMiLCB0cnVlKSk7DQogICAgICAgIGFibm9ybWFsR29hbFZhbHVlTGlzdC5BZGQoNCxDUEguR2V0R2xvYmFsVmFyPGludD4oImdvYWxCYXJHb2FsVmFsdWU0IiwgdHJ1ZSkpOw0KICAgICAgICBhYm5vcm1hbEdvYWxWYWx1ZUxpc3QuQWRkKDUsQ1BILkdldEdsb2JhbFZhcjxpbnQ+KCJnb2FsQmFyR29hbFZhbHVlNSIsIHRydWUpKTsNCg0KICAgICAgICBEaWN0aW9uYXJ5PGludCwgc3RyaW5nPiBhYm5vcm1hbEdvYWxOYW1lTGlzdCA9IG5ldyBEaWN0aW9uYXJ5PGludCwgc3RyaW5nPigpOw0KDQogICAgICAgIGFibm9ybWFsR29hbE5hbWVMaXN0LkFkZCgxLENQSC5HZXRHbG9iYWxWYXI8c3RyaW5nPigiZ29hbEJhckdvYWxOYW1lMSIsIHRydWUpKTsNCiAgICAgICAgYWJub3JtYWxHb2FsTmFtZUxpc3QuQWRkKDIsQ1BILkdldEdsb2JhbFZhcjxzdHJpbmc+KCJnb2FsQmFyR29hbE5hbWUyIiwgdHJ1ZSkpOw0KICAgICAgICBhYm5vcm1hbEdvYWxOYW1lTGlzdC5BZGQoMyxDUEguR2V0R2xvYmFsVmFyPHN0cmluZz4oImdvYWxCYXJHb2FsTmFtZTMiLCB0cnVlKSk7DQogICAgICAgIGFibm9ybWFsR29hbE5hbWVMaXN0LkFkZCg0LENQSC5HZXRHbG9iYWxWYXI8c3RyaW5nPigiZ29hbEJhckdvYWxOYW1lNCIsIHRydWUpKTsNCiAgICAgICAgYWJub3JtYWxHb2FsTmFtZUxpc3QuQWRkKDUsQ1BILkdldEdsb2JhbFZhcjxzdHJpbmc+KCJnb2FsQmFyR29hbE5hbWU1IiwgdHJ1ZSkpOw0KDQogICAgICAgIC8vIFBhdGggdG8gd3JpdGUgdGhlIEhUTUwgZmlsZQ0KICAgICAgICBzdHJpbmcgaHRtbFBhdGggPSAkQCJ7Q1BILkdldEdsb2JhbFZhcjxzdHJpbmc+KCJzdHJlYW1pbmdQcm9qZWN0c0ZvbGRlckZpbGVQYXRoIiwgdHJ1ZSl9XHNyY1xIVE1MXHByb2dyZXNzLmh0bWwiOw0KDQogICAgICAgIC8vIEJ1aWxkIEhUTUwgY29udGVudA0KICAgICAgICBzdHJpbmcgaHRtbENvbnRlbnQgPSAkQCI8IWRvY3R5cGUgaHRtbD4NCjxodG1sIGxhbmc9IiJlbiIiPg0KICA8aGVhZD4NCiAgICA8bWV0YSBjaGFyc2V0PSIidXRmLTgiIj4NCiAgICA8bWV0YSBuYW1lPSIidmlld3BvcnQiIiBjb250ZW50PSIid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEsIHNocmluay10by1maXQ9bm8iIj4NCiAgICANCiAgICA8IS0tIEJvb3RzdHJhcCBDU1MgLS0+DQogICAgPGxpbmsgDQogICAgICByZWw9IiJzdHlsZXNoZWV0IiIgDQogICAgICBocmVmPSIiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9ib290c3RyYXBANC4wLjAvZGlzdC9jc3MvYm9vdHN0cmFwLm1pbi5jc3MiIg0KICAgICAgaW50ZWdyaXR5PSIic2hhMzg0LUduNTM4NHhxUTFhb1dYQSswNThSWFB4UGc2Znk0SVd2VE5oMEUyNjNYbUZjSmxTQXdpR2dGQVcvZEFpUzZKWG0iIiANCiAgICAgIGNyb3Nzb3JpZ2luPSIiYW5vbnltb3VzIiI+DQoNCiAgICA8bGluayByZWw9IiJwcmVsb2FkIiIgaHJlZj0iImh0dHBzOi8vZm9udHMuZ3N0YXRpYy5jb20vcy9lYmdhcmFtb25kL3YxNi8uLi4iIiBhcz0iImZvbnQiIiB0eXBlPSIiZm9udC93b2ZmMiIiIGNyb3Nzb3JpZ2luPg0KDQogICAgPCEtLSBDdXN0b20gU3R5bGVzIC0tPg0KICAgIDxsaW5rIHJlbD0iInN0eWxlc2hlZXQiIiBocmVmPSIiLi4vQ1NTL1N0cmVhbWVyQmFyLmNzcyIiLz4NCiAgICA8dGl0bGU+RXhwZXJpZW5jZSBCYXI8L3RpdGxlPg0KICA8L2hlYWQ+DQoNCiAgPGJvZHkgc3R5bGU9IiJiYWNrZ3JvdW5kLWNvbG9yOiMwMGZmMDA7IG1hcmdpbjowOyBwYWRkaW5nOjA7IiI+DQogICAgPGRpdiBzdHlsZT0iImRpc3BsYXk6ZmxleDsgYWxpZ24taXRlbXM6Y2VudGVyOyBnYXA6MTBweDsgcGFkZGluZzoycHggMDsgd2lkdGg6MTAwJTsgYm94LXNpemluZzpib3JkZXItYm94OyIiPg0KDQogICAgICA8IS0tIExlZnQgbGFiZWwgLS0+DQogICAgICA8ZGl2IGlkPSIicHJvZ3Jlc3MtYmFyLXRleHRzIiI+DQogICAgICAgIHtleHBlcmllbmNlQmFyTGVmdFRleHR9DQogICAgICA8L2Rpdj4NCg0KICAgICAgPCEtLSBQcm9ncmVzcyBiYXIgd3JhcHBlciAtLT4NCiAgICAgIDxkaXYgc3R5bGU9IiJwb3NpdGlvbjpyZWxhdGl2ZTsgZmxleC1ncm93OjE7IGhlaWdodDoyMHB4OyIiPg0KDQogICAgICAgIDwhLS0gUHJvZ3Jlc3MgYmFyIC0tPg0KICAgICAgICA8ZGl2IGNsYXNzPSIicHJvZ3Jlc3MgZXhwZXJpZW5jZS1wcm9ncmVzcyIiIHN0eWxlPSIiaGVpZ2h0OjEwMCU7IiI+DQogICAgICAgICAgPGRpdiANCiAgICAgICAgICAgIGNsYXNzPSIicHJvZ3Jlc3MtYmFyIHByb2dyZXNzLWJhci1zdHJpcGVkIHByb2dyZXNzLWJhci1hbmltYXRlZCIiIA0KICAgICAgICAgICAgaWQ9IiJtYWluLWJhciIiIA0KICAgICAgICAgICAgcm9sZT0iInByb2dyZXNzYmFyIiINCiAgICAgICAgICAgIGFyaWEtdmFsdWVub3c9IiJ7TWF0aC5Sb3VuZChwZXJjZW50KX0iIiANCiAgICAgICAgICAgIGFyaWEtdmFsdWVtaW49IiIwIiIgDQogICAgICAgICAgICBhcmlhLXZhbHVlbWF4PSIie2Jhck1heGltdW19IiINCiAgICAgICAgICAgIHN0eWxlPSIid2lkdGg6e3BlcmNlbnR9JTsgYmFja2dyb3VuZC1jb2xvcjp7Y29sb3J9OyIiPg0KICAgICAgICAgIDwvZGl2Pg0KICAgICAgICA8L2Rpdj4iOw0KDQogICAgICAgIGJvb2wgaXNHb2FsQmFyTm9ybWFsID0gQ1BILkdldEdsb2JhbFZhcjxib29sPigiaXNHb2FsQmFyTm9ybWFsIiwgdHJ1ZSk7DQoNCiAgICAgICAgaWYoaXNHb2FsQmFyTm9ybWFsKQ0KICAgICAgICB7DQogICAgICAgICAgaW50IHN1YkRpdmlzaW9ucyA9IENQSC5HZXRHbG9iYWxWYXI8aW50PigiZ29hbEJhckRpdmlzaW9uc0NvdW50Iik7DQogICAgICAgICAgZm9yKGludCBpID0gMDsgaTxzdWJEaXZpc2lvbnM7IGkrKykNCiAgICAgICAgICB7DQogICAgICAgICAgICBpZihpPT0wKQ0KICAgICAgICAgICAgew0KICAgICAgICAgICAgICBodG1sQ29udGVudCs9JEAiPGRpdiBzdHlsZT0iInBvc2l0aW9uOmFic29sdXRlOyB0b3A6MDsgbGVmdDowOyB3aWR0aDoxMDAlOyBoZWlnaHQ6MTAwJTsgcG9pbnRlci1ldmVudHM6bm9uZTsiIj4iOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgZWxzZQ0KICAgICAgICAgICAgew0KICAgICAgICAgICAgICBodG1sQ29udGVudCs9JEAiPGRpdiBzdHlsZT0iInBvc2l0aW9uOmFic29sdXRlOyBsZWZ0OnsoKGRvdWJsZSlpLyhkb3VibGUpc3ViRGl2aXNpb25zKSAqIDEwMH0lOyB0b3A6MDsgYm90dG9tOjA7IHdpZHRoOjFweDsgYmFja2dyb3VuZDp3aGl0ZTsiIj48L2Rpdj4iOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgaWYoaT09c3ViRGl2aXNpb25zLTEpDQogICAgICAgICAgICB7DQogICAgICAgICAgICAgIGh0bWxDb250ZW50Kz0kQCI8L2Rpdj4iOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgIH0NCiAgICAgICAgfQ0KICAgICAgICBlbHNlDQogICAgICAgIHsNCiAgICAgICAgICBpbnQgc3ViRGl2aXNpb25zID0gQ1BILkdldEdsb2JhbFZhcjxpbnQ+KCJnb2FsQmFyQWJvcm5hbWxDb3VudCIpOw0KICAgICAgICAgIGZvcihpbnQgaSA9IDA7IGk8PXN1YkRpdmlzaW9uczsgaSsrKQ0KICAgICAgICAgIHsNCiAgICAgICAgICAgIGlmKGk9PTApDQogICAgICAgICAgICB7DQogICAgICAgICAgICAgIGh0bWxDb250ZW50Kz0kQCI8ZGl2IHN0eWxlPSIicG9zaXRpb246YWJzb2x1dGU7IHRvcDowOyBsZWZ0OjA7IHdpZHRoOjEwMCU7IGhlaWdodDoxMDAlOyBwb2ludGVyLWV2ZW50czpub25lOyIiPiI7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBlbHNlDQogICAgICAgICAgICB7DQogICAgICAgICAgICAgIGh0bWxDb250ZW50Kz0kQCI8ZGl2IHN0eWxlPSIicG9zaXRpb246YWJzb2x1dGU7IGxlZnQ6e2Fibm9ybWFsR29hbFZhbHVlTGlzdFtpXX0lOyB0b3A6MDsgYm90dG9tOjA7IHdpZHRoOjFweDsgYmFja2dyb3VuZDp3aGl0ZTsiIj48L2Rpdj4iOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgaWYoaT09c3ViRGl2aXNpb25zLTEpDQogICAgICAgICAgICB7DQogICAgICAgICAgICAgIGh0bWxDb250ZW50Kz0kQCI8L2Rpdj4iOw0KICAgICAgICAgICAgfQ0KICAgICAgICAgIH0NCiAgICAgICAgfQ0KDQogICAgICAgIC8vIDwhLS0gVGljayBtYXJrcyAob3ZlcmxheSBvbiBiYXIgb25seSkgLS0+DQogICAgICAgIC8vIDxkaXYgc3R5bGU9IiJwb3NpdGlvbjphYnNvbHV0ZTsgdG9wOjA7IGxlZnQ6MDsgd2lkdGg6MTAwJTsgaGVpZ2h0OjEwMCU7IHBvaW50ZXItZXZlbnRzOm5vbmU7IiI+DQogICAgICAgIC8vICAgPGRpdiBzdHlsZT0iInBvc2l0aW9uOmFic29sdXRlOyBsZWZ0OjIwJTsgdG9wOjA7IGJvdHRvbTowOyB3aWR0aDoxcHg7IGJhY2tncm91bmQ6d2hpdGU7IiI+PC9kaXY+DQogICAgICAgIC8vICAgPGRpdiBzdHlsZT0iInBvc2l0aW9uOmFic29sdXRlOyBsZWZ0OjQwJTsgdG9wOjA7IGJvdHRvbTowOyB3aWR0aDoxcHg7IGJhY2tncm91bmQ6d2hpdGU7IiI+PC9kaXY+DQogICAgICAgIC8vICAgPGRpdiBzdHlsZT0iInBvc2l0aW9uOmFic29sdXRlOyBsZWZ0OjYwJTsgdG9wOjA7IGJvdHRvbTowOyB3aWR0aDoxcHg7IGJhY2tncm91bmQ6d2hpdGU7IiI+PC9kaXY+DQogICAgICAgIC8vICAgPGRpdiBzdHlsZT0iInBvc2l0aW9uOmFic29sdXRlOyBsZWZ0OjgwJTsgdG9wOjA7IGJvdHRvbTowOyB3aWR0aDoxcHg7IGJhY2tncm91bmQ6d2hpdGU7IiI+PC9kaXY+DQogICAgICAgIC8vIDwvZGl2Pg0KDQogICAgICBodG1sQ29udGVudCs9JEAiPC9kaXY+DQoNCiAgICAgIDwhLS0gUmlnaHQgcGVyY2VudCAtLT4NCiAgICAgIDxkaXYgaWQ9IiJwcm9ncmVzcy1iYXItdGV4dHMiIj4NCiAgICAgICAge3BlcmNlbnR9JQ0KICAgICAgPC9kaXY+DQoNCiAgICA8L2Rpdj4NCg0KICAgIDwhLS0gT3B0aW9uYWwgSmF2YVNjcmlwdCAtLT4NCiAgICA8c2NyaXB0IHNyYz0iImh0dHBzOi8vY29kZS5qcXVlcnkuY29tL2pxdWVyeS0zLjIuMS5zbGltLm1pbi5qcyIiIGludGVncml0eT0iInNoYTM4NC1LSjNvMkRLdElrdllJSzNVRU56bU03S0NrUnIvckU5L1FwZzZhQVpHSndGRE1WTkEvR3BHRkY5M2hYcEc1S2tOIiIgY3Jvc3NvcmlnaW49IiJhbm9ueW1vdXMiIj48L3NjcmlwdD4NCiAgICA8c2NyaXB0IHNyYz0iImh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9ucG0vcG9wcGVyLmpzQDEuMTIuOS9kaXN0L3VtZC9wb3BwZXIubWluLmpzIiIgaW50ZWdyaXR5PSIic2hhMzg0LUFwTmJnaDlCK1kxUUt0djNSbjdXM21nUHhoVTlLL1NjUXNBUDdoVWliWDM5ajdmYWtGUHNrdlh1c3ZmYTBiNFEiIiBjcm9zc29yaWdpbj0iImFub255bW91cyIiPjwvc2NyaXB0Pg0KICAgIDxzY3JpcHQgc3JjPSIiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9ib290c3RyYXBANC4wLjAvZGlzdC9qcy9ib290c3RyYXAubWluLmpzIiIgaW50ZWdyaXR5PSIic2hhMzg0LUpaUjZTcGVqaDRVMDJkOGpPdDZ2TEVIZmUvSlFHaVJSU1FReFNmRldwaTFNcXVWZEF5alVhcjUrNzZQVkNtWWwiIiBjcm9zc29yaWdpbj0iImFub255bW91cyIiPjwvc2NyaXB0Pg0KICA8L2JvZHk+DQo8L2h0bWw+IjsNCg0KICAgICAgICAvLyBXcml0ZSB0aGUgSFRNTCBmaWxlDQogICAgICAgIEZpbGUuV3JpdGVBbGxUZXh0KGh0bWxQYXRoLCBodG1sQ29udGVudCk7DQoNCiAgICAgICAgcmV0dXJuIHRydWU7DQogICAgfQ0KfQ0K",
           "precompile": false,
           "delayStart": false,
           "saveResultToVariable": false,
@@ -492,6 +533,948 @@
           "parentId": null,
           "enabled": true,
           "index": 0
+        },
+        {
+          "sceneName": "Spoopy Scene",
+          "sourceName": "Experience Bar",
+          "url": "C:\\Users\\tekki\\Documents\\VSCode workspace\\yarem streamer projects workspace\\Yarem-Streaming-Projects\\src\\HTML\\progress.html",
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "id": "7edb4a07-5098-49db-acd8-918cb51ed11e",
+          "weight": 0.0,
+          "type": 38,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "27ff4e0f-c4bf-43b1-9b86-6d5216aece5b",
+      "queue": null,
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Random Source Shower",
+      "group": "Zaygnor Random Shower",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "95051ccc-9f65-4b35-9974-cb3fcf79981e",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "value": "Open this and edit the list of [Scene - Source] names",
+          "color": "#0080FF",
+          "id": "15451562-d53a-4213-9c8b-fba5a0e81da9",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "name": "",
+          "description": "",
+          "references": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll"
+          ],
+          "byteCode": "dXNpbmcgU3lzdGVtOw0KdXNpbmcgU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWM7DQoNCnB1YmxpYyBjbGFzcyBDUEhJbmxpbmUNCnsNCiAgICBwdWJsaWMgYm9vbCBFeGVjdXRlKCkNCiAgICB7DQogICAgCS8vIFdyaXR0ZW4gYnkgWmF5Z25vcjogMjAyNS0wNC0wMQ0KICAgIAkvLyBUaGlzIHNjcmlwdCB3aWxsIHNob3cgb25lIGZyb20gYSBsaXN0IG9mIHNvdXJjZXMgaW4gT0JTLiBJdCBhdXRvbWF0aWNhbGx5IGhpZGVzIGFsbCBvdGhlcnMgc28gb25seSBvbmUgc2hvd3MgYXQgYSB0aW1lLg0KICAgIAkvLyBZb3UgY2FuIGNob29zZSBlaXRoZXIgcmFuZG9tIG9yIHNlcXVlbnRpYWwuIFRoZSBzY3JpcHQgaXMgY3VycmVudGx5IGNvbmZpZ3J1ZWQgZm9yIHJhbmRvbS4gQ2hlY2sgIlJBTkRPTSBPUiBOT1QiDQogICAgCS8vIEVkaXQgdGhlIGxpc3QganVzdCBiZWxvdyB0aGVzZSBpbnN0cnVjdGlvbnMgdG8gaGF2ZSBhbGwgdGhlIHNvdXJjZXMgeW91IHdhbnQgaW4gdGhlIHJvdGF0aW9uLg0KICAgIAkvLyBZb3UgY2FuIHVzZSB3aGF0ZXZlciB0cmlnZ2VyIHlvdSB3YW50LiBJIHVzZSBhIGJ1dHRvbiBvbiBteSBTdGVhbSBEZWNrLCBidXQgeW91IGNvdWxkIGRvIGFueXRoaW5nLCBsaWtlIGEgY2hhdCBjb21tYW5kLCBldGMuDQogICAgCQ0KICAgIAkNCiAgICAgICAgLy8gdGhpcyBpcyBhIGxpc3Qgb2YgYWxsIHlvdXIgZWxlbWVudHMgdGhhdCB5b3Ugd2FudCB0byByYW5kb21pemUvbG9vcCB0aHJvdWdoLg0KICAgICAgICAvLyBzY2VuZSBuYW1lIC0gc291cmNlIG5hbWUNCiAgICAgICAgTGlzdDxLZXlWYWx1ZVBhaXI8c3RyaW5nLCBzdHJpbmc+PiBlbGVtZW50TGlzdCA9IG5ldyBMaXN0PEtleVZhbHVlUGFpcjxzdHJpbmcsIHN0cmluZz4+DQogICAgICAgIHsNCiAgICAgICAgICAgIG5ldyBLZXlWYWx1ZVBhaXI8c3RyaW5nLCBzdHJpbmc+KCJNeVNjZW5lIiwgIlNvdXJjZSAxIiksDQogICAgICAgICAgICBuZXcgS2V5VmFsdWVQYWlyPHN0cmluZywgc3RyaW5nPigiTXlTY2VuZSIsICJTb3VyY2UgMiIpLA0KICAgICAgICAgICAgbmV3IEtleVZhbHVlUGFpcjxzdHJpbmcsIHN0cmluZz4oIk15U2NlbmUiLCAiU291cmNlIDMiKSwNCiAgICAgICAgfTsNCg0KICAgICAgICBMaXN0PEtleVZhbHVlUGFpcjxzdHJpbmcsIHN0cmluZz4+IGFjdGl2ZUVsZW1lbnRMaXN0ID0gbmV3IExpc3Q8S2V5VmFsdWVQYWlyPHN0cmluZyxzdHJpbmc+PigpOw0KICAgICAgICAvLyBoaWRlIGV2ZXJ5dGhpbmcgaWYgeW91IHdhbnQgdG8gbWFudWFsbHkgaGlkZSB0aGVtIHRoZW4gcmVtb3ZlIHRoaXMgbGluZSBhbmQgY3JlYXRlIHlvdXIgb3duIGFjdGlvbiB3aXRoICdPQlMgPiBTZXQgU291cmNlIFZpc2liaWx0eScgU3RhdGUgc3ViIGFjdGlvbnMuDQogICAgICAgIGhpZGVBbGwoZWxlbWVudExpc3QpOw0KICAgICAgICANCiAgICAgICAgLy8gUkFORE9NIE9SIE5PVA0KICAgICAgICAvLyBzZXQgdGhpcyB0byAidHJ1ZSIgaWYgeW91IHdhbnQgdG8gc2hvdyBhIHJhbmRvbSBlbGVtZW50DQogICAgICAgIC8vIHNldCB0aGlzIHRvICJmYWxzZSIgaWYgeW91IHdhbnQgdG8gc2hvdyB0aGVtIGluIHNlcXVlbmNlDQogICAgICAgIGlmICh0cnVlKQ0KICAgICAgICB7DQogICAgICAgIAlzaG93UmFuZG9tKGVsZW1lbnRMaXN0KTsNCiAgICAgICAgfQ0KICAgICAgICBlbHNlDQogICAgICAgIHsNCiAgICAgICAgCXNob3dOZXh0KGVsZW1lbnRMaXN0KTsNCiAgICAgICAgfQ0KDQogICAgICAgIHJldHVybiB0cnVlOw0KICAgIH0NCg0KICAgIHB1YmxpYyB2b2lkIGhpZGVBbGwoTGlzdDxLZXlWYWx1ZVBhaXI8c3RyaW5nLCBzdHJpbmc+PiBlbGVtZW50TGlzdCkNCiAgICB7DQogICAgICAgIGZvcmVhY2ggKHZhciBpdGVtIGluIGVsZW1lbnRMaXN0KQ0KICAgICAgICB7DQogICAgICAgICAgICBDUEguT2JzU2V0U291cmNlVmlzaWJpbGl0eVN0YXRlKGl0ZW0uS2V5LCBpdGVtLlZhbHVlLCAxKTsNCiAgICAgICAgfQ0KICAgIH0NCg0KICAgIHB1YmxpYyB2b2lkIHNob3dSYW5kb20oTGlzdDxLZXlWYWx1ZVBhaXI8c3RyaW5nLCBzdHJpbmc+PiBlbGVtZW50TGlzdCkNCiAgICB7DQogICAgICAgICAgICAvLyBzaG93IHJhbmRvbSBlbnRyeSBmcm9tIGxpc3QNCiAgICAgICAgICAgIFJhbmRvbSBybmQgPSBuZXcgUmFuZG9tKCk7DQogICAgICAgICAgICBpbnQgdG9TaG93ID0gcm5kLk5leHQoMCwgZWxlbWVudExpc3QuQ291bnQpOw0KICAgICAgICAgICAgQ1BILlNldEdsb2JhbFZhcigiWmF5Z25vckVsZW1lbnRDeWNsZUluZGV4IiwgdG9TaG93LCBmYWxzZSk7DQogICAgICAgICAgICBDUEguT2JzU2V0U291cmNlVmlzaWJpbGl0eVN0YXRlKGVsZW1lbnRMaXN0W3RvU2hvd10uS2V5LCBlbGVtZW50TGlzdFt0b1Nob3ddLlZhbHVlLCAyKTsNCiAgICB9DQoNCiAgICBwdWJsaWMgdm9pZCBzaG93TmV4dChMaXN0PEtleVZhbHVlUGFpcjxzdHJpbmcsIHN0cmluZz4+IGVsZW1lbnRMaXN0KQ0KICAgIHsNCiAgICAgICAgICAgIGludCB0b1Nob3cgPSBDUEguR2V0R2xvYmFsVmFyPGludD4oIlpheWdub3JFbGVtZW50Q3ljbGVJbmRleCIsIGZhbHNlKTsNCiAgICAgICAgICAgIHRvU2hvdyArPSAxOw0KICAgICAgICAgICAgaWYgKHRvU2hvdyA+PSBlbGVtZW50TGlzdC5Db3VudCkNCiAgICAgICAgICAgIHsNCiAgICAgICAgICAgICAgICB0b1Nob3cgPSAwOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBDUEguU2V0R2xvYmFsVmFyKCJaYXlnbm9yRWxlbWVudEN5Y2xlSW5kZXgiLCB0b1Nob3csIGZhbHNlKTsNCiAgICAgICAgICAgIENQSC5PYnNTZXRTb3VyY2VWaXNpYmlsaXR5U3RhdGUoZWxlbWVudExpc3RbdG9TaG93XS5LZXksIGVsZW1lbnRMaXN0W3RvU2hvd10uVmFsdWUsIDIpOw0KICAgIH0NCn0=",
+          "precompile": false,
+          "delayStart": false,
+          "saveResultToVariable": false,
+          "saveToVariable": "",
+          "id": "bd49264a-baaa-4b20-a17e-b7a6befd54a9",
+          "weight": 0.0,
+          "type": 99999,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "6007ee4f-5385-4a67-8388-1bcc8a26cbf2",
+      "queue": null,
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Random Image Shower",
+      "group": "Zaygnor Random Shower",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "52e234c2-7d1d-4f9c-82c9-5b25b0ffeb84",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "value": "Set this to the folder your images are in",
+          "color": "#0080FF",
+          "id": "350dcf6a-c268-4ee9-b8fe-005723559316",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "destination": 0,
+          "variableName": "ZaygnorRandomImageShowerFolderPath",
+          "persisted": false,
+          "source": 0,
+          "value": "C:\\MyPath",
+          "autoType": true,
+          "id": "8ed445d8-777f-4e8b-bc4e-5676d3c72029",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        },
+        {
+          "name": "",
+          "description": "",
+          "references": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll",
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.dll"
+          ],
+          "byteCode": "dXNpbmcgU3lzdGVtOw0KdXNpbmcgU3lzdGVtLklPOw0KDQpwdWJsaWMgY2xhc3MgQ1BISW5saW5lDQp7DQogICAgcHVibGljIGJvb2wgRXhlY3V0ZSgpDQogICAgew0KICAgICAgICBTdHJpbmcgZmlsZU5hbWUgPSBnZXRSYW5kb21GaWxlTmFtZSgpOw0KICAgICAgICBDUEguU2V0R2xvYmFsVmFyKCJaYXlnbm9yUmFuZG9tSW1hZ2VTaG93ZXJGaWxlTmFtZSIsIGZpbGVOYW1lLCBmYWxzZSk7DQogICAgICAgIHJldHVybiB0cnVlOw0KICAgIH0NCg0KICAgIHByaXZhdGUgc3RyaW5nIGdldFJhbmRvbUZpbGVOYW1lKCkNCiAgICB7DQogICAgICAgIHRyeQ0KICAgICAgICB7DQogICAgICAgICAgICBTdHJpbmcgZm9sZGVyUGF0aCA9IENQSC5HZXRHbG9iYWxWYXI8U3RyaW5nPigiWmF5Z25vclJhbmRvbUltYWdlU2hvd2VyRm9sZGVyUGF0aCIsIGZhbHNlKTsNCiAgICAgICAgICAgIHN0cmluZ1tdIGZpbGVzID0gRGlyZWN0b3J5LkdldEZpbGVzKGZvbGRlclBhdGgpOw0KICAgICAgICAgICAgaWYgKGZpbGVzLkxlbmd0aCA9PSAwKQ0KICAgICAgICAgICAgew0KICAgICAgICAgICAgICAgIHJldHVybiBudWxsOw0KICAgICAgICAgICAgfQ0KDQogICAgICAgICAgICBSYW5kb20gcmFuZG9tID0gbmV3IFJhbmRvbSgpOw0KICAgICAgICAgICAgaW50IHJhbmRvbUluZGV4ID0gcmFuZG9tLk5leHQoZmlsZXMuTGVuZ3RoKTsNCiAgICAgICAgICAgIHJldHVybiBmaWxlc1tyYW5kb21JbmRleF07DQogICAgICAgIH0NCiAgICAgICAgY2F0Y2ggKEV4Y2VwdGlvbiBleCkNCiAgICAgICAgew0KICAgICAgICAgICAgcmV0dXJuIG51bGw7DQogICAgICAgIH0NCiAgICB9DQp9",
+          "precompile": false,
+          "delayStart": false,
+          "saveResultToVariable": false,
+          "saveToVariable": "",
+          "id": "200befe8-9777-4b69-8a2e-c4e4c326b6d6",
+          "weight": 0.0,
+          "type": 99999,
+          "parentId": null,
+          "enabled": true,
+          "index": 2
+        },
+        {
+          "source": 0,
+          "variableName": "ZaygnorRandomImageShowerFileName",
+          "persisted": false,
+          "destinationVariable": "randomImage",
+          "defaultValue": null,
+          "id": "85d21886-fe68-4290-b7ff-6e5042a6bebc",
+          "weight": 0.0,
+          "type": 121,
+          "parentId": null,
+          "enabled": true,
+          "index": 3
+        },
+        {
+          "value": "Update this to point to the \"Image\" source element",
+          "color": "#0080FF",
+          "id": "6976b83a-4868-4e34-92ad-7ad4b80d587e",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 4
+        },
+        {
+          "sceneName": "My Scene",
+          "sourceName": "Random Image",
+          "fileName": "%randomImage%",
+          "connectionId": "00000000-0000-0000-0000-000000000000",
+          "id": "5bbb2b82-7328-47c3-b735-97c86160fcf0",
+          "weight": 0.0,
+          "type": 323,
+          "parentId": null,
+          "enabled": true,
+          "index": 5
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "e01380e4-c584-42ab-9936-2b6a213299c6",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Increment Redeem Count",
+      "group": "Common Actions (Functions)",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "87a3b954-38a7-4563-b502-bec0a862008a",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "name": null,
+          "description": null,
+          "references": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll"
+          ],
+          "byteCode": "dXNpbmcgU3lzdGVtOw0KDQpwdWJsaWMgY2xhc3MgQ1BISW5saW5lDQp7DQogICAgcHVibGljIGJvb2wgRXhlY3V0ZSgpDQogICAgew0KCQl2YXIgcmVkZWVtQ291bnQgPSBDUEguR2V0R2xvYmFsVmFyPGludD4oInJlZGVlbUNvdW50IiwgdHJ1ZSk7DQogICAgICAgIENQSC5TZXRHbG9iYWxWYXIoInJlZGVlbUNvdW50IiwgcmVkZWVtQ291bnQgKyAxLCB0cnVlKTsNCiAgICAgICAgcmV0dXJuIHRydWU7DQogICAgfQ0KfQ==",
+          "precompile": false,
+          "delayStart": false,
+          "saveResultToVariable": false,
+          "saveToVariable": null,
+          "id": "8fbb15b8-a39c-4089-9da4-c502505e0884",
+          "weight": 0.0,
+          "type": 99999,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "aab77fb8-a40d-4baa-b326-8b44c9491fe3",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Point Value Conversions",
+      "group": "Options",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "80d990c8-c4fe-4ec4-b773-0b28bc873823",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "value": "Set Redeem Multiplier Below",
+          "color": "#00FFFF",
+          "id": "79d6e0c9-b20c-41d8-9826-3deaa25ca942",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "destination": 0,
+          "variableName": "redeemMultiplier",
+          "persisted": true,
+          "source": 0,
+          "value": 1,
+          "autoType": true,
+          "id": "98330049-2a76-4e0a-ba57-833b5a716af4",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        },
+        {
+          "value": "Set Bit Multipiplier Below",
+          "color": "#00FFFF",
+          "id": "638b1f9d-7651-495d-9968-3bbeb52015ae",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 2
+        },
+        {
+          "destination": 0,
+          "variableName": "bitMultiplier",
+          "persisted": true,
+          "source": 0,
+          "value": 5,
+          "autoType": true,
+          "id": "894b36ec-c5cd-45a2-ac63-eb662d47e12f",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 3
+        },
+        {
+          "value": "Set Subscribtion Multiplier",
+          "color": "#00FFFF",
+          "id": "67cf516e-07b5-4ec6-8770-ec680da6ffa6",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 4
+        },
+        {
+          "destination": 0,
+          "variableName": "subscriptionMultiplier",
+          "persisted": true,
+          "source": 0,
+          "value": 5,
+          "autoType": true,
+          "id": "f8b37b86-88b5-45b1-9f04-448fa6ffa56b",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 5
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "490e5f12-8931-4999-aa46-848d562f0173",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Clear Redeem Count",
+      "group": "Common Actions (Functions)",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "cf673217-6d50-4bdf-a128-b665616c0a7c",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "name": null,
+          "description": null,
+          "references": [
+            "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\mscorlib.dll"
+          ],
+          "byteCode": "dXNpbmcgU3lzdGVtOw0KDQpwdWJsaWMgY2xhc3MgQ1BISW5saW5lDQp7DQoJcHVibGljIGJvb2wgRXhlY3V0ZSgpDQoJew0KCQlDUEguU2V0R2xvYmFsVmFyKCJyZWRlZW1Db3VudCIsIDAsIHRydWUpOw0KCQlyZXR1cm4gdHJ1ZTsNCgl9DQp9",
+          "precompile": false,
+          "delayStart": false,
+          "saveResultToVariable": false,
+          "saveToVariable": null,
+          "id": "c1859fb4-6d23-4661-941d-aa04993d3b2d",
+          "weight": 0.0,
+          "type": 99999,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "de802b65-8991-485e-b339-382fd4e14118",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Goal Bar Number Settings",
+      "group": "Options",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "6ce4e346-830e-42da-84ff-43961794f3e3",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "value": "Set Goal Bar Maximum Points",
+          "color": "#00FFFF",
+          "id": "0a7fcbfa-e1e3-438e-99eb-44e60230778d",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarMaximum",
+          "persisted": true,
+          "source": 0,
+          "value": 100,
+          "autoType": true,
+          "id": "bca7c1c5-f80b-49ad-840a-c546b99806be",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        },
+        {
+          "value": "Set \"IsGoalBarNormal\". Boolean Value (True or False)",
+          "color": "#00FFFF",
+          "id": "e6fb6ae3-8a12-47e0-98e3-06884209b5fc",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 2
+        },
+        {
+          "destination": 0,
+          "variableName": "isGoalBarNormal",
+          "persisted": true,
+          "source": 0,
+          "value": false,
+          "autoType": true,
+          "id": "e7131e4f-d7e9-4f8f-83c2-48bbb1c822cf",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 3
+        },
+        {
+          "value": "Set Goal Bar Divisions Count (Only Used if isGoalBarNormal = 1)",
+          "color": "#00FFFF",
+          "id": "25208284-42f4-4c91-bd77-fe5aae5fb502",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 4
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarDivisionsCount",
+          "persisted": true,
+          "source": 0,
+          "value": 5,
+          "autoType": true,
+          "id": "19b0abbc-d459-4d64-8f3c-6ae947f6c5fd",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 5
+        },
+        {
+          "value": "Total Goal Bar Divisions for Abnormal",
+          "color": "#008080",
+          "id": "90ce042d-8ceb-4de8-9697-91fdbc399530",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 6
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarAbornamlCount",
+          "persisted": true,
+          "source": 0,
+          "value": 3,
+          "autoType": true,
+          "id": "da06269a-208f-462e-9bda-9fb6f7bb4d25",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 7
+        },
+        {
+          "value": "Set Goal Bar Goal 1 (Only Used if isGoalBarNormal = 0), Set to -1 if not using",
+          "color": "",
+          "id": "2f5bb433-0c43-4d81-a047-8b48f32c1100",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 8
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalValue1",
+          "persisted": true,
+          "source": 0,
+          "value": 10,
+          "autoType": true,
+          "id": "446d5f0b-a6f2-4e72-9e71-1a6a8b4b05ea",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 9
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalName1",
+          "persisted": true,
+          "source": 0,
+          "value": "Sketch",
+          "autoType": true,
+          "id": "228fc8ec-6ac6-4628-b0a8-99c72a50a25f",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 10
+        },
+        {
+          "value": "Set Goal Bar Goal 2 (Only Used if isGoalBarNormal = 0), Set to -1 if not using",
+          "color": "",
+          "id": "b860aca6-aeb1-4a43-a231-bdcb22a445c5",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 11
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalValue2",
+          "persisted": true,
+          "source": 0,
+          "value": 30,
+          "autoType": true,
+          "id": "1afff83b-0032-4444-8b0f-2fc6ec9e8efe",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 12
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalName2",
+          "persisted": true,
+          "source": 0,
+          "value": "Colored Sketch",
+          "autoType": true,
+          "id": "fff6b975-4a01-4d92-bf23-75c33e822e9e",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 13
+        },
+        {
+          "value": "Set Goal Bar Goal 3 (Only Used if isGoalBarNormal = 0), Set to -1 if not using",
+          "color": "",
+          "id": "2d518c73-0157-44c8-af0f-1573d07a246f",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 14
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalValue3",
+          "persisted": true,
+          "source": 0,
+          "value": 80,
+          "autoType": true,
+          "id": "649971ca-55cf-4d9a-83a3-8004648ed644",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 15
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalName3",
+          "persisted": true,
+          "source": 0,
+          "value": "Lineart",
+          "autoType": true,
+          "id": "c2316a8f-997a-49b9-9bac-751156ad78cc",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 16
+        },
+        {
+          "value": "Set Goal Bar Goal 4 (Only Used if isGoalBarNormal = 0), Set to -1 if not using",
+          "color": "",
+          "id": "d02ffa53-47be-4d3e-ac1f-eaadff0cf6e7",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 17
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalValue4",
+          "persisted": true,
+          "source": 0,
+          "value": 1000,
+          "autoType": true,
+          "id": "0b9c86eb-7c85-4d02-ae6e-2d4bf8ebe25a",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 18
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalName4",
+          "persisted": true,
+          "source": 0,
+          "value": "Cell Shading",
+          "autoType": true,
+          "id": "52a50dc2-2c54-417f-bb1b-f58e7e321e5b",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 19
+        },
+        {
+          "value": "Set Goal Bar Goal 5 (Only Used if isGoalBarNormal = 0), Set to -1 if not using",
+          "color": "",
+          "id": "fdd6a0e5-4c42-45d9-9bff-16682861e41b",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 20
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalValue5",
+          "persisted": true,
+          "source": 0,
+          "value": 5000,
+          "autoType": true,
+          "id": "494c1a39-264a-4d35-9578-4eb90502c0ec",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 21
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarGoalName5",
+          "persisted": true,
+          "source": 0,
+          "value": "Full Shading",
+          "autoType": true,
+          "id": "609cf236-b7b2-4273-8595-b44189c12b2d",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 22
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "bf81d7aa-1393-40e1-9164-23b192b7abb4",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "Goal Bar Color & Text Settings",
+      "group": "Options",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "bcdf49c0-63c0-4bb6-a0d0-acc316dcb8a5",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "value": "Set Goal Bar Left Text (Please keep 4 letters or under)",
+          "color": "#00FFFF",
+          "id": "a9516674-50ac-44d8-972b-1852eb4d363c",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarLeftText",
+          "persisted": true,
+          "source": 0,
+          "value": "EXP",
+          "autoType": true,
+          "id": "ee4b05c3-4644-4b25-b3fa-38a1de50cacf",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
+        },
+        {
+          "value": "Set Goal Bar Color 1",
+          "color": "#00FFFF",
+          "id": "5f500696-e8db-4e93-bae1-7e120fcfcca7",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 2
+        },
+        {
+          "alpha": 255,
+          "red": 0,
+          "green": 128,
+          "blue": 192,
+          "random": false,
+          "variableName": "goalBarColorTemp1",
+          "id": "f0be4504-6b59-4f17-a5a0-755c2d366da5",
+          "weight": 0.0,
+          "type": 1008,
+          "parentId": null,
+          "enabled": true,
+          "index": 3
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarColor1",
+          "persisted": true,
+          "source": 0,
+          "value": "%goalBarColorTemp1.html%",
+          "autoType": false,
+          "id": "8a36cec3-74cf-46db-87de-90dbf714e212",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 4
+        },
+        {
+          "value": "Set Goal Bar Color 2",
+          "color": "#00FFFF",
+          "id": "35d18dc1-3c4f-4a9d-be93-2a7800118e46",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 5
+        },
+        {
+          "alpha": 255,
+          "red": 128,
+          "green": 0,
+          "blue": 255,
+          "random": false,
+          "variableName": "goalBarColorTemp2",
+          "id": "91a2b828-0216-4a51-b5c5-4394de596f50",
+          "weight": 0.0,
+          "type": 1008,
+          "parentId": null,
+          "enabled": true,
+          "index": 6
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarColor2",
+          "persisted": true,
+          "source": 0,
+          "value": "%goalBarColorTemp2.html%",
+          "autoType": false,
+          "id": "9c15082a-0663-46ca-9c98-5d0a22ed1563",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 7
+        },
+        {
+          "value": "Set Goal Bar Color 3",
+          "color": "#00FFFF",
+          "id": "c8796062-9cb5-4f59-9f78-5ecf8df5a286",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 8
+        },
+        {
+          "alpha": 255,
+          "red": 255,
+          "green": 128,
+          "blue": 0,
+          "random": false,
+          "variableName": "goalBarColorTemp3",
+          "id": "cd329297-c4b7-4e99-b440-25903b714602",
+          "weight": 0.0,
+          "type": 1008,
+          "parentId": null,
+          "enabled": true,
+          "index": 9
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarColor3",
+          "persisted": true,
+          "source": 0,
+          "value": "%goalBarColorTemp3.html%",
+          "autoType": false,
+          "id": "2b5699af-62b1-4c9c-86d1-01d01ed1d79c",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 10
+        },
+        {
+          "value": "Set Goal Bar Color 4",
+          "color": "#00FFFF",
+          "id": "1c7bd8cf-94e7-4079-b671-846116ff3f36",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 11
+        },
+        {
+          "alpha": 255,
+          "red": 64,
+          "green": 0,
+          "blue": 128,
+          "random": false,
+          "variableName": "goalBarColorTemp4",
+          "id": "8c78b47c-24f8-4984-9860-ccee6408cd22",
+          "weight": 0.0,
+          "type": 1008,
+          "parentId": null,
+          "enabled": true,
+          "index": 12
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarColor4",
+          "persisted": true,
+          "source": 0,
+          "value": "%goalBarColorTemp4.html%",
+          "autoType": false,
+          "id": "fef4b107-57bf-481a-9d03-ca3a41b0fbc8",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 13
+        },
+        {
+          "value": "Set Goal Bar Color 5",
+          "color": "#00FFFF",
+          "id": "02a83c30-7413-4071-9c81-d4e6e36ac720",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 14
+        },
+        {
+          "alpha": 255,
+          "red": 255,
+          "green": 128,
+          "blue": 0,
+          "random": false,
+          "variableName": "goalBarColorTemp5",
+          "id": "1a13cd7d-d64e-437b-83a5-9e8c4445dfd4",
+          "weight": 0.0,
+          "type": 1008,
+          "parentId": null,
+          "enabled": true,
+          "index": 15
+        },
+        {
+          "destination": 0,
+          "variableName": "goalBarColor5",
+          "persisted": true,
+          "source": 0,
+          "value": "%goalBarColorTemp5.html%",
+          "autoType": false,
+          "id": "8067c031-a7de-424e-8280-0e97ee2d3382",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 16
+        }
+      ],
+      "collapsedGroups": []
+    },
+    {
+      "id": "b7f41dcd-c6e2-49a6-a4e6-439199f48a54",
+      "queue": "00000000-0000-0000-0000-000000000000",
+      "enabled": true,
+      "excludeFromHistory": false,
+      "excludeFromPending": false,
+      "name": "FilePath Settings",
+      "group": "Options",
+      "alwaysRun": false,
+      "randomAction": false,
+      "concurrent": false,
+      "triggers": [
+        {
+          "variables": {},
+          "id": "0a3013be-8a21-4952-b08d-94e9023f794b",
+          "type": 702,
+          "enabled": true,
+          "exclusions": []
+        }
+      ],
+      "subActions": [
+        {
+          "value": "Set Filepath to Yarem-Streaming-Projects Folder",
+          "color": "#00FFFF",
+          "id": "9a610596-5cb2-48f4-aba1-364237e33687",
+          "weight": 0.0,
+          "type": 1009,
+          "parentId": null,
+          "enabled": true,
+          "index": 0
+        },
+        {
+          "destination": 0,
+          "variableName": "streamingProjectsFolderFilePath",
+          "persisted": true,
+          "source": 0,
+          "value": "C:\\Users\\tekki\\Documents\\VSCode workspace\\yarem streamer projects workspace\\Yarem-Streaming-Projects",
+          "autoType": true,
+          "id": "96739dd9-5030-4fa1-a079-5ed006e97d40",
+          "weight": 0.0,
+          "type": 122,
+          "parentId": null,
+          "enabled": true,
+          "index": 1
         }
       ],
       "collapsedGroups": []

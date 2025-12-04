@@ -1,25 +1,47 @@
 {
   "collapsedGroups": [],
   "version": 2,
-  "t": "2025-11-12T17:26:11.3025301-05:00",
+  "t": "2025-12-04T14:00:55.5218689-05:00",
   "rewards": [
     {
       "id": "53b7cef6-c487-474c-b6b5-acda0f53b14b",
-      "name": "CAST Ghost Hand",
+      "name": "CAST Ghost Pets",
       "prompt": "Beware cold hands",
       "group": null,
-      "cost": 5,
+      "cost": 100,
       "userInput": false,
       "persistCounter": false,
       "persistUserCounter": false,
-      "backgroundColor": "#00FFFF"
+      "backgroundColor": "#004080"
+    },
+    {
+      "id": "4f256116-fbb4-4666-9434-7ae5c11f1cc1",
+      "name": "Hydrate!",
+      "prompt": "Water the demon dog",
+      "group": null,
+      "cost": 50,
+      "userInput": false,
+      "persistCounter": false,
+      "persistUserCounter": false,
+      "backgroundColor": "#0080FF"
+    },
+    {
+      "id": "f9cbf79c-413c-4e43-ac83-60d977708c58",
+      "name": "CAST Freeze",
+      "prompt": "Make the demo feel at home",
+      "group": null,
+      "cost": 300,
+      "userInput": false,
+      "persistCounter": false,
+      "persistUserCounter": false,
+      "backgroundColor": "#80FFFF"
     },
     {
       "id": "de17bf2e-7c08-47ad-b71f-1ec17cc923e0",
       "name": "CAST Fireball",
       "prompt": "Unleash a fireball of death on the demon",
       "group": null,
-      "cost": 250,
+      "cost": 300,
       "userInput": false,
       "persistCounter": false,
       "persistUserCounter": false,
@@ -30,11 +52,44 @@
       "name": "CAST Heal",
       "prompt": "Revive the demon",
       "group": null,
-      "cost": 200,
+      "cost": 300,
       "userInput": false,
       "persistCounter": false,
       "persistUserCounter": false,
       "backgroundColor": "#41D689"
+    },
+    {
+      "id": "f2a09684-6808-4273-a668-eba5874c1255",
+      "name": "Stretch!",
+      "prompt": "",
+      "group": null,
+      "cost": 50,
+      "userInput": false,
+      "persistCounter": false,
+      "persistUserCounter": false,
+      "backgroundColor": "#FFBF00"
+    },
+    {
+      "id": "698255f7-346a-4df0-960f-aa9101f95d11",
+      "name": "CAST Bonk",
+      "prompt": "Bonk a demon skull",
+      "group": null,
+      "cost": 100,
+      "userInput": false,
+      "persistCounter": false,
+      "persistUserCounter": false,
+      "backgroundColor": "#7B1D78"
+    },
+    {
+      "id": "a4b340f1-274c-4159-991c-51274d51e934",
+      "name": "Save Your Work!",
+      "prompt": "Gently remind the demon that his work is fleeting.",
+      "group": null,
+      "cost": 50,
+      "userInput": false,
+      "persistCounter": false,
+      "persistUserCounter": false,
+      "backgroundColor": "#C0C0C0"
     }
   ],
   "autoRewards": []

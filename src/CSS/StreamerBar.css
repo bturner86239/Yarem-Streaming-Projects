@@ -10,10 +10,21 @@
 /* Progress bar itself */
 #main-bar {
     background-color: #26C9C9;
-    width: 0%; /* start empty */
+    width: 50%; /* start empty */
     transition: width 0.4s ease-in-out;
     text-align: center;
     color: white; /* optional: for numeric display inside bar */
     font-weight: bold;
     line-height: 20px; /* vertically center text */
+}
+
+#progress-bar-texts {
+    font-size:36px;
+      font-weight:600;
+      color:white;
+      line-height:1;
+      font-family:'EB Garamond', serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      white-space: nowrap;
 }

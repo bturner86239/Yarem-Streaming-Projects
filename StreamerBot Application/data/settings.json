@@ -14,8 +14,27 @@
     "favoriteTriggers": [],
     "defaultCommentColor": "#229977",
     "subActionDisabledColor": "#DB7093",
-    "customColors": null,
-    "NoDeleteConfirmation": [],
+    "customColors": [
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215,
+      16777215
+    ],
+    "NoDeleteConfirmation": [
+      "subactions"
+    ],
     "useDarkMode": true,
     "navPaneOpen": true,
     "minimizeToTray": false,
@@ -32,11 +51,14 @@
     "disableViewersTab": false,
     "hideSplashScreen": false,
     "positions": {
-      "globalVariable": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6MCwic2hvd0NtZCI6MSwibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6ODgwLCJUb3AiOjQ0NiwiUmlnaHQiOjE2ODAsIkJvdHRvbSI6OTQ2fX0=",
-      "main": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6Miwic2hvd0NtZCI6MywibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6MzQ5LCJUb3AiOjQ5OCwiUmlnaHQiOjE2MjksIkJvdHRvbSI6MTIxOH19",
+      "globalVariable": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6MCwic2hvd0NtZCI6MSwibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6LTI1MjYsIlRvcCI6MTk3LCJSaWdodCI6LTEyNTUsIkJvdHRvbSI6MTExOX19",
+      "main": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6MCwic2hvd0NtZCI6MSwibWluUG9zaXRpb24iOnsiWCI6LTMyMDAwLCJZIjotMzIwMDB9LCJtYXhQb3NpdGlvbiI6eyJYIjotMSwiWSI6LTF9LCJub3JtYWxQb3NpdGlvbiI6eyJMZWZ0IjotMTM1MiwiVG9wIjo0NzMsIlJpZ2h0IjotNzIsIkJvdHRvbSI6MTE5M319",
       "export": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6MCwic2hvd0NtZCI6MSwibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6MzM4LCJUb3AiOjMzOCwiUmlnaHQiOjEyMzgsIkJvdHRvbSI6MTAxMn19",
       "import": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6Miwic2hvd0NtZCI6MywibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6MzI3LCJUb3AiOjE5MiwiUmlnaHQiOjEyMjcsIkJvdHRvbSI6ODY2fX0=",
-      "executeCode": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6MCwic2hvd0NtZCI6MSwibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6ODMwLCJUb3AiOjM0OSwiUmlnaHQiOjE3MzAsIkJvdHRvbSI6MTA0M319"
+      "executeCode": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6Miwic2hvd0NtZCI6MywibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6MCwiVG9wIjoxOCwiUmlnaHQiOjIzMTcsIkJvdHRvbSI6MTM5Mn19",
+      "chat": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6MCwic2hvd0NtZCI6MSwibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6MzM4LCJUb3AiOjMzOCwiUmlnaHQiOjExMzgsIkJvdHRvbSI6Nzg4fX0=",
+      "variableViewer": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6MCwic2hvd0NtZCI6MSwibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6OTMwLCJUb3AiOjQwOSwiUmlnaHQiOjE2MzAsIkJvdHRvbSI6MTM3NX19",
+      "triggerViewer": "77u/eyJsZW5ndGgiOjQ0LCJmbGFncyI6MCwic2hvd0NtZCI6MSwibWluUG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibWF4UG9zaXRpb24iOnsiWCI6LTEsIlkiOi0xfSwibm9ybWFsUG9zaXRpb24iOnsiTGVmdCI6MTMwLCJUb3AiOjEzMCwiUmlnaHQiOjYwNSwiQm90dG9tIjo2MDV9fQ=="
     },
     "integrations": null
   },

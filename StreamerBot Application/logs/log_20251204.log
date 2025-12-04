@@ -1,0 +1,1378 @@
+[2025-12-04 12:36:42.297 INF] Streamer.bot (1.0.1)
+[2025-12-04 12:36:42.299 INF] Startup Path: C:\Users\tekki\Documents\VSCode workspace\yarem streamer projects workspace\Yarem-Streaming-Projects\StreamerBot Application
+[2025-12-04 12:36:42.299 INF] Startup Args: 
+[2025-12-04 12:36:42.299 INF] Startup Mode: UI
+[2025-12-04 12:36:42.299 INF] Logging Level: Debug
+[2025-12-04 12:36:42.299 INF] Instance Id: 1e2a1a08-285a-444e-9667-2caddc49e11c
+[2025-12-04 12:36:42.299 INF] Instance Name: Streamer.bot
+[2025-12-04 12:36:42.299 INF] Operating System: Windows
+[2025-12-04 12:36:42.299 INF] UserInteractive: True
+[2025-12-04 12:36:42.299 INF] WebView2: Found (v142.0.3595.94)
+[2025-12-04 12:36:42.306 INF] Backing up data files
+[2025-12-04 12:36:42.406 INF] Loading config
+[2025-12-04 12:36:43.116 INF] Users :: Upgrade checks finished, 0.1898ms
+[2025-12-04 12:36:43.122 DBG] Users :: Loaded 9 users.
+[2025-12-04 12:36:43.167 DBG] Twitch Rewards :: Loaded 4 rewards.
+[2025-12-04 12:36:45.546 DBG] Actions :: Loaded 17 actions.
+[2025-12-04 12:36:45.552 DBG] OBS Settings :: Loaded.
+[2025-12-04 12:36:45.556 DBG] MeldStudio Settings :: Loaded.
+[2025-12-04 12:36:45.576 DBG] Commands :: Loaded 5 commands.
+[2025-12-04 12:36:45.657 DBG] MIDI :: Loaded 0 actions.
+[2025-12-04 12:36:45.928 DBG] Credits :: Performing auto reset of data, 380.709490510806 > 12
+[2025-12-04 12:36:48.770 DBG] Events Service :: Starting event queue thread
+[2025-12-04 12:36:48.771 DBG] Events Service :: Starting raw event queue thread
+[2025-12-04 12:36:48.771 DBG] Events Service :: Starting application event queue thread
+[2025-12-04 12:36:48.773 DBG] Trigger Service :: Initialized
+[2025-12-04 12:36:48.777 DBG] ActionQueue :: Starting queue 00000000-0000-0000-0000-000000000000 thread
+[2025-12-04 12:36:48.781 DBG] Quotes :: Loaded 0 quotes.
+[2025-12-04 12:36:48.847 DBG] Viewers :: 2.6671ms to populate view model
+[2025-12-04 12:36:49.096 DBG] OBS Service :: Starting event thread
+[2025-12-04 12:36:49.096 DBG] MeldStudio Service :: Starting event thread
+[2025-12-04 12:36:49.101 DBG] TwitchService :: Initializing
+[2025-12-04 12:36:49.107 DBG] TwitchService :: Logging into Broadcaster account
+[2025-12-04 12:36:49.112 DBG] OBS :: Opening websocket connection to My OBS Connection (127.0.0.1:4455)
+[2025-12-04 12:36:49.114 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-12-04 12:36:49.115 DBG] TwitchService :: Logging into Bot account
+[2025-12-04 12:36:49.115 INF] TwitchService :: Bot OAuth refresh token invalid, unable to login to Bot account
+[2025-12-04 12:36:49.117 DBG] Websocket Client :: Auto connecting to clients
+[2025-12-04 12:36:49.117 DBG] Websocket Custom Server :: Auto starting servers
+[2025-12-04 12:36:49.121 INF] MIDI Service :: Initializing 0 MIDI devices
+[2025-12-04 12:36:49.123 DBG] MIDI Service :: Starting event thread
+[2025-12-04 12:36:49.123 INF] Input Service: Found 0 valid key inputs.
+[2025-12-04 12:36:49.124 DBG] UsbRemovalWatcher :: Disposed
+[2025-12-04 12:36:49.809 INF] TwitchService :: Fetching Broadcaster account information
+[2025-12-04 12:36:50.034 INF] TwitchService :: Broadcaster account (yarem4) authenticated
+[2025-12-04 12:36:50.123 DBG] Twitch Service :: Initializing Third Party Emote Handlers
+[2025-12-04 12:36:50.125 DBG] Twitch Service :: Init rest
+[2025-12-04 12:36:50.125 INF] 7TV :: Initializing user '236924052', on twitch
+[2025-12-04 12:36:50.133 INF] BTTV :: Initializing user '236924052', on twitch
+[2025-12-04 12:36:50.134 INF] BetterTTV.Socket :: Connecting to BTTV WebSocket, monitoring for changes for user '236924052' on twitch
+[2025-12-04 12:36:50.140 INF] FFZ :: Initializing user 'yarem4' (236924052), on twitch
+[2025-12-04 12:36:50.232 INF] BTTV :: Loaded 65 global emotes
+[2025-12-04 12:36:50.279 INF] 7TV :: Loaded 43 global emotes
+[2025-12-04 12:36:50.303 ERR] BTTV :: Response error NotFound from BTTV channel endpoint.
+[2025-12-04 12:36:50.309 INF] FFZ :: Loaded 15 global emotes
+[2025-12-04 12:36:50.358 DBG] Twitch Service :: Loaded 33 Twitch cheer emotes
+[2025-12-04 12:36:50.363 WRN] FFZ :: Room not found, user does not have channel emotes configured.
+[2025-12-04 12:36:50.363 INF] FFZ :: Loaded 0 channel emotes
+[2025-12-04 12:36:50.372 INF] BTTV :: WebSocket Connected
+[2025-12-04 12:36:50.492 DBG] Twitch Service :: Loaded 338 Twitch user emotes
+[2025-12-04 12:36:50.530 DBG] Twitch Rewards :: Time to save 17.3168ms
+[2025-12-04 12:36:50.540 DBG] Twitch Rewards :: Time to save 8.1074ms
+[2025-12-04 12:36:50.546 DBG] Twitch Rewards :: Time to save 6.2709ms
+[2025-12-04 12:36:50.552 DBG] Twitch Rewards :: Time to save 6.0768ms
+[2025-12-04 12:36:50.559 DBG] Twitch Rewards :: Time to save 6.5351ms
+[2025-12-04 12:36:50.560 DBG] Twitch Service :: Loaded 195 Twitch badges
+[2025-12-04 12:36:50.822 ERR] 7TV :: Response error NotFound from 7TV channel endpoint.
+[2025-12-04 12:36:51.096 DBG] Getting viewers for channel "yarem4" (4)
+[2025-12-04 12:36:51.097 DBG] Twitch Service :: Fetched viewers for channel (4)
+[2025-12-04 12:36:51.099 DBG] Twitch Service :: (4) - Existing: 4, New Users: 0 (2.5012ms)
+[2025-12-04 12:36:51.099 DBG] Twitch Service :: Viewers init in 274.9376ms
+[2025-12-04 12:36:51.101 DBG] Twitch Service :: Loading editors for channel yarem4
+[2025-12-04 12:36:51.159 DBG] OBS-Websocket5 :: Disconnected
+[2025-12-04 12:36:51.160 DBG] OBS :: Disconnected from My OBS Connection (127.0.0.1:4455)
+[2025-12-04 12:36:51.194 DBG] Twitch Service :: Found 0 editors for channel yarem4
+[2025-12-04 12:36:51.315 INF] Twitch Service :: Found 2 Moderators for the channel yarem4
+[2025-12-04 12:36:51.416 INF] Twitch Service :: Found 0 VIPs for the channel yarem4
+[2025-12-04 12:36:51.419 DBG] ViewerRepo :: Time to update mods and VIPs, 0.3871ms (nm: 0, em: 0, nv: 0, ev: 0, ru: 0)
+[2025-12-04 12:36:51.419 DBG] Twitch Service :: Time to update/add mods and vips for the channel yarem4, 223.1112ms
+[2025-12-04 12:36:51.420 DBG] Twitch Service :: Loading subscribers for yarem4
+[2025-12-04 12:36:51.680 DBG] Twitch Service :: "Yarem4" has 8 subscriptions.
+[2025-12-04 12:36:51.703 DBG] Twitch Service :: Subscribed Viewers :: Added 3 new viewers
+[2025-12-04 12:36:51.708 INF] TwitchService :: Connecting to Broadcaster Chat Client
+[2025-12-04 12:36:51.712 INF] TwitchService :: Connecting to Broadcaster EventSub
+[2025-12-04 12:36:51.716 DBG] Twitch EventSub (Broadcaster) :: Opening connection
+[2025-12-04 12:36:51.800 DBG] Twitch (Broadcaster) :: Opening connection
+[2025-12-04 12:36:51.912 DBG] Twitch (Broadcaster) :: Connected to irc.chat.twitch.tv:6697 (44.237.40.50:6697)
+[2025-12-04 12:36:51.912 DBG] Twitch (Broadcaster) :: Negotiating SSL stream with irc.chat.twitch.tv
+[2025-12-04 12:36:51.987 DBG] Twitch EventSub (Broadcaster) :: Subscribing to 56 events
+[2025-12-04 12:36:52.461 DBG] Twitch (Broadcaster) :: Twitch Client Socket opened
+[2025-12-04 12:36:52.633 DBG] Twitch (Broadcaster) :: Listening and Authenticated
+[2025-12-04 12:36:52.635 DBG] Twitch (Broadcaster) :: Joining chanel #yarem4
+[2025-12-04 12:36:52.638 INF] TwitchService :: Connected to Broadcaster Chat Client
+[2025-12-04 12:36:59.677 INF] TwitchService :: Connected to Broadcaster EventSub, and authenticated
+[2025-12-04 12:37:52.471 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.1231ms
+[2025-12-04 12:37:52.552 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.8693ms)
+[2025-12-04 12:38:19.842 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:38:19.844 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:38:19.844 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:38:19.850 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, be438063-ce70-4aaf-8579-90018f7ed35d), initiated by yarem4 with 44 arguments
+[2025-12-04 12:38:19.877 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:38:21.509 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:38:21.512 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:38:23.459 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:38:23.563 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:38:23.563 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:38:23.563 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:38:23.563 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 1cf67c58-401d-403a-9e8f-5fed3ff31073)
+[2025-12-04 12:38:23.563 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:38:23.757 DBG] InlineCode :: Running default entry point from instance '66fd1247-20c3-4a44-983a-120fc0740fdf'
+[2025-12-04 12:38:25.032 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:38:25.032 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:38:25.032 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:38:25.032 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 942ba9cb-4937-4cc5-b8e2-16e9afec5d9a), initiated by yarem4 with 44 arguments
+[2025-12-04 12:38:25.033 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:38:26.655 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:38:26.655 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:38:26.668 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:38:26.668 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:38:26.668 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:38:26.668 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 458d6aca-d0db-4f73-bd6a-9314084b4fe5)
+[2025-12-04 12:38:26.668 DBG] InlineCode :: Running default entry point from instance '66fd1247-20c3-4a44-983a-120fc0740fdf'
+[2025-12-04 12:38:52.477 DBG] OBS :: Opening websocket connection to My OBS Connection (127.0.0.1:4455)
+[2025-12-04 12:38:52.477 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-12-04 12:38:52.480 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0147ms
+[2025-12-04 12:38:52.514 DBG] OBS :: Connected to My OBS Connection (127.0.0.1:4455)
+[2025-12-04 12:38:52.564 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.8215ms)
+[2025-12-04 12:38:58.527 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:38:58.527 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:38:58.527 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:38:58.527 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 8a399426-30b8-4c16-8471-21e09460e5f3), initiated by yarem4 with 44 arguments
+[2025-12-04 12:38:58.535 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:39:00.171 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:39:00.171 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:39:00.182 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:39:00.182 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:39:00.182 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:39:00.183 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 9fc2f8df-d5a3-42fe-8af9-633430361790)
+[2025-12-04 12:39:00.183 DBG] InlineCode :: Running default entry point from instance '66fd1247-20c3-4a44-983a-120fc0740fdf'
+[2025-12-04 12:39:03.748 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:39:03.748 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:39:03.748 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:39:03.748 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 682268df-60ee-4af0-9ae7-99b9e20422d1), initiated by yarem4 with 44 arguments
+[2025-12-04 12:39:03.750 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:39:05.376 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:39:05.376 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:39:05.387 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:39:05.387 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:39:05.387 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:39:05.387 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 06becc72-3c75-4ddf-9749-9be562aedc4b)
+[2025-12-04 12:39:05.387 DBG] InlineCode :: Running default entry point from instance '66fd1247-20c3-4a44-983a-120fc0740fdf'
+[2025-12-04 12:39:09.893 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:39:09.893 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:39:09.893 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:39:09.893 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, a8c70de0-474f-4b32-b46f-c4822b1495e3), initiated by yarem4 with 44 arguments
+[2025-12-04 12:39:09.896 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:39:11.533 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:39:11.533 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:39:11.544 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:39:11.544 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:39:11.544 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:39:11.544 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, df4c2d76-4e9f-4a3a-9bf7-082bf699a59d)
+[2025-12-04 12:39:11.544 DBG] InlineCode :: Running default entry point from instance '66fd1247-20c3-4a44-983a-120fc0740fdf'
+[2025-12-04 12:39:52.495 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0184ms
+[2025-12-04 12:39:52.577 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.3672ms)
+[2025-12-04 12:40:52.506 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0157ms
+[2025-12-04 12:40:52.594 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (88.0261ms)
+[2025-12-04 12:41:45.942 DBG] Credits :: Time to save 5.2079ms
+[2025-12-04 12:41:48.894 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 12:41:48.908 DBG] Users :: Time to save 13.1213ms
+[2025-12-04 12:41:48.953 DBG] Actions :: Time to save 42.9517ms
+[2025-12-04 12:41:48.967 DBG] Commands :: Time to save 12.7884ms
+[2025-12-04 12:41:48.975 DBG] Twitch Rewards :: Time to save 7.6793ms
+[2025-12-04 12:41:48.985 DBG] Midi :: Time to save 8.805ms
+[2025-12-04 12:41:48.998 DBG] OBS Settings :: Time to save 11.4587ms
+[2025-12-04 12:41:49.008 DBG] MeldStudio Settings :: Time to save 9.5463ms
+[2025-12-04 12:41:49.014 DBG] Credits :: Time to save 6.1581ms
+[2025-12-04 12:41:49.027 DBG] Quotes :: Time to save 10.7515ms
+[2025-12-04 12:41:49.156 DBG] Config :: Time to save 45.5645ms
+[2025-12-04 12:41:52.516 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0265ms
+[2025-12-04 12:41:52.598 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.191ms)
+[2025-12-04 12:42:52.522 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0159ms
+[2025-12-04 12:42:52.604 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.1405ms)
+[2025-12-04 12:43:50.075 DBG] ActionDispatcher :: Queueing 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 12:43:50.075 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-12-04 12:43:50.075 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:43:50.075 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, 96ecf556-c676-4227-92ed-98dd9c280dcb)
+[2025-12-04 12:43:52.535 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0172ms
+[2025-12-04 12:43:52.616 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.0336ms)
+[2025-12-04 12:44:52.558 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0187ms
+[2025-12-04 12:44:52.651 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (93.4564ms)
+[2025-12-04 12:45:02.734 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:45:02.734 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:45:02.734 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:45:02.734 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 56638d66-a0e6-4f53-92ba-0d6c0631c0d9), initiated by yarem4 with 44 arguments
+[2025-12-04 12:45:02.741 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:45:04.364 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:45:04.364 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:45:04.375 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:45:04.376 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:45:04.376 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:45:04.376 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, d4e1bded-c8b5-41dc-a6ba-cd4ef795c7f0)
+[2025-12-04 12:45:04.376 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 12:45:04.376 DBG] InlineCode :: Unloading 'v4c5311ee1b94b80a7db1b7b73698c1f'
+[2025-12-04 12:45:04.395 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:45:04.484 DBG] InlineCode :: Running default entry point from instance 'e3a2cea5-b980-4c3b-9fe2-0ca313c4d295'
+[2025-12-04 12:45:29.542 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:45:29.542 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:45:29.542 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:45:29.542 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 3515a2ca-91cd-4fea-822f-c0e1126fef72), initiated by yarem4 with 44 arguments
+[2025-12-04 12:45:29.544 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:45:31.181 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:45:31.181 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:45:31.192 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:45:31.192 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:45:31.192 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:45:31.192 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, a72d6f04-68fc-49d1-97b3-68d3bc1946b4)
+[2025-12-04 12:45:31.192 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 12:45:31.192 DBG] InlineCode :: Unloading 'h40451e8c15449f3a6d3b60cceeb4d59'
+[2025-12-04 12:45:31.212 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:45:31.273 DBG] InlineCode :: Running default entry point from instance 'd78ee38c-1225-4b1d-b479-557be6ee098c'
+[2025-12-04 12:45:52.572 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.015ms
+[2025-12-04 12:45:52.657 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (84.1276ms)
+[2025-12-04 12:46:01.979 DBG] ActionDispatcher :: Queueing 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 12:46:01.979 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-12-04 12:46:01.979 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:46:01.979 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, 084e6922-ee18-478c-a9eb-b330fc14ab10)
+[2025-12-04 12:46:09.853 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:46:09.853 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:46:09.853 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:46:09.853 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 5eb690d5-5cd7-4b72-8ac5-fd7fdb9cc5ae), initiated by yarem4 with 44 arguments
+[2025-12-04 12:46:09.856 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:46:11.485 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:46:11.485 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:46:11.499 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:46:11.499 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:46:11.499 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:46:11.499 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, e9e4da1b-4853-4b80-950a-8b0ca012225e)
+[2025-12-04 12:46:11.499 DBG] InlineCode :: Running default entry point from instance 'd78ee38c-1225-4b1d-b479-557be6ee098c'
+[2025-12-04 12:46:45.957 DBG] Credits :: Time to save 9.928ms
+[2025-12-04 12:46:49.121 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 12:46:49.131 DBG] Users :: Time to save 10.2633ms
+[2025-12-04 12:46:49.140 DBG] Actions :: Time to save 8.3076ms
+[2025-12-04 12:46:49.148 DBG] Commands :: Time to save 7.708ms
+[2025-12-04 12:46:49.154 DBG] Twitch Rewards :: Time to save 6.8079ms
+[2025-12-04 12:46:49.164 DBG] Midi :: Time to save 9.7642ms
+[2025-12-04 12:46:49.173 DBG] OBS Settings :: Time to save 8.8698ms
+[2025-12-04 12:46:49.180 DBG] MeldStudio Settings :: Time to save 6.9113ms
+[2025-12-04 12:46:49.186 DBG] Credits :: Time to save 6.137ms
+[2025-12-04 12:46:49.193 DBG] Quotes :: Time to save 6.8183ms
+[2025-12-04 12:46:49.348 DBG] Config :: Time to save 10.9588ms
+[2025-12-04 12:46:52.580 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0167ms
+[2025-12-04 12:46:52.663 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.2524ms)
+[2025-12-04 12:47:45.035 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:47:45.035 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:47:45.035 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:47:45.035 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 5520a86a-6a6f-49a1-88e0-25391909c92a), initiated by yarem4 with 44 arguments
+[2025-12-04 12:47:45.038 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:47:46.665 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:47:46.665 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:47:46.676 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:47:46.676 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:47:46.676 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:47:46.676 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 04ede271-5bbb-4d21-85d1-350db0f8b8c3)
+[2025-12-04 12:47:46.676 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 12:47:46.676 DBG] InlineCode :: Unloading 'z5333bf257554cbcaaaf5c695d356fb4'
+[2025-12-04 12:47:46.696 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:47:46.759 DBG] InlineCode :: Running default entry point from instance '516cdb9f-815f-4a9f-80e4-d05b127a4c4c'
+[2025-12-04 12:47:52.583 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0132ms
+[2025-12-04 12:47:52.665 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.4526ms)
+[2025-12-04 12:48:17.357 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:48:17.357 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:48:17.357 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:48:17.357 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 66a7c385-953a-45d1-9182-5fd364572e0c), initiated by yarem4 with 44 arguments
+[2025-12-04 12:48:17.360 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:48:18.995 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:48:18.995 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:48:19.007 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:48:19.007 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:48:19.007 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:48:19.007 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 573adaf6-e20f-4400-98a4-85228ea03a19)
+[2025-12-04 12:48:19.007 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 12:48:19.007 DBG] InlineCode :: Unloading 'g10aa31dd2814c14a3b52307e6dbfced'
+[2025-12-04 12:48:19.024 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:48:19.089 DBG] InlineCode :: Running default entry point from instance '9d1fa3a3-3604-4288-b82b-44d185bf6f7d'
+[2025-12-04 12:48:52.597 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0178ms
+[2025-12-04 12:48:52.678 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.3445ms)
+[2025-12-04 12:49:52.310 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:49:52.310 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:49:52.310 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:49:52.310 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 98cd053f-985f-403d-9b83-a7a9342c3adb), initiated by yarem4 with 44 arguments
+[2025-12-04 12:49:52.314 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:49:52.612 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0162ms
+[2025-12-04 12:49:52.693 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.1294ms)
+[2025-12-04 12:49:53.938 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:49:53.938 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:49:53.949 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:49:53.950 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:49:53.950 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:49:53.950 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, de7fe18f-1973-47c1-a167-8af3a745d2ba)
+[2025-12-04 12:49:53.950 DBG] InlineCode :: Running default entry point from instance '9d1fa3a3-3604-4288-b82b-44d185bf6f7d'
+[2025-12-04 12:50:52.615 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0187ms
+[2025-12-04 12:50:52.696 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.4937ms)
+[2025-12-04 12:51:08.667 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:51:08.667 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:51:08.667 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:51:08.667 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, e0448664-9194-4fff-a82d-69b9fb0cd06b), initiated by yarem4 with 44 arguments
+[2025-12-04 12:51:08.670 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:51:10.298 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:51:10.298 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:51:10.309 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:51:10.309 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:51:10.309 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:51:10.309 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 1bd9d8da-5453-4b54-91dd-9850c2cd67f9)
+[2025-12-04 12:51:10.309 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 12:51:10.309 DBG] InlineCode :: Unloading 'n8154445b89e49d981777a69c4219b11'
+[2025-12-04 12:51:10.329 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:51:10.395 DBG] InlineCode :: Running default entry point from instance '834fc44e-16ee-462e-9e04-0946800b5477'
+[2025-12-04 12:51:34.428 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:51:34.428 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:51:34.428 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:51:34.428 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 220c952c-7165-4963-b3e0-55503f05919d), initiated by yarem4 with 44 arguments
+[2025-12-04 12:51:34.431 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:51:36.063 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:51:36.063 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:51:36.075 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:51:36.075 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:51:36.075 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:51:36.075 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, a420d12c-41d2-4369-b0bc-7c8f293f5d6d)
+[2025-12-04 12:51:36.076 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 12:51:36.076 DBG] InlineCode :: Unloading 'lb31b2133494405cb8fb31dee3fb9995'
+[2025-12-04 12:51:36.092 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:51:36.158 DBG] InlineCode :: Running default entry point from instance 'a717d143-f788-421e-b9d2-fc4fede982cc'
+[2025-12-04 12:51:45.965 DBG] Credits :: Time to save 9.9404ms
+[2025-12-04 12:51:49.300 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 12:51:49.311 DBG] Users :: Time to save 10.9195ms
+[2025-12-04 12:51:49.322 DBG] Actions :: Time to save 11.7007ms
+[2025-12-04 12:51:49.332 DBG] Commands :: Time to save 9.649ms
+[2025-12-04 12:51:49.340 DBG] Twitch Rewards :: Time to save 7.937ms
+[2025-12-04 12:51:49.348 DBG] Midi :: Time to save 8.5437ms
+[2025-12-04 12:51:49.357 DBG] OBS Settings :: Time to save 7.5843ms
+[2025-12-04 12:51:49.364 DBG] MeldStudio Settings :: Time to save 7.6992ms
+[2025-12-04 12:51:49.372 DBG] Credits :: Time to save 7.4629ms
+[2025-12-04 12:51:49.380 DBG] Quotes :: Time to save 8.1981ms
+[2025-12-04 12:51:49.512 DBG] Config :: Time to save 11.1132ms
+[2025-12-04 12:51:52.625 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0169ms
+[2025-12-04 12:51:52.709 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.5627ms)
+[2025-12-04 12:52:52.629 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0201ms
+[2025-12-04 12:52:52.707 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.4875ms)
+[2025-12-04 12:52:58.932 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:52:58.932 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:52:58.932 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:52:58.932 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, ce8d601e-8291-42dc-a07b-486fec9b0821), initiated by yarem4 with 44 arguments
+[2025-12-04 12:52:58.935 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:53:00.571 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:53:00.571 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:53:00.582 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:53:00.582 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:53:00.582 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:53:00.582 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 870bce05-ac9e-4aed-8d97-657ea658e6f3)
+[2025-12-04 12:53:00.582 DBG] InlineCode :: Running default entry point from instance 'a717d143-f788-421e-b9d2-fc4fede982cc'
+[2025-12-04 12:53:52.644 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0213ms
+[2025-12-04 12:53:52.729 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.1434ms)
+[2025-12-04 12:54:17.202 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:54:17.202 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:54:17.202 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:54:17.202 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 8ec51c9d-e15a-4481-9f5e-a8c416d78d6a), initiated by yarem4 with 44 arguments
+[2025-12-04 12:54:17.206 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:54:18.844 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:54:18.844 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:54:18.856 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:54:18.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:54:18.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:54:18.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 77c31e6a-4836-4893-8d96-5cde1107ac1c)
+[2025-12-04 12:54:18.856 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 12:54:18.856 DBG] InlineCode :: Unloading 'd9dda5f1461a421cbd67ed5e8899876e'
+[2025-12-04 12:54:18.874 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:54:18.939 DBG] InlineCode :: Running default entry point from instance 'c22312b8-4f2e-4fef-bc99-32f0bd95a740'
+[2025-12-04 12:54:52.656 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0152ms
+[2025-12-04 12:54:52.744 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (87.8796ms)
+[2025-12-04 12:55:52.682 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0171ms
+[2025-12-04 12:55:52.777 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (95.3126ms)
+[2025-12-04 12:56:45.976 DBG] Credits :: Time to save 8.7717ms
+[2025-12-04 12:56:49.483 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 12:56:49.494 DBG] Users :: Time to save 11.2334ms
+[2025-12-04 12:56:49.505 DBG] Actions :: Time to save 11.1777ms
+[2025-12-04 12:56:49.513 DBG] Commands :: Time to save 8.0658ms
+[2025-12-04 12:56:49.522 DBG] Twitch Rewards :: Time to save 9.3017ms
+[2025-12-04 12:56:49.530 DBG] Midi :: Time to save 7.1401ms
+[2025-12-04 12:56:49.538 DBG] OBS Settings :: Time to save 8.0234ms
+[2025-12-04 12:56:49.544 DBG] MeldStudio Settings :: Time to save 6.2499ms
+[2025-12-04 12:56:49.551 DBG] Credits :: Time to save 7.1819ms
+[2025-12-04 12:56:49.558 DBG] Quotes :: Time to save 6.768ms
+[2025-12-04 12:56:49.709 DBG] Config :: Time to save 10.7176ms
+[2025-12-04 12:56:52.686 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0185ms
+[2025-12-04 12:56:52.769 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (84.112ms)
+[2025-12-04 12:57:52.713 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0255ms
+[2025-12-04 12:57:52.798 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.5149ms)
+[2025-12-04 12:58:52.722 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0163ms
+[2025-12-04 12:58:52.802 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.0513ms)
+[2025-12-04 12:59:49.643 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 12:59:49.643 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 12:59:49.643 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:59:49.643 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, e42a1831-72a1-4ecc-99ab-3375af7294ac), initiated by yarem4 with 44 arguments
+[2025-12-04 12:59:49.646 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 12:59:51.273 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 12:59:51.273 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 12:59:51.285 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 12:59:51.285 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 12:59:51.285 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 12:59:51.285 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 40d76dc5-ee8e-4c6f-893c-737171fc21a7)
+[2025-12-04 12:59:51.285 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 12:59:51.285 DBG] InlineCode :: Unloading 'oee41e4170474bf4afb03f0c57281e9b'
+[2025-12-04 12:59:51.304 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 12:59:51.376 DBG] InlineCode :: Running default entry point from instance '8f85bd2c-f48b-4e46-aecb-59ef0059a671'
+[2025-12-04 12:59:52.721 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0155ms
+[2025-12-04 12:59:52.805 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (84.2109ms)
+[2025-12-04 13:00:52.726 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0158ms
+[2025-12-04 13:00:52.806 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.4084ms)
+[2025-12-04 13:01:28.604 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:01:28.604 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:01:28.604 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:01:28.604 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 3b372f9d-74ae-4d65-a16b-e9e3370d7683), initiated by yarem4 with 44 arguments
+[2025-12-04 13:01:28.607 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:01:30.246 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:01:30.246 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:01:30.259 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:01:30.259 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:01:30.259 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:01:30.259 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 9998c1f3-90fc-47e8-b136-3db5d5a3fa06)
+[2025-12-04 13:01:30.259 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:01:30.259 DBG] InlineCode :: Unloading 'yc15cb2e29764fb084ac1a54772a93a3'
+[2025-12-04 13:01:30.279 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:01:30.345 DBG] InlineCode :: Running default entry point from instance 'f2d8ccc0-925d-488a-a6d8-09b45f6328c8'
+[2025-12-04 13:01:45.992 DBG] Credits :: Time to save 9.9904ms
+[2025-12-04 13:01:49.635 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:01:49.645 DBG] Users :: Time to save 10.1207ms
+[2025-12-04 13:01:49.655 DBG] Actions :: Time to save 10.9724ms
+[2025-12-04 13:01:49.664 DBG] Commands :: Time to save 8.1524ms
+[2025-12-04 13:01:49.673 DBG] Twitch Rewards :: Time to save 8.2347ms
+[2025-12-04 13:01:49.680 DBG] Midi :: Time to save 7.5196ms
+[2025-12-04 13:01:49.687 DBG] OBS Settings :: Time to save 7.2417ms
+[2025-12-04 13:01:49.695 DBG] MeldStudio Settings :: Time to save 8.4766ms
+[2025-12-04 13:01:49.705 DBG] Credits :: Time to save 8.8341ms
+[2025-12-04 13:01:49.712 DBG] Quotes :: Time to save 7.6139ms
+[2025-12-04 13:01:49.847 DBG] Config :: Time to save 10.8877ms
+[2025-12-04 13:01:52.740 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0138ms
+[2025-12-04 13:01:52.822 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.9425ms)
+[2025-12-04 13:02:30.195 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:02:30.195 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:02:30.195 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:02:30.195 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 03591538-2c75-4b8f-9969-272b00394b3d), initiated by yarem4 with 44 arguments
+[2025-12-04 13:02:30.198 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:02:31.830 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:02:31.830 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:02:31.842 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:02:31.842 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:02:31.842 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:02:31.842 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 7502bb5a-ed62-4654-8dac-01f63544bfc9)
+[2025-12-04 13:02:31.843 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:02:31.843 DBG] InlineCode :: Unloading 'p1c69f555ad043f7a12de6194f369be9'
+[2025-12-04 13:02:31.862 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:02:31.928 DBG] InlineCode :: Running default entry point from instance '9c822ee0-90e2-4155-988e-906138850995'
+[2025-12-04 13:02:52.743 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0151ms
+[2025-12-04 13:02:52.826 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.8035ms)
+[2025-12-04 13:03:52.756 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0156ms
+[2025-12-04 13:03:52.837 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.1499ms)
+[2025-12-04 13:04:33.964 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:04:33.964 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:04:33.964 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:04:33.964 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 68a0637b-7afa-44c5-bc9b-f0344a5a5eba), initiated by yarem4 with 44 arguments
+[2025-12-04 13:04:33.967 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:04:35.621 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:04:35.621 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:04:35.632 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:04:35.632 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:04:35.632 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:04:35.632 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, db079292-8452-4237-a567-865f809e8105)
+[2025-12-04 13:04:35.632 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:04:35.632 DBG] InlineCode :: Unloading 'uab6e1009ce74585b553f01a80de98f8'
+[2025-12-04 13:04:35.651 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:04:35.753 DBG] InlineCode :: Running default entry point from instance '0e49708d-e802-45e7-87fa-c624042e596a'
+[2025-12-04 13:04:52.756 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0154ms
+[2025-12-04 13:04:52.843 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (86.8285ms)
+[2025-12-04 13:05:16.890 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:05:16.890 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:05:16.890 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:05:16.890 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 90c7e705-926d-4681-a2e9-1917773a23f6), initiated by yarem4 with 44 arguments
+[2025-12-04 13:05:16.893 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:05:18.525 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:05:18.525 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:05:18.538 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:05:18.538 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:05:18.538 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:05:18.538 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 81c42911-dc58-4306-8971-ba2f6ea0896d)
+[2025-12-04 13:05:18.538 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:05:18.538 DBG] InlineCode :: Unloading 'r6eb38936d4a469c85f2f001df39eedf'
+[2025-12-04 13:05:18.558 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:05:18.622 DBG] InlineCode :: Running default entry point from instance '07d1624b-eb5c-4ec1-870b-4742a87dd0f7'
+[2025-12-04 13:05:52.767 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0133ms
+[2025-12-04 13:05:52.850 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.8123ms)
+[2025-12-04 13:06:46.005 DBG] Credits :: Time to save 9.0516ms
+[2025-12-04 13:06:49.789 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:06:49.800 DBG] Users :: Time to save 10.8531ms
+[2025-12-04 13:06:49.810 DBG] Actions :: Time to save 10.0082ms
+[2025-12-04 13:06:49.819 DBG] Commands :: Time to save 8.5139ms
+[2025-12-04 13:06:49.826 DBG] Twitch Rewards :: Time to save 8.1937ms
+[2025-12-04 13:06:49.834 DBG] Midi :: Time to save 7.0329ms
+[2025-12-04 13:06:49.841 DBG] OBS Settings :: Time to save 7.4344ms
+[2025-12-04 13:06:49.850 DBG] MeldStudio Settings :: Time to save 8.3959ms
+[2025-12-04 13:06:49.859 DBG] Credits :: Time to save 8.6819ms
+[2025-12-04 13:06:49.866 DBG] Quotes :: Time to save 7.6999ms
+[2025-12-04 13:06:50.001 DBG] Config :: Time to save 10.9199ms
+[2025-12-04 13:06:52.782 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0177ms
+[2025-12-04 13:06:52.864 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.6155ms)
+[2025-12-04 13:07:52.805 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0172ms
+[2025-12-04 13:07:52.887 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.587ms)
+[2025-12-04 13:08:52.821 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0184ms
+[2025-12-04 13:08:52.901 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.0544ms)
+[2025-12-04 13:09:24.089 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:09:24.089 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:09:24.089 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:09:24.089 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, a514f35b-9c15-4a16-a4c3-d360fee0c988), initiated by yarem4 with 44 arguments
+[2025-12-04 13:09:24.093 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:09:25.729 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:09:25.729 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:09:25.741 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:09:25.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:09:25.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:09:25.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 1e67f130-c392-4d1a-a990-5ea382ee630e)
+[2025-12-04 13:09:25.741 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:09:25.741 DBG] InlineCode :: Unloading 'q3a6338917774a6b889d7b660f70ea42'
+[2025-12-04 13:09:25.760 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:09:25.860 DBG] InlineCode :: Running default entry point from instance '5dd6baf5-c4f7-4c75-8b95-dfbfa255a64a'
+[2025-12-04 13:09:48.361 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:09:48.361 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:09:48.361 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:09:48.361 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 7a18b738-799d-41c0-94ff-36127e85187d), initiated by yarem4 with 44 arguments
+[2025-12-04 13:09:48.363 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:09:50.012 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:09:50.012 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:09:50.023 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:09:50.023 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:09:50.023 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:09:50.023 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, bc96fd6d-8ea0-4b44-b327-ac25a83ccf16)
+[2025-12-04 13:09:50.024 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:09:50.024 DBG] InlineCode :: Unloading 'bcdbc17d457b41e0aabfe026016cae67'
+[2025-12-04 13:09:50.043 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:09:50.104 DBG] InlineCode :: Running default entry point from instance '6db53694-a76e-4f89-8d0b-8d3cd7c1ec01'
+[2025-12-04 13:09:52.830 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0129ms
+[2025-12-04 13:09:52.912 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.7111ms)
+[2025-12-04 13:10:52.845 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0175ms
+[2025-12-04 13:10:52.929 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (84.1576ms)
+[2025-12-04 13:11:21.784 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:11:21.784 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:11:21.784 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:11:21.784 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, dc459671-af01-4dd5-96fc-830a9f456f71), initiated by yarem4 with 44 arguments
+[2025-12-04 13:11:21.787 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:11:23.412 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:11:23.412 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:11:23.425 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:11:23.425 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:11:23.425 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:11:23.425 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 20d92131-c78f-4c9d-82f2-62f1342aa0b1)
+[2025-12-04 13:11:23.425 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:11:23.425 DBG] InlineCode :: Unloading 'j3b9cfa025414d1ba9a355c3d9541bb1'
+[2025-12-04 13:11:23.449 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:11:23.546 DBG] InlineCode :: Running default entry point from instance '73cfbca9-fe74-433b-9f72-f98517e3660d'
+[2025-12-04 13:11:39.648 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:11:39.648 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:11:39.648 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:11:39.648 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 6005b377-8ffe-4adc-812e-8bd832fd9654), initiated by yarem4 with 44 arguments
+[2025-12-04 13:11:39.651 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:11:41.290 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:11:41.290 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:11:41.306 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:11:41.306 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:11:41.306 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:11:41.306 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, f194a955-1a49-4459-aca0-52ebb7bbd48a)
+[2025-12-04 13:11:41.306 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:11:41.306 DBG] InlineCode :: Unloading 'b527340b5dd44ee7a27affcc107a488c'
+[2025-12-04 13:11:41.321 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:11:41.386 DBG] InlineCode :: Running default entry point from instance 'd3d4f0b3-d554-4921-8e72-a5ebc56e3ccf'
+[2025-12-04 13:11:46.014 DBG] Credits :: Time to save 9.1268ms
+[2025-12-04 13:11:49.935 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:11:49.943 DBG] Users :: Time to save 8.0453ms
+[2025-12-04 13:11:49.953 DBG] Actions :: Time to save 10.183ms
+[2025-12-04 13:11:49.961 DBG] Commands :: Time to save 7.6238ms
+[2025-12-04 13:11:49.969 DBG] Twitch Rewards :: Time to save 8.9921ms
+[2025-12-04 13:11:49.976 DBG] Midi :: Time to save 6.5145ms
+[2025-12-04 13:11:49.984 DBG] OBS Settings :: Time to save 7.7295ms
+[2025-12-04 13:11:49.991 DBG] MeldStudio Settings :: Time to save 6.7394ms
+[2025-12-04 13:11:49.997 DBG] Credits :: Time to save 6.6795ms
+[2025-12-04 13:11:50.004 DBG] Quotes :: Time to save 6.5812ms
+[2025-12-04 13:11:50.161 DBG] Config :: Time to save 10.5903ms
+[2025-12-04 13:11:52.861 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0377ms
+[2025-12-04 13:11:52.945 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (84.4036ms)
+[2025-12-04 13:12:01.061 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:12:01.061 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:12:01.061 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:12:01.061 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, dbfc2164-da35-494f-b8c4-9658c0ee6738), initiated by yarem4 with 44 arguments
+[2025-12-04 13:12:01.066 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:12:02.703 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:12:02.703 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:12:02.715 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:12:02.715 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:12:02.715 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:12:02.715 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 062f1f6c-2575-474c-b971-98d8a02acb9d)
+[2025-12-04 13:12:02.715 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:12:02.715 DBG] InlineCode :: Unloading 'jfcf4a31a67842bb974e1e53a9df80ed'
+[2025-12-04 13:12:02.735 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:12:02.830 DBG] InlineCode :: Running default entry point from instance '5f1b8050-dccb-4108-a0d3-b52388efc4b5'
+[2025-12-04 13:12:52.873 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0167ms
+[2025-12-04 13:12:52.954 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.4825ms)
+[2025-12-04 13:13:52.883 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0137ms
+[2025-12-04 13:13:52.964 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.4791ms)
+[2025-12-04 13:14:52.900 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0155ms
+[2025-12-04 13:14:52.985 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (84.8811ms)
+[2025-12-04 13:15:50.913 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:15:50.913 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:15:50.913 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:15:50.913 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 793f4661-311c-4b81-a330-be70a4f551ae), initiated by yarem4 with 44 arguments
+[2025-12-04 13:15:50.916 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:15:52.555 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:15:52.555 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:15:52.566 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:15:52.566 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:15:52.566 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:15:52.566 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 9634a4d6-0cc1-4447-81d2-d44e8039bfcc)
+[2025-12-04 13:15:52.566 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:15:52.566 DBG] InlineCode :: Unloading 'u2086fc174324dbcbd46303edba3ff1e'
+[2025-12-04 13:15:52.587 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:15:52.652 DBG] InlineCode :: Running default entry point from instance '4189acda-d1ba-4b82-a295-dfea86975f55'
+[2025-12-04 13:15:52.906 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0141ms
+[2025-12-04 13:15:52.989 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.4651ms)
+[2025-12-04 13:16:46.025 DBG] Credits :: Time to save 9.2293ms
+[2025-12-04 13:16:50.130 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:16:50.141 DBG] Users :: Time to save 10.4975ms
+[2025-12-04 13:16:50.152 DBG] Actions :: Time to save 11.4709ms
+[2025-12-04 13:16:50.161 DBG] Commands :: Time to save 8.6142ms
+[2025-12-04 13:16:50.170 DBG] Twitch Rewards :: Time to save 8.9552ms
+[2025-12-04 13:16:50.180 DBG] Midi :: Time to save 9.5814ms
+[2025-12-04 13:16:50.189 DBG] OBS Settings :: Time to save 9.1865ms
+[2025-12-04 13:16:50.197 DBG] MeldStudio Settings :: Time to save 7.8066ms
+[2025-12-04 13:16:50.206 DBG] Credits :: Time to save 8.8656ms
+[2025-12-04 13:16:50.215 DBG] Quotes :: Time to save 8.6259ms
+[2025-12-04 13:16:50.343 DBG] Config :: Time to save 11.692ms
+[2025-12-04 13:16:52.920 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0155ms
+[2025-12-04 13:16:53.002 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.29ms)
+[2025-12-04 13:17:52.929 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.017ms
+[2025-12-04 13:17:53.008 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.4047ms)
+[2025-12-04 13:18:15.113 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:15.113 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:15.113 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:15.113 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 387b7703-d632-4d98-bf27-47d6ace4caf9), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:15.117 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:16.755 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:16.755 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:16.768 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:16.768 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:16.768 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:16.768 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 07d4d56f-d458-4330-a04c-2c2d6932c8d7)
+[2025-12-04 13:18:16.768 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:18:16.768 DBG] InlineCode :: Unloading 's66ab6b6fec24f85ac55aae469036f78'
+[2025-12-04 13:18:16.786 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:18:16.881 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:32.109 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:32.109 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:32.109 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:32.109 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, e4958ad3-0369-4f76-9b38-ae3949e0b7c2), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:32.112 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:33.750 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:33.750 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:33.761 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:33.761 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:33.761 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:33.761 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, e6cdba4e-00a4-4292-b3b4-a08d2a9a57ff)
+[2025-12-04 13:18:33.761 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:36.865 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:36.865 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:36.865 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:36.865 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 29a59f5f-7bfe-415a-b00f-36a126c9e0c0), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:36.867 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:37.972 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:37.973 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:37.973 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:37.973 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 2b8978b7-1afb-441b-88b4-542fb6296ae6), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:37.977 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:38.495 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:38.495 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:38.507 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:38.507 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:38.507 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:38.507 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 58b110dc-fd62-41f3-ba31-41ab23c574d8)
+[2025-12-04 13:18:38.507 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:39.605 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:39.605 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:39.617 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:39.617 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:39.617 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:39.617 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, af7f3544-16b4-4253-80c9-3c13dc3097cd)
+[2025-12-04 13:18:39.617 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:40.042 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:40.042 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:40.042 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:40.042 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, a930e6bb-edcb-4446-a1c0-a0990fc5246e), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:40.044 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:41.097 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:41.097 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:41.097 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:41.097 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 816db731-8240-4cb4-8267-e4fc3b9ee1f1), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:41.099 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:41.667 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:41.670 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:41.682 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:41.682 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:41.682 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:41.682 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, c64f3e09-59f9-4ad9-974b-673cb204ddd1)
+[2025-12-04 13:18:41.682 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:42.728 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:42.728 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:42.741 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:42.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:42.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:42.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, daa49ec7-bf4f-4be2-8de3-2fd927d98347)
+[2025-12-04 13:18:42.741 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:42.942 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:42.942 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:42.942 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:42.942 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 4faebae1-6748-4f52-b415-e72877a25a13), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:42.945 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:44.444 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:44.444 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:44.444 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:44.444 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 3692f566-a7ee-4b1b-88aa-1d6ce30dd96e), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:44.445 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:44.579 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:44.579 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:44.590 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:44.590 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:44.590 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:44.590 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 4ed4e3af-7504-429b-9d8c-880f553daddc)
+[2025-12-04 13:18:44.590 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:46.087 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:46.087 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:46.099 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:46.099 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:46.099 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:46.099 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 46d2cc75-70e2-44f2-b932-52d5254ac486)
+[2025-12-04 13:18:46.099 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:46.330 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:46.330 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:46.330 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:46.330 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 39d4ace5-61e4-4c94-9244-0aa161a35f6f), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:46.332 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:47.967 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:47.967 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:47.978 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:47.978 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:47.978 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:47.978 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 38094d3d-145f-4bce-8b97-ed1aabcac103)
+[2025-12-04 13:18:47.978 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:47.985 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:47.985 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:47.985 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:47.985 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, f6c6f2bf-47d2-45bb-a138-37b477afc184), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:47.988 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:49.615 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:49.616 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:49.628 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:49.628 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:49.628 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:49.628 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, efcfd184-bbc5-4d7b-8df2-099f1ec3dbe9)
+[2025-12-04 13:18:49.629 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:50.713 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:50.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:50.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:50.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, ca7f386e-7e67-44ca-b9de-a59badd037f0), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:50.715 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:52.329 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:52.329 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:52.341 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:52.341 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:52.341 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:52.341 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, d8901900-3202-49df-b7d5-f9b795800bc0)
+[2025-12-04 13:18:52.342 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:18:52.929 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0201ms
+[2025-12-04 13:18:53.013 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.6837ms)
+[2025-12-04 13:18:57.634 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:18:57.634 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:18:57.634 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:57.634 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 22181bfc-84e1-4f9a-a576-709e650af7e0), initiated by yarem4 with 44 arguments
+[2025-12-04 13:18:57.636 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:18:59.268 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:18:59.268 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:18:59.279 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:18:59.279 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:18:59.279 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:18:59.279 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, b7f5b6cf-1ca2-4c74-a38e-3a8b05460c4e)
+[2025-12-04 13:18:59.279 DBG] InlineCode :: Running default entry point from instance '3a7c8b4c-9ae4-4efb-bb4e-43474a293ee0'
+[2025-12-04 13:19:52.945 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0149ms
+[2025-12-04 13:19:53.029 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (84.524ms)
+[2025-12-04 13:20:52.958 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0175ms
+[2025-12-04 13:20:53.046 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (88.598ms)
+[2025-12-04 13:20:59.716 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:20:59.716 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:20:59.716 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:20:59.716 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, f490ba64-5833-4aba-bdcf-3f4e7d7ea88c), initiated by yarem4 with 44 arguments
+[2025-12-04 13:20:59.719 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:21:01.345 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:21:01.345 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:21:01.360 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:21:01.360 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:21:01.360 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:21:01.360 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, c4d992ee-aab2-46a4-96a4-74023ffcac46)
+[2025-12-04 13:21:01.360 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:21:01.360 DBG] InlineCode :: Unloading 'j75699c96e3c449b82b6bbe71f38d95b'
+[2025-12-04 13:21:01.376 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:21:01.476 DBG] InlineCode :: Running default entry point from instance 'a2ccce86-04c5-403a-ab1f-d93ddde3bdb0'
+[2025-12-04 13:21:46.027 DBG] Credits :: Time to save 9.6499ms
+[2025-12-04 13:21:50.304 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:21:50.315 DBG] Users :: Time to save 11.1829ms
+[2025-12-04 13:21:50.326 DBG] Actions :: Time to save 10.1969ms
+[2025-12-04 13:21:50.334 DBG] Commands :: Time to save 7.9001ms
+[2025-12-04 13:21:50.344 DBG] Twitch Rewards :: Time to save 9.6603ms
+[2025-12-04 13:21:50.355 DBG] Midi :: Time to save 12.0071ms
+[2025-12-04 13:21:50.363 DBG] OBS Settings :: Time to save 7.4814ms
+[2025-12-04 13:21:50.371 DBG] MeldStudio Settings :: Time to save 7.9298ms
+[2025-12-04 13:21:50.380 DBG] Credits :: Time to save 8.6449ms
+[2025-12-04 13:21:50.388 DBG] Quotes :: Time to save 7.6534ms
+[2025-12-04 13:21:50.531 DBG] Config :: Time to save 11.6859ms
+[2025-12-04 13:21:52.968 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0176ms
+[2025-12-04 13:21:53.049 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.0673ms)
+[2025-12-04 13:22:52.982 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0178ms
+[2025-12-04 13:22:53.075 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (92.793ms)
+[2025-12-04 13:23:33.940 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:23:33.940 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:23:33.940 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:23:33.940 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 1469584b-d4ef-4494-94d0-330605c5b556), initiated by yarem4 with 44 arguments
+[2025-12-04 13:23:33.945 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:23:35.581 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:23:35.581 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:23:35.593 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:23:35.593 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:23:35.593 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:23:35.593 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 7c067c91-7933-4135-845b-75fce6736e9c)
+[2025-12-04 13:23:35.593 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:23:35.593 DBG] InlineCode :: Unloading 'z4ef23bf08b04aa18a2f02c914eb6801'
+[2025-12-04 13:23:35.611 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:23:35.676 DBG] InlineCode :: Running default entry point from instance 'b47ad17f-9338-4a07-ace8-3572d80414a0'
+[2025-12-04 13:23:52.985 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0218ms
+[2025-12-04 13:23:53.068 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.5842ms)
+[2025-12-04 13:24:31.268 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:24:31.268 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:24:31.268 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:24:31.268 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 53e77379-3893-48cc-8fdb-1c1173d081d8), initiated by yarem4 with 44 arguments
+[2025-12-04 13:24:31.271 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:24:32.903 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:24:32.903 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:24:32.915 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:24:32.915 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:24:32.915 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:24:32.915 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, cd98ac99-ca72-4708-a36b-6acf833acf17)
+[2025-12-04 13:24:32.915 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:24:32.915 DBG] InlineCode :: Unloading 'ubc16ecb947c48b6a54602adf0987eaf'
+[2025-12-04 13:24:32.934 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:24:33.025 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:24:45.032 DBG] ActionDispatcher :: Queueing 'Clear Redeem Count' (490e5f12-8931-4999-aa46-848d562f0173, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:24:45.032 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 490e5f12-8931-4999-aa46-848d562f0173
+[2025-12-04 13:24:45.032 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:24:45.032 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Clear Redeem Count' (490e5f12-8931-4999-aa46-848d562f0173, 0013c03a-9937-4b54-90f6-b2aa1c5a103f)
+[2025-12-04 13:24:45.032 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:24:45.090 DBG] InlineCode :: Running default entry point from instance '3f0014ea-62cd-4c34-b67f-879794faa9a4'
+[2025-12-04 13:24:45.131 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:24:45.131 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:24:45.131 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:24:45.131 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 649d5d08-4f4d-4898-9e1a-03c0ff516de0)
+[2025-12-04 13:24:45.131 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:24:52.994 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0118ms
+[2025-12-04 13:24:53.076 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.6491ms)
+[2025-12-04 13:25:02.278 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:02.278 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:02.278 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:02.278 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 0bc9bcaf-fa9c-4a54-87c1-c3f65adfa6c7)
+[2025-12-04 13:25:02.278 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:02.290 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:02.290 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:02.290 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:02.290 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 5cb592d2-30d7-4091-9296-50468f882790)
+[2025-12-04 13:25:02.290 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:03.796 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:03.796 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:03.796 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:03.796 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 79179a53-0883-4052-94b3-c5ea12af5f74)
+[2025-12-04 13:25:03.796 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:03.808 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:03.808 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:03.808 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:03.808 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, c3b51075-c157-4c4e-abe5-1f2c29e14fc4)
+[2025-12-04 13:25:03.808 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:04.619 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:04.619 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:04.619 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:04.619 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 30e677da-9a9d-45f2-b8da-fa0d67052a6a)
+[2025-12-04 13:25:04.619 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:04.630 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:04.630 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:04.630 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:04.630 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 0b778e64-bcc9-40fb-9240-2d7c48ab49e3)
+[2025-12-04 13:25:04.630 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:05.217 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:05.217 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:05.217 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:05.217 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, dca93439-32d5-4a34-b08f-c3d9b8144679)
+[2025-12-04 13:25:05.217 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:05.228 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:05.228 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:05.228 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:05.228 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 511e87bc-ff94-441d-9dfd-802d2970d0c5)
+[2025-12-04 13:25:05.228 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:05.825 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:05.825 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:05.825 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:05.825 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 180ee2d8-6814-44b6-b925-7872f93d9c89)
+[2025-12-04 13:25:05.825 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:05.838 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:05.838 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:05.838 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:05.838 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 163085ee-d34c-4c06-b616-9520a0d899af)
+[2025-12-04 13:25:05.838 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:06.415 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:06.415 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:06.415 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:06.415 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 5671ea80-e4c4-426c-a90e-6d6d341baa9c)
+[2025-12-04 13:25:06.415 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:06.427 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:06.427 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:06.427 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:06.427 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 8063d139-e72f-4b6e-b993-4a0454b89a3c)
+[2025-12-04 13:25:06.427 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:07.024 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:07.024 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:07.024 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:07.024 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, dd60baf5-f5cd-41f3-9d78-a019f4b5476a)
+[2025-12-04 13:25:07.024 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:07.037 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:07.037 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:07.037 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:07.037 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 972e5911-95c0-426d-a069-6adaf2401ed8)
+[2025-12-04 13:25:07.037 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:07.792 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:07.792 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:07.792 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:07.792 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 39ad22b6-1db7-457d-a4ba-f53b18d224d9)
+[2025-12-04 13:25:07.792 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:07.804 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:07.804 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:07.804 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:07.804 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 956b9698-f679-457e-b091-d606344f13d9)
+[2025-12-04 13:25:07.804 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:08.652 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:08.652 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:08.652 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:08.652 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 90f1d964-adcf-44a1-83bb-d8c7364b15f5)
+[2025-12-04 13:25:08.652 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:08.663 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:08.663 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:08.663 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:08.663 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 79bc6163-4102-4d18-9d49-00d92cc6cfab)
+[2025-12-04 13:25:08.663 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:09.280 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:09.280 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:09.280 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:09.280 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, a7ea679b-f02c-4658-88fe-80271f0046b1)
+[2025-12-04 13:25:09.280 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:09.291 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:09.291 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:09.291 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:09.291 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 452fccbd-700e-4bea-bdb7-38e96c805e6d)
+[2025-12-04 13:25:09.291 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:09.877 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:09.877 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:09.877 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:09.877 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 5762a4ed-6ca3-41f2-ae54-18d69346dc52)
+[2025-12-04 13:25:09.877 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:09.889 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:09.889 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:09.889 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:09.889 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, da5395b8-9de2-4acf-a686-0c9de8bc0943)
+[2025-12-04 13:25:09.889 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:10.433 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:10.433 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:10.433 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:10.433 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 426736f4-5a3e-43d2-9afb-e623c8cd0135)
+[2025-12-04 13:25:10.433 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:10.445 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:10.445 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:10.445 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:10.445 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, dea4f66d-e2f0-4eb2-af5e-53592e53d2cb)
+[2025-12-04 13:25:10.445 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:11.029 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:11.029 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:11.029 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:11.029 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, ac98b941-0d88-4d93-8d3a-442863d62f12)
+[2025-12-04 13:25:11.029 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:11.041 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:11.041 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:11.041 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:11.041 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 0a75c14f-47be-4a82-a1e4-d3e80b376a4c)
+[2025-12-04 13:25:11.041 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:11.630 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:11.630 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:11.630 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:11.630 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 6e306468-e920-4bcd-ae0a-96fa996b462b)
+[2025-12-04 13:25:11.630 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:11.642 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:11.642 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:11.642 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:11.642 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, db6ef4b4-a427-4727-9227-2f4b6161c311)
+[2025-12-04 13:25:11.642 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:12.143 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:12.143 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:12.143 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:12.143 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 54cbbd0a-0633-4ed5-8350-8a6e9e6608a8)
+[2025-12-04 13:25:12.143 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:12.155 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:12.155 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:12.155 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:12.155 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 43f77921-3bbd-4040-9afc-b12a13bec48f)
+[2025-12-04 13:25:12.155 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:12.657 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:12.657 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:12.657 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:12.657 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, e1a9e5f3-7c13-4a92-b58e-14ae5b1182cf)
+[2025-12-04 13:25:12.657 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:12.670 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:12.670 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:12.670 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:12.670 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 56f2b4d3-6568-4fef-8f5f-1219e39275c1)
+[2025-12-04 13:25:12.670 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:13.232 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:13.232 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:13.232 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:13.232 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 9647ac2e-a533-4358-9d3c-b541f82483c8)
+[2025-12-04 13:25:13.232 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:13.243 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:13.243 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:13.243 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:13.243 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 050f41e4-e9f2-4d69-b129-ea2721d0fe0a)
+[2025-12-04 13:25:13.243 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:13.774 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:13.774 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:13.774 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:13.774 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 9a524215-ef11-4e82-8d8d-c4689df746e4)
+[2025-12-04 13:25:13.774 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:13.788 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:13.788 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:13.788 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:13.788 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 81baa1c5-52d5-4832-8f8c-c5fb8990b7a3)
+[2025-12-04 13:25:13.788 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:16.865 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:16.865 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:16.865 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:16.865 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 50bd70fe-df05-44c7-bb45-a39cfbd4bbd8)
+[2025-12-04 13:25:16.865 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:16.876 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:16.876 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:16.876 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:16.876 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, a2562cf1-1780-408f-a0a9-b07855ca2e48)
+[2025-12-04 13:25:16.876 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:18.471 DBG] ActionDispatcher :: Queueing 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:25:18.471 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action e01380e4-c584-42ab-9936-2b6a213299c6
+[2025-12-04 13:25:18.471 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:18.471 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Increment Redeem Count' (e01380e4-c584-42ab-9936-2b6a213299c6, 7962c3a5-562e-404f-80a4-9ded9114a72b)
+[2025-12-04 13:25:18.471 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:25:18.483 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:25:18.483 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:25:18.483 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:25:18.483 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 195d42a2-cf65-4b1b-be9a-43333e395237)
+[2025-12-04 13:25:18.483 DBG] InlineCode :: Running default entry point from instance '3857f64b-d537-44e1-afb4-bafc3e9e4bc6'
+[2025-12-04 13:25:53.000 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0146ms
+[2025-12-04 13:25:53.082 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.9406ms)
+[2025-12-04 13:26:46.052 DBG] Credits :: Time to save 9.1914ms
+[2025-12-04 13:26:50.521 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:26:50.532 DBG] Users :: Time to save 10.7736ms
+[2025-12-04 13:26:50.542 DBG] Actions :: Time to save 9.7421ms
+[2025-12-04 13:26:50.551 DBG] Commands :: Time to save 8.642ms
+[2025-12-04 13:26:50.559 DBG] Twitch Rewards :: Time to save 8.0948ms
+[2025-12-04 13:26:50.568 DBG] Midi :: Time to save 8.7221ms
+[2025-12-04 13:26:50.576 DBG] OBS Settings :: Time to save 7.9177ms
+[2025-12-04 13:26:50.583 DBG] MeldStudio Settings :: Time to save 7.9339ms
+[2025-12-04 13:26:50.590 DBG] Credits :: Time to save 6.6704ms
+[2025-12-04 13:26:50.598 DBG] Quotes :: Time to save 8.2274ms
+[2025-12-04 13:26:50.748 DBG] Config :: Time to save 11.7565ms
+[2025-12-04 13:26:53.016 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0143ms
+[2025-12-04 13:26:53.101 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.335ms)
+[2025-12-04 13:27:53.026 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0235ms
+[2025-12-04 13:27:53.111 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (84.9958ms)
+[2025-12-04 13:28:53.028 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0171ms
+[2025-12-04 13:28:53.107 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.4732ms)
+[2025-12-04 13:29:53.042 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0145ms
+[2025-12-04 13:29:53.136 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (93.6911ms)
+[2025-12-04 13:30:53.051 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0166ms
+[2025-12-04 13:30:53.132 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.4921ms)
+[2025-12-04 13:31:46.052 DBG] Credits :: Time to save 9.5259ms
+[2025-12-04 13:31:50.667 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:31:50.677 DBG] Users :: Time to save 9.8206ms
+[2025-12-04 13:31:50.688 DBG] Actions :: Time to save 10.8855ms
+[2025-12-04 13:31:50.696 DBG] Commands :: Time to save 8.0104ms
+[2025-12-04 13:31:50.706 DBG] Twitch Rewards :: Time to save 9.7206ms
+[2025-12-04 13:31:50.713 DBG] Midi :: Time to save 6.8007ms
+[2025-12-04 13:31:50.721 DBG] OBS Settings :: Time to save 8.0197ms
+[2025-12-04 13:31:50.728 DBG] MeldStudio Settings :: Time to save 7.0592ms
+[2025-12-04 13:31:50.737 DBG] Credits :: Time to save 8.6171ms
+[2025-12-04 13:31:50.744 DBG] Quotes :: Time to save 7.3629ms
+[2025-12-04 13:31:50.881 DBG] Config :: Time to save 11.2223ms
+[2025-12-04 13:31:53.060 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0167ms
+[2025-12-04 13:31:53.140 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.0659ms)
+[2025-12-04 13:32:53.062 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0191ms
+[2025-12-04 13:32:53.148 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (86.5882ms)
+[2025-12-04 13:33:53.064 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0129ms
+[2025-12-04 13:33:53.143 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.8461ms)
+[2025-12-04 13:34:53.073 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0153ms
+[2025-12-04 13:34:53.156 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.0385ms)
+[2025-12-04 13:35:53.076 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0183ms
+[2025-12-04 13:35:53.159 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.6535ms)
+[2025-12-04 13:36:46.063 DBG] Credits :: Time to save 8.9746ms
+[2025-12-04 13:36:50.823 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:36:50.832 DBG] Users :: Time to save 9.9262ms
+[2025-12-04 13:36:50.842 DBG] Actions :: Time to save 9.5704ms
+[2025-12-04 13:36:50.850 DBG] Commands :: Time to save 8.2061ms
+[2025-12-04 13:36:50.859 DBG] Twitch Rewards :: Time to save 8.8765ms
+[2025-12-04 13:36:50.867 DBG] Midi :: Time to save 6.8418ms
+[2025-12-04 13:36:50.874 DBG] OBS Settings :: Time to save 7.2011ms
+[2025-12-04 13:36:50.881 DBG] MeldStudio Settings :: Time to save 6.7075ms
+[2025-12-04 13:36:50.888 DBG] Credits :: Time to save 6.9845ms
+[2025-12-04 13:36:50.896 DBG] Quotes :: Time to save 8.0352ms
+[2025-12-04 13:36:51.034 DBG] Config :: Time to save 10.7338ms
+[2025-12-04 13:36:53.088 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0147ms
+[2025-12-04 13:36:54.035 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (947.1047ms)
+[2025-12-04 13:37:53.098 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0287ms
+[2025-12-04 13:37:53.176 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.083ms)
+[2025-12-04 13:38:53.111 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0144ms
+[2025-12-04 13:38:53.197 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (86.9187ms)
+[2025-12-04 13:39:53.117 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0139ms
+[2025-12-04 13:39:53.198 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.6163ms)
+[2025-12-04 13:40:23.594 DBG] Twitch EventSub (Broadcaster) :: Disconnected
+[2025-12-04 13:40:23.595 INF] TwitchService :: Disconnected from Broadcaster EventSub
+[2025-12-04 13:40:25.607 DBG] TwitchService :: Retrying broadcaster EventSub connection
+[2025-12-04 13:40:25.607 INF] TwitchService :: Connecting to Broadcaster EventSub
+[2025-12-04 13:40:25.607 DBG] Twitch EventSub (Broadcaster) :: Opening connection
+[2025-12-04 13:40:25.840 DBG] Twitch EventSub (Broadcaster) :: Subscribing to 56 events
+[2025-12-04 13:40:33.565 INF] TwitchService :: Connected to Broadcaster EventSub, and authenticated
+[2025-12-04 13:40:53.126 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0214ms
+[2025-12-04 13:40:53.208 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.3119ms)
+[2025-12-04 13:41:46.074 DBG] Credits :: Time to save 9.4973ms
+[2025-12-04 13:41:51.024 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:41:51.034 DBG] Users :: Time to save 9.9376ms
+[2025-12-04 13:41:51.043 DBG] Actions :: Time to save 8.7109ms
+[2025-12-04 13:41:51.051 DBG] Commands :: Time to save 8.0989ms
+[2025-12-04 13:41:51.058 DBG] Twitch Rewards :: Time to save 7.1096ms
+[2025-12-04 13:41:51.065 DBG] Midi :: Time to save 6.2238ms
+[2025-12-04 13:41:51.070 DBG] OBS Settings :: Time to save 5.7911ms
+[2025-12-04 13:41:51.079 DBG] MeldStudio Settings :: Time to save 8.7208ms
+[2025-12-04 13:41:51.085 DBG] Credits :: Time to save 6.4603ms
+[2025-12-04 13:41:51.092 DBG] Quotes :: Time to save 6.6726ms
+[2025-12-04 13:41:51.250 DBG] Config :: Time to save 11.2298ms
+[2025-12-04 13:41:53.150 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0186ms
+[2025-12-04 13:41:53.231 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.485ms)
+[2025-12-04 13:42:05.640 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:42:05.641 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:42:05.641 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:42:05.641 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, a39742fd-3372-44a9-a951-1858cb8f0c6e), initiated by yarem4 with 44 arguments
+[2025-12-04 13:42:05.644 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:42:07.283 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:42:07.283 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:42:07.300 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:42:07.300 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:42:07.300 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:42:07.300 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 9e727d10-58b4-4d61-8b1e-e962ad8d4b9b)
+[2025-12-04 13:42:07.300 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:42:07.300 DBG] InlineCode :: Unloading 'p50fa5bf89bc4e97839628a8b0ce9bc9'
+[2025-12-04 13:42:07.328 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:42:07.514 DBG] InlineCode :: Running default entry point from instance '2d930b0d-f00b-431e-aed6-ff30bdf1de9f'
+[2025-12-04 13:42:53.164 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0163ms
+[2025-12-04 13:42:53.248 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.4364ms)
+[2025-12-04 13:43:53.171 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0126ms
+[2025-12-04 13:43:53.254 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.0681ms)
+[2025-12-04 13:44:11.751 DBG] ActionDispatcher :: Queueing 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:44:11.751 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-12-04 13:44:11.751 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:44:11.751 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, 1c226f31-d9c3-4705-bddd-ac7fd165bdcf)
+[2025-12-04 13:44:53.185 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0191ms
+[2025-12-04 13:44:53.271 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.8953ms)
+[2025-12-04 13:45:53.192 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0162ms
+[2025-12-04 13:45:53.273 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.7818ms)
+[2025-12-04 13:46:46.080 DBG] Credits :: Time to save 10.4307ms
+[2025-12-04 13:46:51.176 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:46:51.186 DBG] Users :: Time to save 10.1967ms
+[2025-12-04 13:46:51.195 DBG] Actions :: Time to save 8.5403ms
+[2025-12-04 13:46:51.204 DBG] Commands :: Time to save 8.8301ms
+[2025-12-04 13:46:51.211 DBG] Twitch Rewards :: Time to save 7.0033ms
+[2025-12-04 13:46:51.218 DBG] Midi :: Time to save 7.3012ms
+[2025-12-04 13:46:51.224 DBG] OBS Settings :: Time to save 5.6806ms
+[2025-12-04 13:46:51.230 DBG] MeldStudio Settings :: Time to save 5.6831ms
+[2025-12-04 13:46:51.236 DBG] Credits :: Time to save 6.399ms
+[2025-12-04 13:46:51.243 DBG] Quotes :: Time to save 6.615ms
+[2025-12-04 13:46:51.403 DBG] Config :: Time to save 11.2143ms
+[2025-12-04 13:46:53.207 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0152ms
+[2025-12-04 13:46:53.287 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.7425ms)
+[2025-12-04 13:47:53.223 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0158ms
+[2025-12-04 13:47:53.301 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.44ms)
+[2025-12-04 13:48:39.318 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-12-04 13:48:39.318 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-12-04 13:48:39.318 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:48:39.318 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 646e0d2c-e31e-484f-9b18-962bc61b94d3), initiated by yarem4 with 44 arguments
+[2025-12-04 13:48:39.323 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-12-04 13:48:40.957 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-12-04 13:48:40.957 DBG] InlineCode :: Running default entry point from instance '01b86583-46e6-4477-8678-a6e4b42ed3d8'
+[2025-12-04 13:48:40.969 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-12-04 13:48:40.969 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:48:40.969 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:48:40.969 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, c6fb53d3-3e9b-44d7-b7b0-64c930aa680d)
+[2025-12-04 13:48:40.969 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:48:40.969 DBG] InlineCode :: Unloading 'ia539bd69aa64e6f91386304a795a28a'
+[2025-12-04 13:48:40.988 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:48:41.080 ERR] InlineCode :: There was an error creating the instance for ''
+[2025-12-04 13:48:41.080 DBG] (64,36): error CS1061: 'IInlineInvokeProxy' does not contain a definition for 'GetGLobalVar' and no accessible extension method 'GetGLobalVar' accepting a first argument of type 'IInlineInvokeProxy' could be found (are you missing a using directive or an assembly reference?)
+[2025-12-04 13:48:41.080 ERR] InlineCode :: Id is empty, this should not be the case
+[2025-12-04 13:48:53.225 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0752ms
+[2025-12-04 13:48:53.267 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:48:53.267 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:48:53.267 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:48:53.267 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, d5f5321c-ccc2-4a78-b5c6-1e6560ec5e1d)
+[2025-12-04 13:48:53.267 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:48:53.304 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.1193ms)
+[2025-12-04 13:48:53.315 ERR] InlineCode :: There was an error creating the instance for ''
+[2025-12-04 13:48:53.315 DBG] (64,36): error CS1061: 'IInlineInvokeProxy' does not contain a definition for 'GetGLobalVar' and no accessible extension method 'GetGLobalVar' accepting a first argument of type 'IInlineInvokeProxy' could be found (are you missing a using directive or an assembly reference?)
+[2025-12-04 13:48:53.315 ERR] InlineCode :: Id is empty, this should not be the case
+[2025-12-04 13:49:31.937 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:49:31.937 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:49:31.937 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:49:31.937 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 557f94f6-97c3-44a6-b180-3a6f7173b9af)
+[2025-12-04 13:49:31.937 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:49:32.034 DBG] InlineCode :: Running default entry point from instance 'f3ee211e-9a7c-438f-b2f1-a1fb7f95ef29'
+[2025-12-04 13:49:53.238 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0184ms
+[2025-12-04 13:49:53.321 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.507ms)
+[2025-12-04 13:50:06.283 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:50:06.283 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:50:06.283 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:50:06.283 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, ac0e89ac-90da-442c-8290-63c7fbf72a32)
+[2025-12-04 13:50:06.283 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 13:50:06.283 DBG] InlineCode :: Unloading 't22ea6744f164b33b80b6dff2e8176c7'
+[2025-12-04 13:50:06.298 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 13:50:06.362 DBG] InlineCode :: Running default entry point from instance 'faee8075-9ef6-4fa0-bd64-55bf56e616bf'
+[2025-12-04 13:50:24.597 DBG] ActionDispatcher :: Queueing 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:50:24.597 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-12-04 13:50:24.597 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:50:24.597 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, 744ed7eb-f2e8-4fd6-9dd0-1565bbe11350)
+[2025-12-04 13:50:30.557 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:50:30.557 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 13:50:30.557 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:50:30.557 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, c032cc1b-497a-40db-a8f8-0c4d494369fb)
+[2025-12-04 13:50:30.557 DBG] InlineCode :: Running default entry point from instance 'faee8075-9ef6-4fa0-bd64-55bf56e616bf'
+[2025-12-04 13:50:53.248 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0149ms
+[2025-12-04 13:50:53.329 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.9106ms)
+[2025-12-04 13:51:46.090 DBG] Credits :: Time to save 9.582ms
+[2025-12-04 13:51:51.371 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:51:51.381 DBG] Users :: Time to save 9.6404ms
+[2025-12-04 13:51:51.391 DBG] Actions :: Time to save 9.495ms
+[2025-12-04 13:51:51.397 DBG] Commands :: Time to save 6.9382ms
+[2025-12-04 13:51:51.405 DBG] Twitch Rewards :: Time to save 8.1005ms
+[2025-12-04 13:51:51.413 DBG] Midi :: Time to save 6.8552ms
+[2025-12-04 13:51:51.419 DBG] OBS Settings :: Time to save 6.7293ms
+[2025-12-04 13:51:51.425 DBG] MeldStudio Settings :: Time to save 5.9539ms
+[2025-12-04 13:51:51.431 DBG] Credits :: Time to save 5.5201ms
+[2025-12-04 13:51:51.438 DBG] Quotes :: Time to save 7.1628ms
+[2025-12-04 13:51:51.596 DBG] Config :: Time to save 10.6702ms
+[2025-12-04 13:51:53.263 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0153ms
+[2025-12-04 13:51:53.341 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.2372ms)
+[2025-12-04 13:52:53.277 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0149ms
+[2025-12-04 13:52:53.366 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (89.1596ms)
+[2025-12-04 13:53:53.280 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0172ms
+[2025-12-04 13:53:53.360 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.3043ms)
+[2025-12-04 13:54:53.282 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0222ms
+[2025-12-04 13:54:53.364 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.125ms)
+[2025-12-04 13:55:53.296 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0217ms
+[2025-12-04 13:55:53.375 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (79.9009ms)
+[2025-12-04 13:56:46.099 DBG] Credits :: Time to save 8.887ms
+[2025-12-04 13:56:51.540 DBG] AutoSave :: Auto saving settings...
+[2025-12-04 13:56:51.550 DBG] Users :: Time to save 9.5569ms
+[2025-12-04 13:56:51.558 DBG] Actions :: Time to save 8.578ms
+[2025-12-04 13:56:51.565 DBG] Commands :: Time to save 6.7792ms
+[2025-12-04 13:56:51.571 DBG] Twitch Rewards :: Time to save 6.5693ms
+[2025-12-04 13:56:51.580 DBG] Midi :: Time to save 8.3506ms
+[2025-12-04 13:56:51.587 DBG] OBS Settings :: Time to save 7.3971ms
+[2025-12-04 13:56:51.595 DBG] MeldStudio Settings :: Time to save 7.9474ms
+[2025-12-04 13:56:51.601 DBG] Credits :: Time to save 6.1717ms
+[2025-12-04 13:56:51.608 DBG] Quotes :: Time to save 7.1707ms
+[2025-12-04 13:56:51.752 DBG] Config :: Time to save 10.7919ms
+[2025-12-04 13:56:53.311 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0165ms
+[2025-12-04 13:56:53.388 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (77.2638ms)
+[2025-12-04 13:57:53.315 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0163ms
+[2025-12-04 13:57:53.408 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (93.3606ms)
+[2025-12-04 13:58:34.551 DBG] ActionDispatcher :: Queueing 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 13:58:34.551 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-12-04 13:58:34.551 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 13:58:34.551 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, 6984d4a9-ea9c-4134-8aba-dd39c1b4d673)
+[2025-12-04 13:58:53.326 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0166ms
+[2025-12-04 13:58:53.405 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.8967ms)
+[2025-12-04 13:59:53.341 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0199ms
+[2025-12-04 13:59:53.427 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (86.0754ms)
+[2025-12-04 14:00:14.352 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-12-04 14:00:14.352 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-12-04 14:00:14.352 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-12-04 14:00:14.352 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, d0edc809-eee1-4c5e-a0fa-e421549bdded)
+[2025-12-04 14:00:14.353 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-12-04 14:00:14.353 DBG] InlineCode :: Unloading 'm5556a5be7674dd6a3324e1ed0789c48'
+[2025-12-04 14:00:14.381 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-12-04 14:00:14.450 DBG] InlineCode :: Running default entry point from instance '5484081e-2af7-423d-b1a9-9571752132eb'
+[2025-12-04 14:00:51.669 DBG] OBS-Websocket5 :: Disconnected
+[2025-12-04 14:00:51.669 DBG] OBS :: Disconnected from My OBS Connection (127.0.0.1:4455)
+[2025-12-04 14:00:53.350 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0128ms
+[2025-12-04 14:00:53.435 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.3687ms)
+[2025-12-04 14:00:55.505 DBG] Users :: Time to save 10.6277ms
+[2025-12-04 14:00:55.514 DBG] Actions :: Time to save 8.8612ms
+[2025-12-04 14:00:55.521 DBG] Commands :: Time to save 7.6079ms
+[2025-12-04 14:00:55.528 DBG] Twitch Rewards :: Time to save 6.8675ms
+[2025-12-04 14:00:55.535 DBG] Midi :: Time to save 6.7142ms
+[2025-12-04 14:00:55.541 DBG] OBS Settings :: Time to save 6.0738ms
+[2025-12-04 14:00:55.546 DBG] MeldStudio Settings :: Time to save 5.8931ms
+[2025-12-04 14:00:55.553 DBG] Credits :: Time to save 5.9027ms
+[2025-12-04 14:00:55.559 DBG] Quotes :: Time to save 5.7235ms
+[2025-12-04 14:00:55.566 INF] Shutting down...
+[2025-12-04 14:00:55.619 INF] Closing services...
+[2025-12-04 14:00:55.619 DBG] UsbRemovalWatcher :: Disposed
+[2025-12-04 14:00:55.619 DBG] ProcessWatcher :: Disposed
+[2025-12-04 14:00:55.620 DBG] ProcessWatcher :: Disposed
+[2025-12-04 14:00:55.621 DBG] Events Service :: Shutting down event queue thread
+[2025-12-04 14:00:55.621 DBG] Events Service :: Shutting down application event queue thread
+[2025-12-04 14:00:55.621 DBG] Events Service :: Shutting down raw event queue thread
+[2025-12-04 14:00:55.623 DBG] DonorDrive :: Stopping service
+[2025-12-04 14:00:55.624 DBG] Http Listener :: Channel is not active
+[2025-12-04 14:00:55.624 DBG] MIDI Service :: Stopping service
+[2025-12-04 14:00:55.624 DBG] MIDI Service :: Shutting down event thread
+[2025-12-04 14:00:55.625 DBG] Websocket Client :: Disconnecting from all connected clients
+[2025-12-04 14:00:55.625 DBG] FileTailDaemon :: Waiting for file tails to shut down
+[2025-12-04 14:00:55.626 DBG] Websocket Custom Server :: Stopping all servers
+[2025-12-04 14:00:55.627 DBG] OBS Service :: Stopping service
+[2025-12-04 14:00:55.627 DBG] SLOBS Service :: Stopping service
+[2025-12-04 14:00:55.627 DBG] ActionDispatcher :: Shutting down action queues
+[2025-12-04 14:00:55.628 DBG] FileWatcherDaemon :: Waiting for file watchers to shut down
+[2025-12-04 14:00:55.629 INF] InlineCode :: Cleaning up '3' execute code instances
+[2025-12-04 14:00:55.629 DBG] ActionQueue :: Shutting down queue 00000000-0000-0000-0000-000000000000 thread
+[2025-12-04 14:00:55.630 DBG] SpeechToText :: Channel was null when trying to stop
+[2025-12-04 14:00:55.631 DBG] InlineCode :: Unloading 'r8a9a36d792c44e1b0426b1c27636401'
+[2025-12-04 14:00:55.631 DBG] OBS Service :: Shutting down event thread
+[2025-12-04 14:00:55.633 DBG] Twitch (Broadcaster) :: Disconnected
+[2025-12-04 14:00:55.635 INF] TwitchService :: Disconnected from Broadcaster Chat Client
+[2025-12-04 14:00:55.647 DBG] InlineCode :: Unloading 'oc9919c353854740a7f230d792320544'
+[2025-12-04 14:00:55.661 DBG] InlineCode :: Unloading 'zc33bed271fe47daa5a4ae104863f47f'
+[2025-12-04 14:00:55.676 DBG] InlineCode :: Cleaned up execute code instances
+[2025-12-04 14:00:55.679 DBG] MeldStudio Service :: Stopping service
+[2025-12-04 14:00:55.680 DBG] MeldStudio Service :: Shutting down event thread
+[2025-12-04 14:00:55.716 DBG] Config :: Time to save 10.9621ms
+[2025-12-04 14:00:55.910 DBG] Twitch EventSub (Broadcaster) :: Disconnected
+[2025-12-04 14:00:55.910 INF] TwitchService :: Disconnected from Broadcaster EventSub
+[2025-12-04 14:00:55.983 INF] BTTV :: WebSocket Disconnected
+[2025-12-04 14:00:56.023 DBG] Quotes :: Time to save 15.0375ms
+[2025-12-04 14:00:56.023 DBG] OBS Settings :: Time to save 15.9001ms
+[2025-12-04 14:00:56.023 DBG] MeldStudio Settings :: Time to save 15.7357ms
+[2025-12-04 14:00:56.024 DBG] Credits :: Time to save 16.1954ms
+[2025-12-04 14:00:56.024 DBG] Midi :: Time to save 16.1145ms
+[2025-12-04 14:00:56.025 DBG] Twitch Rewards :: Time to save 17.0368ms
+[2025-12-04 14:00:56.025 DBG] Config :: Time to save 17.1749ms
+[2025-12-04 14:00:56.025 DBG] Commands :: Time to save 17.2023ms
+[2025-12-04 14:00:56.025 DBG] Users :: Time to save 17.2437ms
+[2025-12-04 14:00:56.025 DBG] Actions :: Time to save 17.1702ms
+[2025-12-04 14:00:56.026 INF] Streamer.bot exited
