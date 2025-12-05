@@ -1,0 +1,1447 @@
+[2025-11-18 13:17:46.381 INF] Streamer.bot (1.0.1)
+[2025-11-18 13:17:46.383 INF] Startup Path: C:\Users\tekki\Documents\VSCode workspace\yarem streamer projects workspace\Yarem-Streaming-Projects\StreamerBot Application
+[2025-11-18 13:17:46.383 INF] Startup Args: 
+[2025-11-18 13:17:46.383 INF] Startup Mode: UI
+[2025-11-18 13:17:46.383 INF] Logging Level: Debug
+[2025-11-18 13:17:46.383 INF] Instance Id: 1e2a1a08-285a-444e-9667-2caddc49e11c
+[2025-11-18 13:17:46.383 INF] Instance Name: Streamer.bot
+[2025-11-18 13:17:46.383 INF] Operating System: Windows
+[2025-11-18 13:17:46.383 INF] UserInteractive: True
+[2025-11-18 13:17:46.384 INF] WebView2: Found (v142.0.3595.80)
+[2025-11-18 13:17:46.389 INF] Backing up data files
+[2025-11-18 13:17:46.521 INF] Loading config
+[2025-11-18 13:17:47.266 INF] Users :: Upgrade checks finished, 0.2004ms
+[2025-11-18 13:17:47.273 DBG] Users :: Loaded 9 users.
+[2025-11-18 13:17:47.320 DBG] Twitch Rewards :: Loaded 3 rewards.
+[2025-11-18 13:17:49.759 DBG] Actions :: Loaded 9 actions.
+[2025-11-18 13:17:49.764 DBG] OBS Settings :: Loaded.
+[2025-11-18 13:17:49.769 DBG] MeldStudio Settings :: Loaded.
+[2025-11-18 13:17:49.791 DBG] Commands :: Loaded 5 commands.
+[2025-11-18 13:17:49.861 DBG] MIDI :: Loaded 0 actions.
+[2025-11-18 13:17:50.118 DBG] Credits :: Performing auto reset of data, 139.860658843889 > 12
+[2025-11-18 13:17:52.954 DBG] Events Service :: Starting application event queue thread
+[2025-11-18 13:17:52.955 DBG] Events Service :: Starting event queue thread
+[2025-11-18 13:17:52.956 DBG] Events Service :: Starting raw event queue thread
+[2025-11-18 13:17:52.957 DBG] Trigger Service :: Initialized
+[2025-11-18 13:17:52.962 DBG] ActionQueue :: Starting queue 00000000-0000-0000-0000-000000000000 thread
+[2025-11-18 13:17:52.969 DBG] Quotes :: Loaded 0 quotes.
+[2025-11-18 13:17:53.044 DBG] Viewers :: 2.7987ms to populate view model
+[2025-11-18 13:17:53.302 DBG] MeldStudio Service :: Starting event thread
+[2025-11-18 13:17:53.302 DBG] OBS Service :: Starting event thread
+[2025-11-18 13:17:53.308 DBG] TwitchService :: Initializing
+[2025-11-18 13:17:53.317 DBG] TwitchService :: Logging into Broadcaster account
+[2025-11-18 13:17:53.325 DBG] OBS :: Opening websocket connection to My OBS Connection (127.0.0.1:4455)
+[2025-11-18 13:17:53.327 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-18 13:17:53.327 DBG] TwitchService :: Logging into Bot account
+[2025-11-18 13:17:53.329 INF] TwitchService :: Bot OAuth refresh token invalid, unable to login to Bot account
+[2025-11-18 13:17:53.330 DBG] Websocket Client :: Auto connecting to clients
+[2025-11-18 13:17:53.331 DBG] Websocket Custom Server :: Auto starting servers
+[2025-11-18 13:17:53.335 INF] MIDI Service :: Initializing 0 MIDI devices
+[2025-11-18 13:17:53.336 DBG] MIDI Service :: Starting event thread
+[2025-11-18 13:17:53.337 DBG] UsbRemovalWatcher :: Disposed
+[2025-11-18 13:17:53.338 INF] Input Service: Found 0 valid key inputs.
+[2025-11-18 13:17:54.205 INF] TwitchService :: Fetching Broadcaster account information
+[2025-11-18 13:17:54.389 INF] TwitchService :: Broadcaster account (yarem4) authenticated
+[2025-11-18 13:17:54.472 DBG] Twitch Service :: Initializing Third Party Emote Handlers
+[2025-11-18 13:17:54.474 DBG] Twitch Service :: Init rest
+[2025-11-18 13:17:54.476 INF] 7TV :: Initializing user '236924052', on twitch
+[2025-11-18 13:17:54.484 INF] BTTV :: Initializing user '236924052', on twitch
+[2025-11-18 13:17:54.485 INF] BetterTTV.Socket :: Connecting to BTTV WebSocket, monitoring for changes for user '236924052' on twitch
+[2025-11-18 13:17:54.491 INF] FFZ :: Initializing user 'yarem4' (236924052), on twitch
+[2025-11-18 13:17:54.584 INF] BTTV :: Loaded 65 global emotes
+[2025-11-18 13:17:54.625 INF] FFZ :: Loaded 15 global emotes
+[2025-11-18 13:17:54.638 DBG] Twitch Service :: Loaded 33 Twitch cheer emotes
+[2025-11-18 13:17:54.650 ERR] BTTV :: Response error NotFound from BTTV channel endpoint.
+[2025-11-18 13:17:54.693 WRN] FFZ :: Room not found, user does not have channel emotes configured.
+[2025-11-18 13:17:54.693 INF] FFZ :: Loaded 0 channel emotes
+[2025-11-18 13:17:54.695 DBG] Twitch Service :: Loaded 187 Twitch badges
+[2025-11-18 13:17:54.734 INF] BTTV :: WebSocket Connected
+[2025-11-18 13:17:54.789 DBG] Twitch Service :: Loaded 337 Twitch user emotes
+[2025-11-18 13:17:54.835 DBG] Twitch Rewards :: Time to save 14.0406ms
+[2025-11-18 13:17:54.843 DBG] Twitch Rewards :: Time to save 7.5469ms
+[2025-11-18 13:17:54.942 INF] 7TV :: Loaded 43 global emotes
+[2025-11-18 13:17:55.376 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-18 13:17:55.377 DBG] OBS :: Disconnected from My OBS Connection (127.0.0.1:4455)
+[2025-11-18 13:17:55.418 ERR] 7TV :: Response error NotFound from 7TV channel endpoint.
+[2025-11-18 13:17:55.662 DBG] Getting viewers for channel "yarem4" (4)
+[2025-11-18 13:17:55.663 DBG] Twitch Service :: Fetched viewers for channel (4)
+[2025-11-18 13:17:55.666 DBG] Twitch Service :: (4) - Existing: 4, New Users: 0 (2.4996ms)
+[2025-11-18 13:17:55.666 DBG] Twitch Service :: Viewers init in 244.3887ms
+[2025-11-18 13:17:55.667 DBG] Twitch Service :: Loading editors for channel yarem4
+[2025-11-18 13:17:55.752 DBG] Twitch Service :: Found 0 editors for channel yarem4
+[2025-11-18 13:17:55.864 INF] Twitch Service :: Found 2 Moderators for the channel yarem4
+[2025-11-18 13:17:55.957 INF] Twitch Service :: Found 0 VIPs for the channel yarem4
+[2025-11-18 13:17:55.959 DBG] ViewerRepo :: Time to update mods and VIPs, 0.399ms (nm: 0, em: 0, nv: 0, ev: 0, ru: 0)
+[2025-11-18 13:17:55.959 DBG] Twitch Service :: Time to update/add mods and vips for the channel yarem4, 204.4702ms
+[2025-11-18 13:17:55.961 DBG] Twitch Service :: Loading subscribers for yarem4
+[2025-11-18 13:17:56.184 DBG] Twitch Service :: "Yarem4" has 5 subscriptions.
+[2025-11-18 13:17:56.212 INF] TwitchService :: Connecting to Broadcaster Chat Client
+[2025-11-18 13:17:56.216 INF] TwitchService :: Connecting to Broadcaster EventSub
+[2025-11-18 13:17:56.220 DBG] Twitch EventSub (Broadcaster) :: Opening connection
+[2025-11-18 13:17:56.293 DBG] Twitch (Broadcaster) :: Opening connection
+[2025-11-18 13:17:56.415 DBG] Twitch (Broadcaster) :: Connected to irc.chat.twitch.tv:6697 (44.227.173.36:6697)
+[2025-11-18 13:17:56.415 DBG] Twitch (Broadcaster) :: Negotiating SSL stream with irc.chat.twitch.tv
+[2025-11-18 13:17:56.461 DBG] Twitch EventSub (Broadcaster) :: Subscribing to 56 events
+[2025-11-18 13:17:56.642 DBG] Twitch (Broadcaster) :: Twitch Client Socket opened
+[2025-11-18 13:17:56.850 DBG] Twitch (Broadcaster) :: Listening and Authenticated
+[2025-11-18 13:17:56.853 DBG] Twitch (Broadcaster) :: Joining chanel #yarem4
+[2025-11-18 13:17:56.856 INF] TwitchService :: Connected to Broadcaster Chat Client
+[2025-11-18 13:18:02.906 INF] TwitchService :: Connected to Broadcaster EventSub, and authenticated
+[2025-11-18 13:18:56.659 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.1439ms
+[2025-11-18 13:18:56.731 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.3225ms)
+[2025-11-18 13:19:56.663 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0128ms
+[2025-11-18 13:19:56.738 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.7347ms)
+[2025-11-18 13:20:56.665 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0157ms
+[2025-11-18 13:20:56.751 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (86.1589ms)
+[2025-11-18 13:21:56.677 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0101ms
+[2025-11-18 13:21:56.744 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.3155ms)
+[2025-11-18 13:22:50.127 DBG] Credits :: Time to save 6.2448ms
+[2025-11-18 13:22:53.084 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 13:22:53.099 DBG] Users :: Time to save 14.1181ms
+[2025-11-18 13:22:53.140 DBG] Actions :: Time to save 38.9679ms
+[2025-11-18 13:22:53.154 DBG] Commands :: Time to save 13.5998ms
+[2025-11-18 13:22:53.163 DBG] Twitch Rewards :: Time to save 8.4733ms
+[2025-11-18 13:22:53.174 DBG] Midi :: Time to save 9.9549ms
+[2025-11-18 13:22:53.187 DBG] OBS Settings :: Time to save 11.6715ms
+[2025-11-18 13:22:53.198 DBG] MeldStudio Settings :: Time to save 9.9443ms
+[2025-11-18 13:22:53.206 DBG] Credits :: Time to save 7.8686ms
+[2025-11-18 13:22:53.216 DBG] Quotes :: Time to save 9.1479ms
+[2025-11-18 13:22:53.345 DBG] Config :: Time to save 44.2462ms
+[2025-11-18 13:22:56.691 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0254ms
+[2025-11-18 13:22:56.769 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.6056ms)
+[2025-11-18 13:23:56.703 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0152ms
+[2025-11-18 13:23:56.776 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.5032ms)
+[2025-11-18 13:24:56.730 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0138ms
+[2025-11-18 13:24:56.807 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (77.1243ms)
+[2025-11-18 13:25:56.745 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.013ms
+[2025-11-18 13:25:56.813 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.553ms)
+[2025-11-18 13:26:56.751 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0131ms
+[2025-11-18 13:26:56.822 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.7396ms)
+[2025-11-18 13:27:50.148 DBG] Credits :: Time to save 8.9115ms
+[2025-11-18 13:27:53.315 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 13:27:53.325 DBG] Users :: Time to save 9.9135ms
+[2025-11-18 13:27:53.333 DBG] Actions :: Time to save 7.5665ms
+[2025-11-18 13:27:53.340 DBG] Commands :: Time to save 7.9111ms
+[2025-11-18 13:27:53.348 DBG] Twitch Rewards :: Time to save 7.5516ms
+[2025-11-18 13:27:53.356 DBG] Midi :: Time to save 7.8415ms
+[2025-11-18 13:27:53.363 DBG] OBS Settings :: Time to save 6.9112ms
+[2025-11-18 13:27:53.370 DBG] MeldStudio Settings :: Time to save 7.1045ms
+[2025-11-18 13:27:53.377 DBG] Credits :: Time to save 6.8128ms
+[2025-11-18 13:27:53.384 DBG] Quotes :: Time to save 7.0657ms
+[2025-11-18 13:27:53.525 DBG] Config :: Time to save 10.2633ms
+[2025-11-18 13:27:56.754 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0152ms
+[2025-11-18 13:27:56.832 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.9101ms)
+[2025-11-18 13:28:54.760 DBG] InlineCode :: Creating and compiling instance for 'Increment Redeem Count'
+[2025-11-18 13:28:56.758 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0142ms
+[2025-11-18 13:28:56.827 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.2925ms)
+[2025-11-18 13:29:56.767 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0124ms
+[2025-11-18 13:29:56.836 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.9325ms)
+[2025-11-18 13:30:02.942 DBG] OBS :: Opening websocket connection to My OBS Connection (127.0.0.1:4455)
+[2025-11-18 13:30:02.942 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-18 13:30:02.980 DBG] OBS :: Connected to My OBS Connection (127.0.0.1:4455)
+[2025-11-18 13:30:14.660 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:30:14.662 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:30:14.662 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:30:14.669 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, d024bee5-3179-48cc-8dcc-d07c22d2d8fd), initiated by yarem4 with 44 arguments
+[2025-11-18 13:30:14.713 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:30:16.349 DBG] InlineCode :: Running default entry point from instance '8efe5df1-e4d3-4e7a-828a-1be6330e4914'
+[2025-11-18 13:30:56.779 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0129ms
+[2025-11-18 13:30:56.853 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.5429ms)
+[2025-11-18 13:31:40.698 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:31:40.698 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:31:40.698 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:31:40.698 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 6a5083cd-9b18-4287-a310-6ad8464f729a), initiated by yarem4 with 44 arguments
+[2025-11-18 13:31:40.702 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:31:42.342 DBG] InlineCode :: Code has been flagged as dirty for 'Increment Redeem Count', destroying instance
+[2025-11-18 13:31:42.343 DBG] InlineCode :: Unloading 'g7e9dced38734438b128565dfe2a1af1'
+[2025-11-18 13:31:42.369 DBG] InlineCode :: Creating and compiling instance for 'Increment Redeem Count'
+[2025-11-18 13:31:42.431 DBG] InlineCode :: Running default entry point from instance 'da552802-2d4b-4edd-a913-ae6e98393a93'
+[2025-11-18 13:31:47.081 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:31:47.081 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:31:47.081 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:31:47.081 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, e63da368-5136-4087-91dc-e1ad34d01188), initiated by yarem4 with 44 arguments
+[2025-11-18 13:31:47.084 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:31:48.723 DBG] InlineCode :: Running default entry point from instance 'da552802-2d4b-4edd-a913-ae6e98393a93'
+[2025-11-18 13:31:56.675 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:31:56.675 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:31:56.675 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:31:56.675 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 7ae819b2-6717-41d9-8456-82be197e1e24), initiated by yarem4 with 44 arguments
+[2025-11-18 13:31:56.677 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:31:56.785 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0137ms
+[2025-11-18 13:31:56.855 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.4992ms)
+[2025-11-18 13:31:58.316 DBG] InlineCode :: Running default entry point from instance 'da552802-2d4b-4edd-a913-ae6e98393a93'
+[2025-11-18 13:32:50.158 DBG] Credits :: Time to save 9.11ms
+[2025-11-18 13:32:53.490 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 13:32:53.505 DBG] Users :: Time to save 15.2801ms
+[2025-11-18 13:32:53.518 DBG] Actions :: Time to save 12.785ms
+[2025-11-18 13:32:53.529 DBG] Commands :: Time to save 11.6279ms
+[2025-11-18 13:32:53.538 DBG] Twitch Rewards :: Time to save 8.2947ms
+[2025-11-18 13:32:53.545 DBG] Midi :: Time to save 7.6313ms
+[2025-11-18 13:32:53.553 DBG] OBS Settings :: Time to save 7.3832ms
+[2025-11-18 13:32:53.562 DBG] MeldStudio Settings :: Time to save 9.1082ms
+[2025-11-18 13:32:53.569 DBG] Credits :: Time to save 6.7632ms
+[2025-11-18 13:32:53.576 DBG] Quotes :: Time to save 7.5036ms
+[2025-11-18 13:32:53.702 DBG] Config :: Time to save 12.625ms
+[2025-11-18 13:32:56.803 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0201ms
+[2025-11-18 13:32:56.875 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.7885ms)
+[2025-11-18 13:33:31.946 DBG] InlineCode :: Unloading 'db482a91e44c463d8461d44d5dc5c0ab'
+[2025-11-18 13:33:56.804 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0143ms
+[2025-11-18 13:33:56.878 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.0589ms)
+[2025-11-18 13:34:56.814 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.016ms
+[2025-11-18 13:34:56.888 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.7973ms)
+[2025-11-18 13:35:54.605 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 13:35:56.821 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0133ms
+[2025-11-18 13:35:56.894 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.4596ms)
+[2025-11-18 13:36:34.237 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:36:34.237 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:36:34.237 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:36:34.238 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 1ac6efb6-6b98-4c75-9a24-1b0620205292), initiated by yarem4 with 44 arguments
+[2025-11-18 13:36:34.240 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:36:35.881 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:36:35.881 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:36:56.839 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0148ms
+[2025-11-18 13:36:56.917 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (77.673ms)
+[2025-11-18 13:37:50.166 DBG] Credits :: Time to save 10.4481ms
+[2025-11-18 13:37:53.630 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 13:37:53.641 DBG] Users :: Time to save 10.4662ms
+[2025-11-18 13:37:53.651 DBG] Actions :: Time to save 10.2216ms
+[2025-11-18 13:37:53.659 DBG] Commands :: Time to save 8.116ms
+[2025-11-18 13:37:53.669 DBG] Twitch Rewards :: Time to save 10.2475ms
+[2025-11-18 13:37:53.679 DBG] Midi :: Time to save 9.1603ms
+[2025-11-18 13:37:53.689 DBG] OBS Settings :: Time to save 9.9997ms
+[2025-11-18 13:37:53.698 DBG] MeldStudio Settings :: Time to save 9.0285ms
+[2025-11-18 13:37:53.706 DBG] Credits :: Time to save 7.7109ms
+[2025-11-18 13:37:53.714 DBG] Quotes :: Time to save 8.3596ms
+[2025-11-18 13:37:53.849 DBG] Config :: Time to save 3.494ms
+[2025-11-18 13:37:56.844 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0352ms
+[2025-11-18 13:37:56.915 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.7035ms)
+[2025-11-18 13:38:56.847 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0144ms
+[2025-11-18 13:38:56.915 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.2559ms)
+[2025-11-18 13:39:56.856 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0204ms
+[2025-11-18 13:39:56.957 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (101.3863ms)
+[2025-11-18 13:40:56.864 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0138ms
+[2025-11-18 13:40:56.934 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.4098ms)
+[2025-11-18 13:41:09.694 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:41:09.694 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:41:09.694 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:41:09.694 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, f74e74ab-4dd0-4fca-a799-3af4e0fd75a1), initiated by yarem4 with 44 arguments
+[2025-11-18 13:41:09.699 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:41:11.331 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:41:11.331 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:41:15.279 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:41:15.279 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:41:15.279 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:41:15.279 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 244ffbc5-33fd-487a-b960-c8c61b83cd84), initiated by yarem4 with 44 arguments
+[2025-11-18 13:41:15.282 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:41:16.921 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:41:16.921 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:41:21.822 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:41:21.822 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:41:21.822 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:41:21.822 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, e397e68a-8828-47d8-9e4e-8563720c9b5a), initiated by yarem4 with 44 arguments
+[2025-11-18 13:41:21.825 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:41:23.465 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:41:23.465 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:41:26.664 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:41:26.664 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:41:26.664 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:41:26.664 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 247b5019-f7d2-4ddd-8051-8213cb929f7c), initiated by yarem4 with 44 arguments
+[2025-11-18 13:41:26.667 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:41:28.298 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:41:28.298 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:41:44.422 DBG] ActionDispatcher :: Queueing 'Heal' (eb2d0f0f-f585-4f09-9635-d6544a1ebf10, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:41:44.422 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eb2d0f0f-f585-4f09-9635-d6544a1ebf10
+[2025-11-18 13:41:44.422 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:41:44.422 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Heal' (eb2d0f0f-f585-4f09-9635-d6544a1ebf10, 4a07dbab-5a50-42e3-8a73-1d1f57f169a6), initiated by yarem4 with 44 arguments
+[2025-11-18 13:41:44.425 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Heal.mp3 was not found!
+[2025-11-18 13:41:47.264 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:41:47.264 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:41:54.585 DBG] ActionDispatcher :: Queueing 'Pet' (a42f079e-0bcf-470d-a614-bf0e52d2c7df, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:41:54.585 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action a42f079e-0bcf-470d-a614-bf0e52d2c7df
+[2025-11-18 13:41:54.585 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:41:54.585 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Pet' (a42f079e-0bcf-470d-a614-bf0e52d2c7df, 2de00e55-72ab-49d2-81be-fe905e68d481), initiated by yarem4 with 44 arguments
+[2025-11-18 13:41:55.903 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:41:55.903 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:41:56.865 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0113ms
+[2025-11-18 13:41:56.935 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.234ms)
+[2025-11-18 13:42:50.180 DBG] Credits :: Time to save 9.3273ms
+[2025-11-18 13:42:53.817 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 13:42:53.826 DBG] Users :: Time to save 10.1966ms
+[2025-11-18 13:42:53.838 DBG] Actions :: Time to save 10.6711ms
+[2025-11-18 13:42:53.848 DBG] Commands :: Time to save 10.5208ms
+[2025-11-18 13:42:53.858 DBG] Twitch Rewards :: Time to save 10.2817ms
+[2025-11-18 13:42:53.867 DBG] Midi :: Time to save 8.5925ms
+[2025-11-18 13:42:53.876 DBG] OBS Settings :: Time to save 8.2055ms
+[2025-11-18 13:42:53.883 DBG] MeldStudio Settings :: Time to save 8.0259ms
+[2025-11-18 13:42:53.892 DBG] Credits :: Time to save 8.3416ms
+[2025-11-18 13:42:53.901 DBG] Quotes :: Time to save 8.5735ms
+[2025-11-18 13:42:54.044 DBG] Config :: Time to save 12.7795ms
+[2025-11-18 13:42:56.875 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0117ms
+[2025-11-18 13:42:56.958 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (83.3147ms)
+[2025-11-18 13:43:22.720 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 13:43:48.741 DBG] ActionDispatcher :: Queueing 'Clear Redeem Count' (490e5f12-8931-4999-aa46-848d562f0173, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 13:43:48.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 490e5f12-8931-4999-aa46-848d562f0173
+[2025-11-18 13:43:48.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:43:48.741 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Clear Redeem Count' (490e5f12-8931-4999-aa46-848d562f0173, 3c3a47b7-08d8-4ce5-a3a3-c33ab00c9117)
+[2025-11-18 13:43:48.741 DBG] InlineCode :: Running default entry point from instance '8b4d75cc-d285-4e03-bf03-47bb990b0767'
+[2025-11-18 13:43:56.879 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0139ms
+[2025-11-18 13:43:56.964 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.4032ms)
+[2025-11-18 13:44:00.303 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:44:00.303 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:44:00.303 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:44:00.303 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, ea5ca553-a764-4d26-87bb-f0e20a2c83d1), initiated by yarem4 with 44 arguments
+[2025-11-18 13:44:00.306 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:44:01.947 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:44:01.947 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:44:04.819 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 13:44:04.819 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 13:44:04.819 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:44:04.819 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 8c297352-fedb-4203-854b-e4526d44a5a4), initiated by yarem4 with 44 arguments
+[2025-11-18 13:44:04.822 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 13:44:06.441 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 13:44:06.442 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 13:44:09.066 DBG] ActionDispatcher :: Queueing 'Clear Redeem Count' (490e5f12-8931-4999-aa46-848d562f0173, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 13:44:09.066 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 490e5f12-8931-4999-aa46-848d562f0173
+[2025-11-18 13:44:09.066 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:44:09.066 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Clear Redeem Count' (490e5f12-8931-4999-aa46-848d562f0173, 5c961769-7784-4959-994f-0edb43f61968)
+[2025-11-18 13:44:09.066 DBG] InlineCode :: Running default entry point from instance '8b4d75cc-d285-4e03-bf03-47bb990b0767'
+[2025-11-18 13:44:56.891 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0122ms
+[2025-11-18 13:44:56.981 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (89.5948ms)
+[2025-11-18 13:45:56.892 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0173ms
+[2025-11-18 13:45:56.963 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.3148ms)
+[2025-11-18 13:46:56.902 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0168ms
+[2025-11-18 13:46:56.974 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.3459ms)
+[2025-11-18 13:47:50.181 DBG] Credits :: Time to save 9.8927ms
+[2025-11-18 13:47:53.987 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 13:47:53.997 DBG] Users :: Time to save 10.4916ms
+[2025-11-18 13:47:54.007 DBG] Actions :: Time to save 9.8587ms
+[2025-11-18 13:47:54.015 DBG] Commands :: Time to save 8.2484ms
+[2025-11-18 13:47:54.024 DBG] Twitch Rewards :: Time to save 8.5697ms
+[2025-11-18 13:47:54.032 DBG] Midi :: Time to save 7.8756ms
+[2025-11-18 13:47:54.039 DBG] OBS Settings :: Time to save 7.4133ms
+[2025-11-18 13:47:54.047 DBG] MeldStudio Settings :: Time to save 7.3696ms
+[2025-11-18 13:47:54.053 DBG] Credits :: Time to save 6.5875ms
+[2025-11-18 13:47:54.060 DBG] Quotes :: Time to save 6.7635ms
+[2025-11-18 13:47:54.200 DBG] Config :: Time to save 13.4142ms
+[2025-11-18 13:47:56.911 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0118ms
+[2025-11-18 13:47:56.981 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.7713ms)
+[2025-11-18 13:48:56.924 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0118ms
+[2025-11-18 13:48:57.005 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.2863ms)
+[2025-11-18 13:48:59.897 DBG] ActionDispatcher :: Queueing 'Point Value Conversions' (aab77fb8-a40d-4baa-b326-8b44c9491fe3, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 13:48:59.897 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action aab77fb8-a40d-4baa-b326-8b44c9491fe3
+[2025-11-18 13:48:59.897 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:48:59.897 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Point Value Conversions' (aab77fb8-a40d-4baa-b326-8b44c9491fe3, 78055ef4-2901-4e7f-872c-9c7add7683c5)
+[2025-11-18 13:49:17.844 DBG] ActionDispatcher :: Queueing 'Point Value Conversions' (aab77fb8-a40d-4baa-b326-8b44c9491fe3, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 13:49:17.844 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action aab77fb8-a40d-4baa-b326-8b44c9491fe3
+[2025-11-18 13:49:17.844 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:49:17.844 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Point Value Conversions' (aab77fb8-a40d-4baa-b326-8b44c9491fe3, 132a198e-2458-4aac-b26c-3bc6f1bc1a92)
+[2025-11-18 13:49:35.031 DBG] ActionDispatcher :: Queueing 'Point Value Conversions' (aab77fb8-a40d-4baa-b326-8b44c9491fe3, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 13:49:35.031 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action aab77fb8-a40d-4baa-b326-8b44c9491fe3
+[2025-11-18 13:49:35.031 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:49:35.031 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Point Value Conversions' (aab77fb8-a40d-4baa-b326-8b44c9491fe3, 828db34c-5247-4761-bedb-38588559f95c)
+[2025-11-18 13:49:56.930 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0168ms
+[2025-11-18 13:49:57.002 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.5405ms)
+[2025-11-18 13:50:56.939 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0126ms
+[2025-11-18 13:50:57.011 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.0869ms)
+[2025-11-18 13:51:56.946 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0121ms
+[2025-11-18 13:51:57.019 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.5669ms)
+[2025-11-18 13:52:50.181 DBG] Credits :: Time to save 9.909ms
+[2025-11-18 13:52:54.141 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 13:52:54.151 DBG] Users :: Time to save 10.1837ms
+[2025-11-18 13:52:54.161 DBG] Actions :: Time to save 9.678ms
+[2025-11-18 13:52:54.170 DBG] Commands :: Time to save 8.9968ms
+[2025-11-18 13:52:54.178 DBG] Twitch Rewards :: Time to save 8.6083ms
+[2025-11-18 13:52:54.186 DBG] Midi :: Time to save 7.5469ms
+[2025-11-18 13:52:54.195 DBG] OBS Settings :: Time to save 8.183ms
+[2025-11-18 13:52:54.202 DBG] MeldStudio Settings :: Time to save 7.0806ms
+[2025-11-18 13:52:54.209 DBG] Credits :: Time to save 7.2979ms
+[2025-11-18 13:52:54.216 DBG] Quotes :: Time to save 6.6639ms
+[2025-11-18 13:52:54.366 DBG] Config :: Time to save 11.9557ms
+[2025-11-18 13:52:56.955 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0119ms
+[2025-11-18 13:52:57.026 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.0518ms)
+[2025-11-18 13:53:56.969 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0114ms
+[2025-11-18 13:53:57.041 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.7097ms)
+[2025-11-18 13:54:56.969 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0123ms
+[2025-11-18 13:54:57.043 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.4753ms)
+[2025-11-18 13:55:56.984 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0106ms
+[2025-11-18 13:55:57.056 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.6809ms)
+[2025-11-18 13:56:56.996 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0146ms
+[2025-11-18 13:56:57.075 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.2603ms)
+[2025-11-18 13:57:50.182 DBG] Credits :: Time to save 9.3266ms
+[2025-11-18 13:57:54.282 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 13:57:54.293 DBG] Users :: Time to save 11.4259ms
+[2025-11-18 13:57:54.304 DBG] Actions :: Time to save 10.2711ms
+[2025-11-18 13:57:54.312 DBG] Commands :: Time to save 8.3629ms
+[2025-11-18 13:57:54.321 DBG] Twitch Rewards :: Time to save 9.5211ms
+[2025-11-18 13:57:54.329 DBG] Midi :: Time to save 7.779ms
+[2025-11-18 13:57:54.338 DBG] OBS Settings :: Time to save 8.7389ms
+[2025-11-18 13:57:54.346 DBG] MeldStudio Settings :: Time to save 8.0926ms
+[2025-11-18 13:57:54.354 DBG] Credits :: Time to save 8.3222ms
+[2025-11-18 13:57:54.362 DBG] Quotes :: Time to save 7.9336ms
+[2025-11-18 13:57:54.508 DBG] Config :: Time to save 11.7932ms
+[2025-11-18 13:57:56.996 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0136ms
+[2025-11-18 13:57:57.067 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.8878ms)
+[2025-11-18 13:58:57.007 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0115ms
+[2025-11-18 13:58:57.077 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.231ms)
+[2025-11-18 13:58:59.803 DBG] ActionDispatcher :: Queueing 'Goal Bar Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 13:58:59.803 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-11-18 13:58:59.803 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 13:58:59.803 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Settings' (de802b65-8991-485e-b339-382fd4e14118, 93929cfc-9b95-4a64-9d16-da03b807c579)
+[2025-11-18 13:59:57.024 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0207ms
+[2025-11-18 13:59:57.098 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.6343ms)
+[2025-11-18 14:00:09.713 DBG] ActionDispatcher :: Queueing 'Goal Bar Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:00:09.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-11-18 14:00:09.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:00:09.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Settings' (de802b65-8991-485e-b339-382fd4e14118, 8700f4f5-17d0-4f25-8ee3-2f61e98c7afa)
+[2025-11-18 14:00:57.046 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0125ms
+[2025-11-18 14:00:57.119 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.9743ms)
+[2025-11-18 14:01:57.052 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0153ms
+[2025-11-18 14:01:57.126 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.8111ms)
+[2025-11-18 14:02:50.181 DBG] Credits :: Time to save 8.9811ms
+[2025-11-18 14:02:54.438 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:02:54.449 DBG] Users :: Time to save 11.5363ms
+[2025-11-18 14:02:54.459 DBG] Actions :: Time to save 10.6026ms
+[2025-11-18 14:02:54.469 DBG] Commands :: Time to save 8.6186ms
+[2025-11-18 14:02:54.476 DBG] Twitch Rewards :: Time to save 8.0774ms
+[2025-11-18 14:02:54.484 DBG] Midi :: Time to save 7.027ms
+[2025-11-18 14:02:54.492 DBG] OBS Settings :: Time to save 8.1201ms
+[2025-11-18 14:02:54.499 DBG] MeldStudio Settings :: Time to save 6.5343ms
+[2025-11-18 14:02:54.506 DBG] Credits :: Time to save 7.2139ms
+[2025-11-18 14:02:54.513 DBG] Quotes :: Time to save 7.1291ms
+[2025-11-18 14:02:54.663 DBG] Config :: Time to save 12.3238ms
+[2025-11-18 14:02:57.065 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0117ms
+[2025-11-18 14:02:57.135 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.8767ms)
+[2025-11-18 14:03:57.071 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0178ms
+[2025-11-18 14:03:57.145 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.2882ms)
+[2025-11-18 14:04:57.078 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0143ms
+[2025-11-18 14:04:57.144 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (65.9326ms)
+[2025-11-18 14:05:57.090 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0145ms
+[2025-11-18 14:05:57.167 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (77.4987ms)
+[2025-11-18 14:06:25.528 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:06:25.528 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:06:25.528 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:06:25.528 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 99dcb9e7-df96-44ce-b132-a2d0f9d0992c)
+[2025-11-18 14:06:27.390 DBG] ActionDispatcher :: Queueing 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:06:27.390 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-11-18 14:06:27.390 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:06:27.390 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, 8b8f9640-1efd-4856-adc2-d30fb80215c6)
+[2025-11-18 14:06:29.391 DBG] ActionDispatcher :: Queueing 'Point Value Conversions' (aab77fb8-a40d-4baa-b326-8b44c9491fe3, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:06:29.391 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action aab77fb8-a40d-4baa-b326-8b44c9491fe3
+[2025-11-18 14:06:29.391 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:06:29.391 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Point Value Conversions' (aab77fb8-a40d-4baa-b326-8b44c9491fe3, 3d58f41e-b54a-4781-894c-bffb2e765f15)
+[2025-11-18 14:06:34.763 DBG] ActionDispatcher :: Queueing 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:06:34.763 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action de802b65-8991-485e-b339-382fd4e14118
+[2025-11-18 14:06:34.763 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:06:34.763 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Number Settings' (de802b65-8991-485e-b339-382fd4e14118, c8a0fc86-99f3-4a7c-b767-12493ae95400)
+[2025-11-18 14:06:54.244 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:06:54.244 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:06:54.244 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:06:54.244 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 31bd2557-8341-4063-819e-52632c4fe6b5)
+[2025-11-18 14:06:57.103 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0133ms
+[2025-11-18 14:06:57.173 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.2941ms)
+[2025-11-18 14:07:50.181 DBG] Credits :: Time to save 9.7346ms
+[2025-11-18 14:07:54.617 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:07:54.628 DBG] Users :: Time to save 10.9995ms
+[2025-11-18 14:07:54.641 DBG] Actions :: Time to save 12.6923ms
+[2025-11-18 14:07:54.650 DBG] Commands :: Time to save 8.2778ms
+[2025-11-18 14:07:54.657 DBG] Twitch Rewards :: Time to save 7.5495ms
+[2025-11-18 14:07:54.665 DBG] Midi :: Time to save 7.8134ms
+[2025-11-18 14:07:54.674 DBG] OBS Settings :: Time to save 9.2541ms
+[2025-11-18 14:07:54.681 DBG] MeldStudio Settings :: Time to save 7.1259ms
+[2025-11-18 14:07:54.689 DBG] Credits :: Time to save 7.3616ms
+[2025-11-18 14:07:54.697 DBG] Quotes :: Time to save 7.9911ms
+[2025-11-18 14:07:54.830 DBG] Config :: Time to save 12.4228ms
+[2025-11-18 14:07:57.104 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0165ms
+[2025-11-18 14:07:57.172 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.8307ms)
+[2025-11-18 14:07:59.162 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:07:59.162 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:07:59.162 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:07:59.162 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 9af8353b-96bd-4c86-a752-168915eee669)
+[2025-11-18 14:08:57.112 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0115ms
+[2025-11-18 14:08:57.187 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.0273ms)
+[2025-11-18 14:09:55.366 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:09:55.366 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:09:55.366 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:09:55.366 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 7c7434c8-9027-4556-a8b0-2f6465920e6a)
+[2025-11-18 14:09:57.123 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0163ms
+[2025-11-18 14:09:57.198 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.3748ms)
+[2025-11-18 14:10:10.100 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:10:10.100 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:10:10.100 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:10:10.100 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, aa38f8e3-9eb3-423d-b234-dec8c1450b35)
+[2025-11-18 14:10:57.127 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0142ms
+[2025-11-18 14:10:57.201 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.4378ms)
+[2025-11-18 14:11:57.137 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0142ms
+[2025-11-18 14:11:57.209 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.2973ms)
+[2025-11-18 14:12:02.552 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:12:02.552 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:12:02.552 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:12:02.552 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 37c0f13b-dde0-4148-94ac-fb1910edad57)
+[2025-11-18 14:12:16.856 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:12:16.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:12:16.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:12:16.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 3f670f9e-9aba-495d-a2aa-f9e2d8e01095)
+[2025-11-18 14:12:47.604 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:12:47.604 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:12:47.604 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:12:47.604 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 51eb90d6-95f5-497d-84ff-43dc97f84d8d)
+[2025-11-18 14:12:50.189 DBG] Credits :: Time to save 9.4694ms
+[2025-11-18 14:12:54.808 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:12:54.818 DBG] Users :: Time to save 10.6582ms
+[2025-11-18 14:12:54.827 DBG] Actions :: Time to save 8.2719ms
+[2025-11-18 14:12:54.835 DBG] Commands :: Time to save 7.9087ms
+[2025-11-18 14:12:54.842 DBG] Twitch Rewards :: Time to save 7.0295ms
+[2025-11-18 14:12:54.849 DBG] Midi :: Time to save 6.6048ms
+[2025-11-18 14:12:54.855 DBG] OBS Settings :: Time to save 6.6188ms
+[2025-11-18 14:12:54.863 DBG] MeldStudio Settings :: Time to save 7.8415ms
+[2025-11-18 14:12:54.872 DBG] Credits :: Time to save 8.2293ms
+[2025-11-18 14:12:54.879 DBG] Quotes :: Time to save 7.2992ms
+[2025-11-18 14:12:55.022 DBG] Config :: Time to save 12.3965ms
+[2025-11-18 14:12:57.140 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0132ms
+[2025-11-18 14:12:57.212 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.4747ms)
+[2025-11-18 14:13:57.145 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0144ms
+[2025-11-18 14:13:57.212 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.2968ms)
+[2025-11-18 14:14:09.249 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:14:09.249 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:14:09.249 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:14:09.249 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 592480b7-26b5-4973-9998-3da4dd831dcd)
+[2025-11-18 14:14:22.427 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:14:22.427 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:14:22.427 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:14:22.427 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 161544c9-e3de-40bd-acc7-5a03c8362f42)
+[2025-11-18 14:14:57.151 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0141ms
+[2025-11-18 14:14:57.222 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.9962ms)
+[2025-11-18 14:15:27.152 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:15:27.152 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:15:27.152 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:15:27.152 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 12fde85c-a3ff-4a24-a8b9-436f1f4093ab)
+[2025-11-18 14:15:57.162 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0116ms
+[2025-11-18 14:15:57.243 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (81.3178ms)
+[2025-11-18 14:16:01.088 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:16:01.088 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:16:01.088 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:16:01.088 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, b63ebd38-c46e-4d9a-8585-b1d0b7bf524f)
+[2025-11-18 14:16:57.173 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0141ms
+[2025-11-18 14:16:57.242 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.3488ms)
+[2025-11-18 14:17:50.210 DBG] Credits :: Time to save 11.5954ms
+[2025-11-18 14:17:54.952 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:17:54.963 DBG] Users :: Time to save 10.8011ms
+[2025-11-18 14:17:54.974 DBG] Actions :: Time to save 11.05ms
+[2025-11-18 14:17:54.982 DBG] Commands :: Time to save 7.9321ms
+[2025-11-18 14:17:54.990 DBG] Twitch Rewards :: Time to save 8.1822ms
+[2025-11-18 14:17:54.998 DBG] Midi :: Time to save 7.9736ms
+[2025-11-18 14:17:55.007 DBG] OBS Settings :: Time to save 8.741ms
+[2025-11-18 14:17:55.015 DBG] MeldStudio Settings :: Time to save 7.5396ms
+[2025-11-18 14:17:55.023 DBG] Credits :: Time to save 8.3207ms
+[2025-11-18 14:17:55.032 DBG] Quotes :: Time to save 8.154ms
+[2025-11-18 14:17:55.181 DBG] Config :: Time to save 12.3929ms
+[2025-11-18 14:17:57.176 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0149ms
+[2025-11-18 14:17:57.953 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (777.7162ms)
+[2025-11-18 14:18:57.182 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0188ms
+[2025-11-18 14:18:57.255 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.4156ms)
+[2025-11-18 14:19:57.192 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0137ms
+[2025-11-18 14:19:57.262 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.55ms)
+[2025-11-18 14:20:57.202 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.015ms
+[2025-11-18 14:20:57.270 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.7887ms)
+[2025-11-18 14:21:57.211 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0118ms
+[2025-11-18 14:21:57.283 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.35ms)
+[2025-11-18 14:22:50.225 DBG] Credits :: Time to save 10.1615ms
+[2025-11-18 14:22:55.137 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:22:55.147 DBG] Users :: Time to save 10.8749ms
+[2025-11-18 14:22:55.157 DBG] Actions :: Time to save 9.279ms
+[2025-11-18 14:22:55.165 DBG] Commands :: Time to save 7.8686ms
+[2025-11-18 14:22:55.172 DBG] Twitch Rewards :: Time to save 7.4738ms
+[2025-11-18 14:22:55.180 DBG] Midi :: Time to save 7.7689ms
+[2025-11-18 14:22:55.192 DBG] OBS Settings :: Time to save 12.5021ms
+[2025-11-18 14:22:55.200 DBG] MeldStudio Settings :: Time to save 7.6242ms
+[2025-11-18 14:22:55.208 DBG] Credits :: Time to save 8.2425ms
+[2025-11-18 14:22:55.216 DBG] Quotes :: Time to save 7.4492ms
+[2025-11-18 14:22:55.349 DBG] Config :: Time to save 12.0487ms
+[2025-11-18 14:22:57.219 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0142ms
+[2025-11-18 14:22:57.507 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (288.1216ms)
+[2025-11-18 14:23:57.234 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0143ms
+[2025-11-18 14:23:57.304 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.7106ms)
+[2025-11-18 14:24:57.236 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0167ms
+[2025-11-18 14:24:57.306 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.9973ms)
+[2025-11-18 14:25:57.244 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0127ms
+[2025-11-18 14:25:57.314 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.9174ms)
+[2025-11-18 14:26:57.264 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.015ms
+[2025-11-18 14:26:57.335 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.2159ms)
+[2025-11-18 14:27:50.230 DBG] Credits :: Time to save 9.29ms
+[2025-11-18 14:27:55.338 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:27:55.350 DBG] Users :: Time to save 10.919ms
+[2025-11-18 14:27:55.360 DBG] Actions :: Time to save 10.4717ms
+[2025-11-18 14:27:55.370 DBG] Commands :: Time to save 9.871ms
+[2025-11-18 14:27:55.380 DBG] Twitch Rewards :: Time to save 9.6183ms
+[2025-11-18 14:27:55.390 DBG] Midi :: Time to save 9.9081ms
+[2025-11-18 14:27:55.398 DBG] OBS Settings :: Time to save 8.9742ms
+[2025-11-18 14:27:55.406 DBG] MeldStudio Settings :: Time to save 7.494ms
+[2025-11-18 14:27:55.413 DBG] Credits :: Time to save 7.3761ms
+[2025-11-18 14:27:55.421 DBG] Quotes :: Time to save 7.1683ms
+[2025-11-18 14:27:55.552 DBG] Config :: Time to save 12.3299ms
+[2025-11-18 14:27:57.270 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0196ms
+[2025-11-18 14:27:57.343 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.1878ms)
+[2025-11-18 14:28:57.272 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.015ms
+[2025-11-18 14:28:57.342 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.7265ms)
+[2025-11-18 14:29:57.294 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0201ms
+[2025-11-18 14:29:57.367 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.462ms)
+[2025-11-18 14:30:57.301 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0152ms
+[2025-11-18 14:30:57.370 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.6139ms)
+[2025-11-18 14:31:48.788 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:31:48.788 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 14:31:48.788 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:31:48.788 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 0de3357f-8c98-4ccb-b6fb-84db13e48599)
+[2025-11-18 14:31:57.306 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0122ms
+[2025-11-18 14:31:57.375 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.7066ms)
+[2025-11-18 14:32:50.245 DBG] Credits :: Time to save 9.9068ms
+[2025-11-18 14:32:55.502 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:32:55.514 DBG] Users :: Time to save 11.4891ms
+[2025-11-18 14:32:55.524 DBG] Actions :: Time to save 10.4945ms
+[2025-11-18 14:32:55.535 DBG] Commands :: Time to save 10.284ms
+[2025-11-18 14:32:55.544 DBG] Twitch Rewards :: Time to save 9.1989ms
+[2025-11-18 14:32:55.554 DBG] Midi :: Time to save 9.467ms
+[2025-11-18 14:32:55.564 DBG] OBS Settings :: Time to save 9.88ms
+[2025-11-18 14:32:55.575 DBG] MeldStudio Settings :: Time to save 11.2837ms
+[2025-11-18 14:32:55.584 DBG] Credits :: Time to save 8.6755ms
+[2025-11-18 14:32:55.592 DBG] Quotes :: Time to save 8.5305ms
+[2025-11-18 14:32:55.714 DBG] Config :: Time to save 11.3368ms
+[2025-11-18 14:32:57.305 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0124ms
+[2025-11-18 14:32:57.404 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (99.4785ms)
+[2025-11-18 14:33:57.323 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0135ms
+[2025-11-18 14:33:57.391 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.7741ms)
+[2025-11-18 14:34:57.332 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0121ms
+[2025-11-18 14:34:57.402 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.7045ms)
+[2025-11-18 14:35:36.048 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 14:35:36.048 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 14:35:36.048 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:35:36.048 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 77bd193c-718d-49ca-bac3-afd2d0f82785), initiated by yarem4 with 44 arguments
+[2025-11-18 14:35:36.051 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 14:35:37.695 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 14:35:37.695 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 14:35:37.707 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 14:35:37.707 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 14:35:37.707 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:35:37.707 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 88d9c8b1-94d5-49c4-9a35-ec0af49a5cdd)
+[2025-11-18 14:35:37.707 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 14:35:37.759 ERR] InlineCode :: There was an error creating the instance for ''
+[2025-11-18 14:35:37.759 DBG] (2,7): error CS0246: The type or namespace name 'Fleck' could not be found (are you missing a using directive or an assembly reference?)
+[2025-11-18 14:35:37.759 DBG] (6,22): error CS0161: 'CPHInline.Execute()': not all code paths return a value
+[2025-11-18 14:35:37.759 ERR] InlineCode :: Id is empty, this should not be the case
+[2025-11-18 14:35:57.337 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0255ms
+[2025-11-18 14:35:57.408 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.1083ms)
+[2025-11-18 14:36:38.134 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 14:36:38.134 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 14:36:38.134 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:36:38.134 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, b56fb030-911a-4cfb-9d81-75381d99f4a6), initiated by yarem4 with 44 arguments
+[2025-11-18 14:36:38.137 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 14:36:39.772 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 14:36:39.772 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 14:36:39.783 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 14:36:39.783 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 14:36:39.783 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:36:39.783 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, f272ee96-aa4f-441e-8c3a-efeebca3a850)
+[2025-11-18 14:36:39.783 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 14:36:39.956 DBG] InlineCode :: Running default entry point from instance '3afb4658-1c5c-4817-b43f-ef095b28feee'
+[2025-11-18 14:36:57.345 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.013ms
+[2025-11-18 14:36:57.413 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.2499ms)
+[2025-11-18 14:37:50.247 DBG] Credits :: Time to save 9.4689ms
+[2025-11-18 14:37:55.696 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:37:55.708 DBG] Users :: Time to save 11.9476ms
+[2025-11-18 14:37:55.721 DBG] Actions :: Time to save 12.4382ms
+[2025-11-18 14:37:55.729 DBG] Commands :: Time to save 8.3205ms
+[2025-11-18 14:37:55.738 DBG] Twitch Rewards :: Time to save 8.5177ms
+[2025-11-18 14:37:55.745 DBG] Midi :: Time to save 7.1709ms
+[2025-11-18 14:37:55.753 DBG] OBS Settings :: Time to save 8.3003ms
+[2025-11-18 14:37:55.761 DBG] MeldStudio Settings :: Time to save 7.8712ms
+[2025-11-18 14:37:55.768 DBG] Credits :: Time to save 6.63ms
+[2025-11-18 14:37:55.776 DBG] Quotes :: Time to save 8.0345ms
+[2025-11-18 14:37:55.910 DBG] Config :: Time to save 12.1038ms
+[2025-11-18 14:37:57.350 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0225ms
+[2025-11-18 14:37:57.422 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.7182ms)
+[2025-11-18 14:38:57.351 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0127ms
+[2025-11-18 14:38:57.425 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.0191ms)
+[2025-11-18 14:39:57.360 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0127ms
+[2025-11-18 14:39:57.429 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.2269ms)
+[2025-11-18 14:40:57.366 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0138ms
+[2025-11-18 14:40:57.436 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.433ms)
+[2025-11-18 14:41:57.389 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0155ms
+[2025-11-18 14:41:57.460 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.9511ms)
+[2025-11-18 14:42:50.265 DBG] Credits :: Time to save 9.3837ms
+[2025-11-18 14:42:55.863 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:42:55.872 DBG] Users :: Time to save 10.2545ms
+[2025-11-18 14:42:55.881 DBG] Actions :: Time to save 8.3815ms
+[2025-11-18 14:42:55.890 DBG] Commands :: Time to save 9.2015ms
+[2025-11-18 14:42:55.900 DBG] Twitch Rewards :: Time to save 9.3694ms
+[2025-11-18 14:42:55.907 DBG] Midi :: Time to save 7.3853ms
+[2025-11-18 14:42:55.915 DBG] OBS Settings :: Time to save 7.6642ms
+[2025-11-18 14:42:55.922 DBG] MeldStudio Settings :: Time to save 7.2416ms
+[2025-11-18 14:42:55.930 DBG] Credits :: Time to save 7.2895ms
+[2025-11-18 14:42:55.936 DBG] Quotes :: Time to save 6.7951ms
+[2025-11-18 14:42:56.076 DBG] Config :: Time to save 11.7304ms
+[2025-11-18 14:42:57.392 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.016ms
+[2025-11-18 14:42:57.462 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.7319ms)
+[2025-11-18 14:43:57.402 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0158ms
+[2025-11-18 14:43:57.472 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.7322ms)
+[2025-11-18 14:44:57.415 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.014ms
+[2025-11-18 14:44:57.483 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.1301ms)
+[2025-11-18 14:45:57.429 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0135ms
+[2025-11-18 14:45:57.501 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.2574ms)
+[2025-11-18 14:46:11.148 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-18 14:46:11.149 DBG] OBS :: Disconnected from My OBS Connection (127.0.0.1:4455)
+[2025-11-18 14:46:57.450 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.014ms
+[2025-11-18 14:46:57.523 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.2271ms)
+[2025-11-18 14:47:18.059 DBG] OBS :: Opening websocket connection to My OBS Connection (127.0.0.1:4455)
+[2025-11-18 14:47:18.059 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-18 14:47:18.065 DBG] OBS :: Connected to My OBS Connection (127.0.0.1:4455)
+[2025-11-18 14:47:26.781 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 14:47:26.781 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 14:47:26.781 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:47:26.781 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 6de6fcca-ca34-4c4d-bcdd-7482f6fc2cc2), initiated by yarem4 with 44 arguments
+[2025-11-18 14:47:26.785 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 14:47:28.420 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 14:47:28.420 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 14:47:28.433 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 14:47:28.433 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 14:47:28.433 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:47:28.433 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, cea5f1ae-76e4-4483-be7a-ee74ad5f94a6)
+[2025-11-18 14:47:28.433 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-11-18 14:47:28.433 DBG] InlineCode :: Unloading 'ee275b973d18412c87b35f2c70f8ef36'
+[2025-11-18 14:47:28.455 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 14:47:28.518 DBG] InlineCode :: Running default entry point from instance '2fb0ac7a-5d42-4a3d-8201-8f01a4e36840'
+[2025-11-18 14:47:50.266 DBG] Credits :: Time to save 9.1392ms
+[2025-11-18 14:47:56.012 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:47:56.022 DBG] Users :: Time to save 9.938ms
+[2025-11-18 14:47:56.039 DBG] Actions :: Time to save 18.0148ms
+[2025-11-18 14:47:56.048 DBG] Commands :: Time to save 8.0355ms
+[2025-11-18 14:47:56.057 DBG] Twitch Rewards :: Time to save 9.746ms
+[2025-11-18 14:47:56.065 DBG] Midi :: Time to save 7.5489ms
+[2025-11-18 14:47:56.073 DBG] OBS Settings :: Time to save 8.3916ms
+[2025-11-18 14:47:56.081 DBG] MeldStudio Settings :: Time to save 7.1827ms
+[2025-11-18 14:47:56.088 DBG] Credits :: Time to save 6.8734ms
+[2025-11-18 14:47:56.096 DBG] Quotes :: Time to save 8.2006ms
+[2025-11-18 14:47:56.238 DBG] Config :: Time to save 10.7932ms
+[2025-11-18 14:47:57.460 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.013ms
+[2025-11-18 14:47:57.532 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (72.1587ms)
+[2025-11-18 14:48:57.473 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0165ms
+[2025-11-18 14:48:57.541 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.0092ms)
+[2025-11-18 14:49:57.473 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0124ms
+[2025-11-18 14:49:57.543 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.2354ms)
+[2025-11-18 14:50:57.473 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0181ms
+[2025-11-18 14:50:57.541 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.4617ms)
+[2025-11-18 14:51:37.713 ERR] Clipboard :: An error was encountered when trying to access the clipboard for the Clipboard Changed event
+System.OutOfMemoryException: Insufficient memory to continue the execution of the program.
+   at System.Runtime.InteropServices.ComTypes.IDataObject.EnumFormatEtc(DATADIR direction)
+   at System.Windows.DataObject.OleConverter.EnumFormatEtcInner(DATADIR dwDirection)
+   at System.Windows.DataObject.OleConverter.GetFormats(Boolean autoConvert)
+   at System.Windows.DataObject.GetFormats()
+   at _Un7eNdykDjXCZ20xcVUKXkblE7R._jS8GWh2UBWmJ2JtNawy6DrqYGNk(Object , EventArgs )
+[2025-11-18 14:51:57.477 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0136ms
+[2025-11-18 14:51:57.543 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (66.6905ms)
+[2025-11-18 14:52:50.276 DBG] Credits :: Time to save 9.91ms
+[2025-11-18 14:52:56.201 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:52:56.212 DBG] Users :: Time to save 11.3576ms
+[2025-11-18 14:52:56.224 DBG] Actions :: Time to save 11.7285ms
+[2025-11-18 14:52:56.234 DBG] Commands :: Time to save 10.1651ms
+[2025-11-18 14:52:56.244 DBG] Twitch Rewards :: Time to save 9.725ms
+[2025-11-18 14:52:56.252 DBG] Midi :: Time to save 8.2298ms
+[2025-11-18 14:52:56.262 DBG] OBS Settings :: Time to save 9.8103ms
+[2025-11-18 14:52:56.271 DBG] MeldStudio Settings :: Time to save 9.092ms
+[2025-11-18 14:52:56.279 DBG] Credits :: Time to save 8.0726ms
+[2025-11-18 14:52:56.288 DBG] Quotes :: Time to save 8.563ms
+[2025-11-18 14:52:56.412 DBG] Config :: Time to save 11.1794ms
+[2025-11-18 14:52:57.484 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0217ms
+[2025-11-18 14:52:57.561 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (77.6757ms)
+[2025-11-18 14:53:57.494 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0149ms
+[2025-11-18 14:53:57.568 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.606ms)
+[2025-11-18 14:54:57.500 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0129ms
+[2025-11-18 14:54:57.578 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.1845ms)
+[2025-11-18 14:55:37.679 ERR] Clipboard :: An error was encountered when trying to access the clipboard for the Clipboard Changed event
+System.OutOfMemoryException: Class not registered
+
+Class not registered
+
+   at System.Runtime.InteropServices.ComTypes.IDataObject.EnumFormatEtc(DATADIR direction)
+   at System.Windows.DataObject.OleConverter.EnumFormatEtcInner(DATADIR dwDirection)
+   at System.Windows.DataObject.OleConverter.GetFormats(Boolean autoConvert)
+   at System.Windows.DataObject.GetFormats()
+   at _Un7eNdykDjXCZ20xcVUKXkblE7R._jS8GWh2UBWmJ2JtNawy6DrqYGNk(Object , EventArgs )
+[2025-11-18 14:55:46.724 DBG] ActionDispatcher :: Queueing 'FilePath Settings' (b7f41dcd-c6e2-49a6-a4e6-439199f48a54, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 14:55:46.724 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action b7f41dcd-c6e2-49a6-a4e6-439199f48a54
+[2025-11-18 14:55:46.724 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 14:55:46.724 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'FilePath Settings' (b7f41dcd-c6e2-49a6-a4e6-439199f48a54, dc5e0b7e-a07a-478a-a7af-25d5e6146967)
+[2025-11-18 14:55:57.506 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0158ms
+[2025-11-18 14:55:57.573 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.0857ms)
+[2025-11-18 14:56:57.522 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0149ms
+[2025-11-18 14:56:57.592 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.7934ms)
+[2025-11-18 14:57:50.277 DBG] Credits :: Time to save 10.1446ms
+[2025-11-18 14:57:56.365 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 14:57:56.377 DBG] Users :: Time to save 12.3139ms
+[2025-11-18 14:57:56.389 DBG] Actions :: Time to save 11.6297ms
+[2025-11-18 14:57:56.399 DBG] Commands :: Time to save 9.9756ms
+[2025-11-18 14:57:56.408 DBG] Twitch Rewards :: Time to save 8.8488ms
+[2025-11-18 14:57:56.415 DBG] Midi :: Time to save 7.3739ms
+[2025-11-18 14:57:56.424 DBG] OBS Settings :: Time to save 8.6471ms
+[2025-11-18 14:57:56.434 DBG] MeldStudio Settings :: Time to save 9.621ms
+[2025-11-18 14:57:56.443 DBG] Credits :: Time to save 9.4889ms
+[2025-11-18 14:57:56.452 DBG] Quotes :: Time to save 8.8831ms
+[2025-11-18 14:57:56.578 DBG] Config :: Time to save 11.2007ms
+[2025-11-18 14:57:57.531 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0109ms
+[2025-11-18 14:57:57.601 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.7249ms)
+[2025-11-18 14:58:57.539 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0168ms
+[2025-11-18 14:58:57.613 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.0896ms)
+[2025-11-18 14:59:57.550 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0119ms
+[2025-11-18 14:59:57.636 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (85.9627ms)
+[2025-11-18 15:00:26.184 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:00:26.184 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:00:26.184 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:00:26.184 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 825ea8a0-8e82-4390-b75d-b2256e88b157)
+[2025-11-18 15:00:26.184 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-11-18 15:00:26.184 DBG] InlineCode :: Unloading 'mfc1c96d381f4392ac2daecb933995be'
+[2025-11-18 15:00:26.204 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 15:00:26.270 DBG] InlineCode :: Running default entry point from instance '15461825-e83c-4d2b-aa74-36036c544ceb'
+[2025-11-18 15:00:50.046 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:00:50.046 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:00:50.046 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:00:50.046 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, a58e1d95-59a1-4b5c-90cf-b1ac4590984c)
+[2025-11-18 15:00:50.046 DBG] InlineCode :: Running default entry point from instance '15461825-e83c-4d2b-aa74-36036c544ceb'
+[2025-11-18 15:00:55.367 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:00:55.367 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:00:55.367 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:00:55.367 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, a7f40e0f-22ba-45af-80ca-e03a4d985b77)
+[2025-11-18 15:00:55.367 DBG] InlineCode :: Running default entry point from instance '15461825-e83c-4d2b-aa74-36036c544ceb'
+[2025-11-18 15:00:57.564 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0108ms
+[2025-11-18 15:00:57.641 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (76.8338ms)
+[2025-11-18 15:01:57.577 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0152ms
+[2025-11-18 15:01:57.647 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.1698ms)
+[2025-11-18 15:02:50.279 DBG] Credits :: Time to save 10.0212ms
+[2025-11-18 15:02:56.520 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:02:56.531 DBG] Users :: Time to save 10.9138ms
+[2025-11-18 15:02:56.541 DBG] Actions :: Time to save 10.2137ms
+[2025-11-18 15:02:56.550 DBG] Commands :: Time to save 8.9132ms
+[2025-11-18 15:02:56.559 DBG] Twitch Rewards :: Time to save 8.7089ms
+[2025-11-18 15:02:56.566 DBG] Midi :: Time to save 7.402ms
+[2025-11-18 15:02:56.575 DBG] OBS Settings :: Time to save 9.0345ms
+[2025-11-18 15:02:56.584 DBG] MeldStudio Settings :: Time to save 8.7893ms
+[2025-11-18 15:02:56.591 DBG] Credits :: Time to save 7.6852ms
+[2025-11-18 15:02:56.601 DBG] Quotes :: Time to save 8.8632ms
+[2025-11-18 15:02:56.734 DBG] Config :: Time to save 12.272ms
+[2025-11-18 15:02:57.587 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0181ms
+[2025-11-18 15:02:57.658 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.0353ms)
+[2025-11-18 15:03:54.341 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:03:54.341 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:03:54.341 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:03:54.341 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 9f67a7f5-87ee-4175-8664-5d15f5c16cbd)
+[2025-11-18 15:03:54.341 DBG] InlineCode :: Running default entry point from instance '15461825-e83c-4d2b-aa74-36036c544ceb'
+[2025-11-18 15:03:57.603 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0138ms
+[2025-11-18 15:03:57.678 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (76.1844ms)
+[2025-11-18 15:04:57.617 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0172ms
+[2025-11-18 15:04:57.688 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.5769ms)
+[2025-11-18 15:05:09.053 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:05:09.053 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:05:09.053 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:05:09.053 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 17b65ad1-a52e-4dbb-984a-de3671c2cc0d)
+[2025-11-18 15:05:09.054 DBG] InlineCode :: Running default entry point from instance '15461825-e83c-4d2b-aa74-36036c544ceb'
+[2025-11-18 15:05:57.637 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0385ms
+[2025-11-18 15:05:57.705 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.8059ms)
+[2025-11-18 15:06:49.986 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:06:49.986 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:06:49.986 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:06:49.986 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 1e3ba64b-af8b-4722-a9a3-7e9ba499981d)
+[2025-11-18 15:06:49.986 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-11-18 15:06:49.986 DBG] InlineCode :: Unloading 'cf6a6e866895417d961a9164ea41ce8c'
+[2025-11-18 15:06:50.018 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 15:06:50.096 DBG] InlineCode :: Running default entry point from instance '99cce86e-3dbf-406f-a7e9-cd81d4260fbc'
+[2025-11-18 15:06:57.641 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0147ms
+[2025-11-18 15:06:57.712 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.1625ms)
+[2025-11-18 15:07:40.864 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:07:40.864 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:07:40.864 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:07:40.864 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 20ac1e13-c8e6-47d4-ba2f-91278e14a368)
+[2025-11-18 15:07:40.865 DBG] InlineCode :: Running default entry point from instance '99cce86e-3dbf-406f-a7e9-cd81d4260fbc'
+[2025-11-18 15:07:50.285 DBG] Credits :: Time to save 11.256ms
+[2025-11-18 15:07:56.709 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:07:56.720 DBG] Users :: Time to save 10.713ms
+[2025-11-18 15:07:56.730 DBG] Actions :: Time to save 10.4654ms
+[2025-11-18 15:07:56.742 DBG] Commands :: Time to save 11.1031ms
+[2025-11-18 15:07:56.752 DBG] Twitch Rewards :: Time to save 10.3676ms
+[2025-11-18 15:07:56.761 DBG] Midi :: Time to save 8.0413ms
+[2025-11-18 15:07:56.769 DBG] OBS Settings :: Time to save 9.0681ms
+[2025-11-18 15:07:56.777 DBG] MeldStudio Settings :: Time to save 7.9543ms
+[2025-11-18 15:07:56.786 DBG] Credits :: Time to save 8.5174ms
+[2025-11-18 15:07:56.794 DBG] Quotes :: Time to save 7.9083ms
+[2025-11-18 15:07:56.921 DBG] Config :: Time to save 11.2914ms
+[2025-11-18 15:07:57.652 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0153ms
+[2025-11-18 15:07:57.722 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.987ms)
+[2025-11-18 15:08:04.906 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:08:04.906 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:08:04.906 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:08:04.906 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 7a1d3bbc-8935-4914-920d-5a14925d919c)
+[2025-11-18 15:08:04.906 DBG] InlineCode :: Running default entry point from instance '99cce86e-3dbf-406f-a7e9-cd81d4260fbc'
+[2025-11-18 15:08:50.364 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:08:50.364 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:08:50.364 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:08:50.364 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 1f748d53-2fba-4d73-9138-b39c8513adb7)
+[2025-11-18 15:08:50.365 DBG] InlineCode :: Running default entry point from instance '99cce86e-3dbf-406f-a7e9-cd81d4260fbc'
+[2025-11-18 15:08:57.663 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0147ms
+[2025-11-18 15:08:57.738 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.0378ms)
+[2025-11-18 15:09:57.664 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0172ms
+[2025-11-18 15:09:57.735 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.7804ms)
+[2025-11-18 15:10:57.687 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0276ms
+[2025-11-18 15:10:57.760 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.6616ms)
+[2025-11-18 15:11:57.690 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0168ms
+[2025-11-18 15:11:57.757 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.5369ms)
+[2025-11-18 15:12:23.712 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:12:23.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:12:23.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:12:23.713 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, d7b0866e-12d9-4e3d-bdf7-ceb3ae51af24)
+[2025-11-18 15:12:23.713 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-11-18 15:12:23.713 DBG] InlineCode :: Unloading 'c61a3a057eed46eeb3f3683dcae3a2c0'
+[2025-11-18 15:12:23.737 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 15:12:23.801 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:12:50.292 DBG] Credits :: Time to save 10.2364ms
+[2025-11-18 15:12:53.095 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:12:53.095 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:12:53.095 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:12:53.095 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 1f216522-c2b4-48f4-aa91-5eb31650dc9e)
+[2025-11-18 15:12:53.096 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:12:56.895 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:12:56.907 DBG] Users :: Time to save 11.612ms
+[2025-11-18 15:12:56.917 DBG] Actions :: Time to save 10.3007ms
+[2025-11-18 15:12:56.926 DBG] Commands :: Time to save 9.2807ms
+[2025-11-18 15:12:56.936 DBG] Twitch Rewards :: Time to save 9.4603ms
+[2025-11-18 15:12:56.944 DBG] Midi :: Time to save 8.7077ms
+[2025-11-18 15:12:56.952 DBG] OBS Settings :: Time to save 7.8796ms
+[2025-11-18 15:12:56.960 DBG] MeldStudio Settings :: Time to save 7.5995ms
+[2025-11-18 15:12:56.967 DBG] Credits :: Time to save 7.3403ms
+[2025-11-18 15:12:56.975 DBG] Quotes :: Time to save 7.8864ms
+[2025-11-18 15:12:57.122 DBG] Config :: Time to save 12.054ms
+[2025-11-18 15:12:57.690 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0121ms
+[2025-11-18 15:12:57.765 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.3203ms)
+[2025-11-18 15:12:58.275 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:12:58.275 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:12:58.275 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:12:58.275 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 9f897e92-9a60-4cf1-aef6-d58d341f04bd)
+[2025-11-18 15:12:58.276 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:13:28.965 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:13:28.965 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:13:28.965 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:13:28.965 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 5372d25e-05b7-414d-b55b-989af83a7581)
+[2025-11-18 15:13:28.966 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:13:38.721 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:13:38.721 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:13:38.721 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:13:38.722 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, a67eaae6-4565-4b98-94a7-7399796a7c16)
+[2025-11-18 15:13:38.722 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:13:47.324 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:13:47.324 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:13:47.324 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:13:47.324 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 2bdecc90-9619-4624-9146-2ad308759af5)
+[2025-11-18 15:13:47.324 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:13:57.691 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0146ms
+[2025-11-18 15:13:57.761 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.9389ms)
+[2025-11-18 15:14:41.927 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:14:41.927 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:14:41.927 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:14:41.928 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 18f68bc9-9040-4273-bcb8-ac79989d685d)
+[2025-11-18 15:14:41.928 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:14:46.831 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:14:46.831 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:14:46.831 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:14:46.831 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 3d0393cb-5da0-4682-969d-3d3949cd5dac)
+[2025-11-18 15:14:46.831 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:14:57.692 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0171ms
+[2025-11-18 15:14:57.761 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.3732ms)
+[2025-11-18 15:15:25.155 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:15:25.155 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:15:25.155 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:15:25.155 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 7e5de807-4342-4bc7-9396-db172b49136b)
+[2025-11-18 15:15:25.155 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:15:30.091 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:15:30.091 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:15:30.091 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:15:30.091 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, d7feb92a-ed48-46cc-9029-3745a7717caf)
+[2025-11-18 15:15:30.091 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:15:57.706 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0164ms
+[2025-11-18 15:15:57.777 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.6391ms)
+[2025-11-18 15:16:57.711 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0194ms
+[2025-11-18 15:16:57.782 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.8691ms)
+[2025-11-18 15:17:50.297 DBG] Credits :: Time to save 10.2522ms
+[2025-11-18 15:17:57.035 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:17:57.046 DBG] Users :: Time to save 10.4806ms
+[2025-11-18 15:17:57.056 DBG] Actions :: Time to save 9.9635ms
+[2025-11-18 15:17:57.064 DBG] Commands :: Time to save 8.6695ms
+[2025-11-18 15:17:57.073 DBG] Twitch Rewards :: Time to save 8.4901ms
+[2025-11-18 15:17:57.080 DBG] Midi :: Time to save 7.33ms
+[2025-11-18 15:17:57.089 DBG] OBS Settings :: Time to save 8.4637ms
+[2025-11-18 15:17:57.097 DBG] MeldStudio Settings :: Time to save 7.558ms
+[2025-11-18 15:17:57.105 DBG] Credits :: Time to save 8.0999ms
+[2025-11-18 15:17:57.114 DBG] Quotes :: Time to save 8.5071ms
+[2025-11-18 15:17:57.247 DBG] Config :: Time to save 11.0773ms
+[2025-11-18 15:17:57.731 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0165ms
+[2025-11-18 15:17:57.802 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.3562ms)
+[2025-11-18 15:18:57.736 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0216ms
+[2025-11-18 15:18:58.468 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (731.4686ms)
+[2025-11-18 15:19:57.741 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0168ms
+[2025-11-18 15:19:57.823 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (82.3451ms)
+[2025-11-18 15:20:57.764 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0192ms
+[2025-11-18 15:20:57.835 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.2354ms)
+[2025-11-18 15:21:35.192 ERR] Clipboard :: An error was encountered when trying to access the clipboard for the Clipboard Changed event
+System.OutOfMemoryException: Insufficient memory to continue the execution of the program.
+   at System.Runtime.InteropServices.ComTypes.IDataObject.EnumFormatEtc(DATADIR direction)
+   at System.Windows.DataObject.OleConverter.EnumFormatEtcInner(DATADIR dwDirection)
+   at System.Windows.DataObject.OleConverter.GetFormats(Boolean autoConvert)
+   at System.Windows.DataObject.GetFormats()
+   at _Un7eNdykDjXCZ20xcVUKXkblE7R._jS8GWh2UBWmJ2JtNawy6DrqYGNk(Object , EventArgs )
+[2025-11-18 15:21:57.776 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0167ms
+[2025-11-18 15:21:57.842 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (66.702ms)
+[2025-11-18 15:22:50.308 DBG] Credits :: Time to save 9.9081ms
+[2025-11-18 15:22:57.230 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:22:57.240 DBG] Users :: Time to save 10.4944ms
+[2025-11-18 15:22:57.252 DBG] Actions :: Time to save 11.3472ms
+[2025-11-18 15:22:57.260 DBG] Commands :: Time to save 8.2276ms
+[2025-11-18 15:22:57.269 DBG] Twitch Rewards :: Time to save 8.8029ms
+[2025-11-18 15:22:57.276 DBG] Midi :: Time to save 7.087ms
+[2025-11-18 15:22:57.284 DBG] OBS Settings :: Time to save 8.1076ms
+[2025-11-18 15:22:57.291 DBG] MeldStudio Settings :: Time to save 7.4468ms
+[2025-11-18 15:22:57.301 DBG] Credits :: Time to save 8.6098ms
+[2025-11-18 15:22:57.308 DBG] Quotes :: Time to save 7.7446ms
+[2025-11-18 15:22:57.443 DBG] Config :: Time to save 10.9964ms
+[2025-11-18 15:22:57.786 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0146ms
+[2025-11-18 15:22:57.857 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.5668ms)
+[2025-11-18 15:23:57.811 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.017ms
+[2025-11-18 15:23:57.881 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.2568ms)
+[2025-11-18 15:24:01.963 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:24:01.963 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:24:01.963 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:24:01.963 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 0bcc8aac-e6b1-4aff-9441-82f74c12f6b3)
+[2025-11-18 15:24:01.963 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:24:01.968 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 15:24:02.031 DBG] InlineCode :: Running default entry point from instance 'b9f5ceb7-a1f4-46ec-a9ba-007695a634ee'
+[2025-11-18 15:24:22.157 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:24:22.157 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:24:22.157 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:24:22.157 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, e0927cf5-7eb2-466e-ae86-31e10a7dc46e)
+[2025-11-18 15:24:22.158 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:24:22.162 DBG] InlineCode :: Running default entry point from instance 'b9f5ceb7-a1f4-46ec-a9ba-007695a634ee'
+[2025-11-18 15:24:57.813 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0128ms
+[2025-11-18 15:24:57.882 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.9852ms)
+[2025-11-18 15:25:57.814 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0123ms
+[2025-11-18 15:25:57.889 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (76.0892ms)
+[2025-11-18 15:26:57.841 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0161ms
+[2025-11-18 15:26:57.912 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.8823ms)
+[2025-11-18 15:27:50.330 DBG] Credits :: Time to save 9.5464ms
+[2025-11-18 15:27:57.449 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:27:57.459 DBG] Users :: Time to save 10.3689ms
+[2025-11-18 15:27:57.470 DBG] Actions :: Time to save 10.8642ms
+[2025-11-18 15:27:57.479 DBG] Commands :: Time to save 8.7315ms
+[2025-11-18 15:27:57.488 DBG] Twitch Rewards :: Time to save 8.5727ms
+[2025-11-18 15:27:57.494 DBG] Midi :: Time to save 6.6341ms
+[2025-11-18 15:27:57.502 DBG] OBS Settings :: Time to save 7.6123ms
+[2025-11-18 15:27:57.510 DBG] MeldStudio Settings :: Time to save 7.5418ms
+[2025-11-18 15:27:57.518 DBG] Credits :: Time to save 8.143ms
+[2025-11-18 15:27:57.526 DBG] Quotes :: Time to save 8.0527ms
+[2025-11-18 15:27:57.677 DBG] Config :: Time to save 12.2575ms
+[2025-11-18 15:27:57.851 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0147ms
+[2025-11-18 15:27:57.932 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.8388ms)
+[2025-11-18 15:28:57.865 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0151ms
+[2025-11-18 15:28:57.945 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.2904ms)
+[2025-11-18 15:29:56.881 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-18 15:29:56.881 DBG] OBS :: Disconnected from My OBS Connection (127.0.0.1:4455)
+[2025-11-18 15:29:57.871 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.015ms
+[2025-11-18 15:29:57.942 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.2798ms)
+[2025-11-18 15:30:57.876 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0142ms
+[2025-11-18 15:30:57.942 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.0331ms)
+[2025-11-18 15:31:11.825 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:31:11.825 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:31:11.825 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:31:11.825 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 7d6e821e-8bcd-4c61-abab-c54a3f8c89ee)
+[2025-11-18 15:31:11.825 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:31:11.834 DBG] InlineCode :: Running default entry point from instance 'b9f5ceb7-a1f4-46ec-a9ba-007695a634ee'
+[2025-11-18 15:31:51.379 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:31:51.379 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:31:51.379 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:31:51.379 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, fb1501d2-daad-4f25-b697-ee164e293d52)
+[2025-11-18 15:31:51.379 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:31:51.389 DBG] InlineCode :: Running default entry point from instance 'b9f5ceb7-a1f4-46ec-a9ba-007695a634ee'
+[2025-11-18 15:31:57.881 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0137ms
+[2025-11-18 15:31:57.956 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (74.5589ms)
+[2025-11-18 15:32:50.344 DBG] Credits :: Time to save 9.7776ms
+[2025-11-18 15:32:57.685 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:32:57.696 DBG] Users :: Time to save 10.4406ms
+[2025-11-18 15:32:57.707 DBG] Actions :: Time to save 11.2273ms
+[2025-11-18 15:32:57.716 DBG] Commands :: Time to save 8.6122ms
+[2025-11-18 15:32:57.725 DBG] Twitch Rewards :: Time to save 9.1253ms
+[2025-11-18 15:32:57.733 DBG] Midi :: Time to save 7.6607ms
+[2025-11-18 15:32:57.742 DBG] OBS Settings :: Time to save 9.3797ms
+[2025-11-18 15:32:57.749 DBG] MeldStudio Settings :: Time to save 7.389ms
+[2025-11-18 15:32:57.757 DBG] Credits :: Time to save 7.7994ms
+[2025-11-18 15:32:57.764 DBG] Quotes :: Time to save 7.1009ms
+[2025-11-18 15:32:57.886 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0165ms
+[2025-11-18 15:32:57.898 DBG] Config :: Time to save 11.7912ms
+[2025-11-18 15:32:57.954 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.6284ms)
+[2025-11-18 15:33:57.899 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0159ms
+[2025-11-18 15:33:57.977 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (77.639ms)
+[2025-11-18 15:34:57.908 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0185ms
+[2025-11-18 15:34:57.979 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.3765ms)
+[2025-11-18 15:35:57.936 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0151ms
+[2025-11-18 15:35:58.003 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.0687ms)
+[2025-11-18 15:35:59.828 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:35:59.828 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:35:59.828 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:35:59.829 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, f7f1ea2a-e9cb-476d-b25c-1c519a9b4a81)
+[2025-11-18 15:35:59.829 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:35:59.833 DBG] InlineCode :: Running default entry point from instance 'b9f5ceb7-a1f4-46ec-a9ba-007695a634ee'
+[2025-11-18 15:36:18.988 DBG] InlineCode :: Unloading 'ead3be5d7d45443faad18dc8d9b75c86'
+[2025-11-18 15:36:32.451 DBG] OBS :: Opening websocket connection to My OBS Connection (127.0.0.1:4455)
+[2025-11-18 15:36:32.451 DBG] OBS-Websocket5 :: Opening connection (ws://127.0.0.1:4455/api/websocket)
+[2025-11-18 15:36:32.457 DBG] OBS :: Connected to My OBS Connection (127.0.0.1:4455)
+[2025-11-18 15:36:57.937 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0128ms
+[2025-11-18 15:36:58.010 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.2218ms)
+[2025-11-18 15:37:06.891 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:37:06.891 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:37:06.891 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:37:06.891 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, b4d6bdd9-a1e0-400b-a229-3ed59d15c7f6)
+[2025-11-18 15:37:06.891 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:37:30.661 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:37:30.661 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:37:30.661 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:37:30.661 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 6dc04992-52bf-4a08-8bcd-c04468b91389)
+[2025-11-18 15:37:30.661 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:37:34.836 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:37:34.836 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:37:34.836 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:37:34.836 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 1beacef0-efb5-4f69-aa16-a0412935647d)
+[2025-11-18 15:37:34.836 DBG] InlineCode :: Running default entry point from instance '70130962-37b9-4a7b-8e3c-6dcc0848c527'
+[2025-11-18 15:37:50.357 DBG] Credits :: Time to save 9.5501ms
+[2025-11-18 15:37:57.850 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:37:57.862 DBG] Users :: Time to save 12.2203ms
+[2025-11-18 15:37:57.872 DBG] Actions :: Time to save 10.4012ms
+[2025-11-18 15:37:57.882 DBG] Commands :: Time to save 9.4043ms
+[2025-11-18 15:37:57.894 DBG] Twitch Rewards :: Time to save 11.49ms
+[2025-11-18 15:37:57.904 DBG] Midi :: Time to save 10.7537ms
+[2025-11-18 15:37:57.914 DBG] OBS Settings :: Time to save 9.8275ms
+[2025-11-18 15:37:57.922 DBG] MeldStudio Settings :: Time to save 7.9417ms
+[2025-11-18 15:37:57.932 DBG] Credits :: Time to save 9.1974ms
+[2025-11-18 15:37:57.941 DBG] Quotes :: Time to save 9.2015ms
+[2025-11-18 15:37:57.942 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0223ms
+[2025-11-18 15:37:58.009 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.4765ms)
+[2025-11-18 15:37:58.083 DBG] Config :: Time to save 18.4023ms
+[2025-11-18 15:38:57.957 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.015ms
+[2025-11-18 15:38:58.026 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.7712ms)
+[2025-11-18 15:39:57.962 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0137ms
+[2025-11-18 15:39:58.037 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.0252ms)
+[2025-11-18 15:40:57.974 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.016ms
+[2025-11-18 15:40:58.041 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (67.4667ms)
+[2025-11-18 15:41:57.983 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0169ms
+[2025-11-18 15:41:58.052 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (68.9153ms)
+[2025-11-18 15:42:50.359 DBG] Credits :: Time to save 11.405ms
+[2025-11-18 15:42:57.990 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0145ms
+[2025-11-18 15:42:58.021 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:42:58.031 DBG] Users :: Time to save 10.6096ms
+[2025-11-18 15:42:58.042 DBG] Actions :: Time to save 10.6131ms
+[2025-11-18 15:42:58.051 DBG] Commands :: Time to save 8.5287ms
+[2025-11-18 15:42:58.058 DBG] Twitch Rewards :: Time to save 8.2924ms
+[2025-11-18 15:42:58.067 DBG] Midi :: Time to save 8.6338ms
+[2025-11-18 15:42:58.068 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (78.1368ms)
+[2025-11-18 15:42:58.076 DBG] OBS Settings :: Time to save 7.9909ms
+[2025-11-18 15:42:58.084 DBG] MeldStudio Settings :: Time to save 7.9199ms
+[2025-11-18 15:42:58.090 DBG] Credits :: Time to save 6.9449ms
+[2025-11-18 15:42:58.099 DBG] Quotes :: Time to save 8.0691ms
+[2025-11-18 15:42:58.248 DBG] Config :: Time to save 12.2765ms
+[2025-11-18 15:43:18.207 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:43:18.207 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:18.207 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:18.207 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 42f28a6d-4e24-4384-9806-f62bda2f3de3)
+[2025-11-18 15:43:18.207 DBG] InlineCode :: Code has been flagged as dirty for '', destroying instance
+[2025-11-18 15:43:18.207 DBG] InlineCode :: Unloading 'y74a95c72c904934ac5dcec3912c7b0c'
+[2025-11-18 15:43:18.224 DBG] InlineCode :: Creating and compiling instance for ''
+[2025-11-18 15:43:18.295 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:27.554 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:27.554 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:27.554 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:27.554 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 44c144fd-ef70-495c-bb89-819af2649a37), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:27.557 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:29.195 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:29.195 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:29.206 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:29.206 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:29.206 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:29.206 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, fbe2650b-0f93-499a-8041-8f2ccfbc2458)
+[2025-11-18 15:43:29.206 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:33.540 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:33.541 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:33.541 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:33.541 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, b459479c-8593-4dfb-9ff7-f6a5fc42c19b), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:33.544 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:35.181 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:35.181 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:35.192 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:35.192 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:35.192 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:35.193 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, c0733dcf-1b21-42ac-bc0a-7098d3084da9)
+[2025-11-18 15:43:35.193 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:41.985 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:41.985 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:41.985 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:41.985 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, b47becf7-1167-4e4e-a0de-53d12d01f16a), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:41.987 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:43.622 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:43.622 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:43.636 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:43.636 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:43.636 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:43.636 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, f65b4ac4-3fcf-4654-821e-4b0814edd978)
+[2025-11-18 15:43:43.636 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:47.968 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:47.968 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:47.968 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:47.968 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, c0bbc9a3-fa97-4477-b551-280b1513b865), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:47.974 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:49.001 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:49.001 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:49.001 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:49.001 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 5ff308a1-8c94-4446-ae9a-ec3bbc7176c1), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:49.003 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:49.594 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:49.594 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:49.607 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:49.607 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:49.607 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:49.607 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, c4764edd-a818-4cf6-919e-61354ba6537f)
+[2025-11-18 15:43:49.607 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:49.817 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:49.817 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:49.817 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:49.818 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 1a9e922e-8460-4d91-ae12-a39fcf73b56a), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:49.820 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:50.643 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:50.643 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:50.656 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:50.656 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:50.656 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:50.656 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, b1617d40-5221-443e-9bc1-75a952c43342)
+[2025-11-18 15:43:50.656 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:51.228 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:51.228 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:51.228 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:51.228 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, fa6d1960-71fc-4bcd-8320-d53508ee5b9e), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:51.231 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:51.462 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:51.462 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:51.474 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:51.474 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:51.474 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:51.474 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, b09ff2f8-c107-4c33-a5c3-60beb8ce4eb6)
+[2025-11-18 15:43:51.474 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:51.858 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:51.858 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:51.858 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:51.858 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, ad136b4e-1596-4247-bce5-e6e44000ce11), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:51.860 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:52.869 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:52.869 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:52.882 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:52.882 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:52.882 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:52.882 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 307762b3-d001-48f3-a628-891aad5ece84)
+[2025-11-18 15:43:52.882 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:53.156 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:53.156 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:53.156 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:53.156 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, cd1e1766-baba-4d86-8e3c-0dae56520981), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:53.162 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:53.502 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:53.502 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:53.513 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:53.513 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:53.513 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:53.513 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 3a7b746e-780c-4959-a7ce-f4f0497f2888)
+[2025-11-18 15:43:53.513 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:54.459 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:43:54.459 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:43:54.459 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:54.459 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, b41d3794-21ac-4471-b003-4b3962d5a2fe), initiated by yarem4 with 44 arguments
+[2025-11-18 15:43:54.460 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:43:54.800 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:54.800 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:54.812 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:54.812 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:54.812 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:54.812 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 75b35464-a5a7-4f44-92a1-2d94a695e17b)
+[2025-11-18 15:43:54.812 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:56.101 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:43:56.101 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:43:56.115 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:43:56.115 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:43:56.115 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:43:56.115 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 2f688f45-c970-40d2-a069-eb4ecd183c8b)
+[2025-11-18 15:43:56.115 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:43:57.996 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0134ms
+[2025-11-18 15:43:58.076 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (80.1994ms)
+[2025-11-18 15:44:10.498 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:44:10.498 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:44:10.498 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:44:10.498 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 782d8d3f-b348-4466-a850-12cf896a5828)
+[2025-11-18 15:44:10.499 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:44:17.707 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:44:17.707 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:44:17.707 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:44:17.707 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 5c4a166a-ea03-48dc-8f72-48ca81bfa6be)
+[2025-11-18 15:44:17.707 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:44:21.856 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:44:21.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:44:21.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:44:21.856 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, 50e2e40a-ad58-45a5-89e4-00d2c69d6730), initiated by yarem4 with 44 arguments
+[2025-11-18 15:44:21.858 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:44:23.494 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:44:23.494 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:44:23.506 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:44:23.507 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:44:23.507 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:44:23.507 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, d124b119-c86f-4467-81fa-4aa81a45d98d)
+[2025-11-18 15:44:23.507 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:44:31.647 DBG] ActionDispatcher :: Queueing 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, CommandTriggered) to 'Default' (00000000-0000-0000-0000-000000000000), initiated by yarem4 with 43 arguments
+[2025-11-18 15:44:31.647 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action eef9aa9e-83cf-4379-a546-c023bfc16fc9
+[2025-11-18 15:44:31.647 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:44:31.647 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Fireball' (eef9aa9e-83cf-4379-a546-c023bfc16fc9, b8e973b5-9609-426f-8aba-248c05acae98), initiated by yarem4 with 44 arguments
+[2025-11-18 15:44:31.650 WRN] Sound file C:\Users\reyni\Yarred\Resources\Assets\SFX\Firebomb.mp3 was not found!
+[2025-11-18 15:44:33.281 DBG] Attempting to run 'Increment Redeem Count' inline
+[2025-11-18 15:44:33.281 DBG] InlineCode :: Running default entry point from instance '26e519db-7849-441c-82e0-1de2982964db'
+[2025-11-18 15:44:33.294 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, GlobalVariableUpdated) to 'Default' (00000000-0000-0000-0000-000000000000), with 13 arguments
+[2025-11-18 15:44:33.294 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:44:33.294 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:44:33.294 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 54a4bade-ee5c-491b-8018-cfc3579da6d6)
+[2025-11-18 15:44:33.294 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:44:58.013 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.013ms
+[2025-11-18 15:44:58.088 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.285ms)
+[2025-11-18 15:45:09.231 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:45:09.231 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:45:09.231 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:45:09.232 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 74743ad8-da86-4b59-857e-afd1e7049057)
+[2025-11-18 15:45:09.232 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:45:19.784 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:45:19.784 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 15:45:19.784 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:45:19.784 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 0bd55daf-149b-420a-8dd8-edb9fb038e3a)
+[2025-11-18 15:45:21.917 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:45:21.917 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:45:21.917 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:45:21.917 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, ba4f7e26-5df9-434c-a261-e6255f1ce41f)
+[2025-11-18 15:45:21.918 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:45:41.791 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:45:41.791 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 15:45:41.791 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:45:41.792 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, 1a1fe36d-a37b-4fcc-8e09-7f3f187c51ee)
+[2025-11-18 15:45:48.292 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:45:48.292 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:45:48.293 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:45:48.293 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, 21228bc4-22f6-4dfc-8ac5-588368385120)
+[2025-11-18 15:45:48.296 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:45:58.020 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0163ms
+[2025-11-18 15:45:58.091 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.4948ms)
+[2025-11-18 15:46:07.645 DBG] ActionDispatcher :: Queueing 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:46:07.645 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action bf81d7aa-1393-40e1-9164-23b192b7abb4
+[2025-11-18 15:46:07.645 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:46:07.645 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Goal Bar Color & Text Settings' (bf81d7aa-1393-40e1-9164-23b192b7abb4, e34497e0-692d-4cba-89a1-2a98d2febc9b)
+[2025-11-18 15:46:12.771 DBG] ActionDispatcher :: Queueing 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, Test) to 'Default' (00000000-0000-0000-0000-000000000000), with 9 arguments
+[2025-11-18 15:46:12.771 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Enqueue action 4f1b3234-bde0-4d69-9a48-fb071e20b5f4
+[2025-11-18 15:46:12.771 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Handling queue
+[2025-11-18 15:46:12.771 DBG] ActionQueue :: 'Default' (00000000-0000-0000-0000-000000000000) :: Performing non-blocking 'Update Experience Bar' (4f1b3234-bde0-4d69-9a48-fb071e20b5f4, bb1e5d23-1148-496b-9907-b4df2a46e5e7)
+[2025-11-18 15:46:12.771 DBG] InlineCode :: Running default entry point from instance '627c880b-083a-4c58-905a-6f4eb23f3163'
+[2025-11-18 15:46:58.032 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0131ms
+[2025-11-18 15:46:58.103 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.7214ms)
+[2025-11-18 15:47:50.366 DBG] Credits :: Time to save 9.4268ms
+[2025-11-18 15:47:58.035 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0199ms
+[2025-11-18 15:47:58.104 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.6149ms)
+[2025-11-18 15:47:58.205 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:47:58.215 DBG] Users :: Time to save 9.992ms
+[2025-11-18 15:47:58.226 DBG] Actions :: Time to save 11.1577ms
+[2025-11-18 15:47:58.235 DBG] Commands :: Time to save 8.2206ms
+[2025-11-18 15:47:58.245 DBG] Twitch Rewards :: Time to save 10.7197ms
+[2025-11-18 15:47:58.254 DBG] Midi :: Time to save 8.603ms
+[2025-11-18 15:47:58.262 DBG] OBS Settings :: Time to save 7.4349ms
+[2025-11-18 15:47:58.269 DBG] MeldStudio Settings :: Time to save 7.5529ms
+[2025-11-18 15:47:58.277 DBG] Credits :: Time to save 7.6838ms
+[2025-11-18 15:47:58.284 DBG] Quotes :: Time to save 7.0656ms
+[2025-11-18 15:47:58.432 DBG] Config :: Time to save 11.2845ms
+[2025-11-18 15:48:58.037 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0164ms
+[2025-11-18 15:48:58.109 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (71.8957ms)
+[2025-11-18 15:49:58.052 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0202ms
+[2025-11-18 15:49:58.121 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.6073ms)
+[2025-11-18 15:50:58.072 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0144ms
+[2025-11-18 15:50:58.145 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (73.0032ms)
+[2025-11-18 15:51:58.091 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0144ms
+[2025-11-18 15:51:58.159 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (69.1542ms)
+[2025-11-18 15:52:50.373 DBG] Credits :: Time to save 10.4506ms
+[2025-11-18 15:52:58.102 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0194ms
+[2025-11-18 15:52:58.172 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (70.6564ms)
+[2025-11-18 15:52:58.379 DBG] AutoSave :: Auto saving settings...
+[2025-11-18 15:52:58.389 DBG] Users :: Time to save 10.0926ms
+[2025-11-18 15:52:58.399 DBG] Actions :: Time to save 10.6483ms
+[2025-11-18 15:52:58.409 DBG] Commands :: Time to save 10.049ms
+[2025-11-18 15:52:58.417 DBG] Twitch Rewards :: Time to save 8.3043ms
+[2025-11-18 15:52:58.426 DBG] Midi :: Time to save 8.6875ms
+[2025-11-18 15:52:58.434 DBG] OBS Settings :: Time to save 7.4678ms
+[2025-11-18 15:52:58.442 DBG] MeldStudio Settings :: Time to save 8.2896ms
+[2025-11-18 15:52:58.450 DBG] Credits :: Time to save 7.9911ms
+[2025-11-18 15:52:58.458 DBG] Quotes :: Time to save 8.0184ms
+[2025-11-18 15:52:58.606 DBG] Config :: Time to save 12.1657ms
+[2025-11-18 15:53:58.122 DBG] ViewerRepo :: UpdatePresence(twitch, 5), 0.0141ms
+[2025-11-18 15:53:58.197 DBG] TwitchService :: Presence Timer :: Artificially updated presence with a threshold of 5 minutes (75.4422ms)
+[2025-11-18 15:54:03.107 DBG] OBS-Websocket5 :: Disconnected
+[2025-11-18 15:54:03.107 DBG] OBS :: Disconnected from My OBS Connection (127.0.0.1:4455)
+[2025-11-18 15:54:11.101 DBG] Users :: Time to save 10.4353ms
+[2025-11-18 15:54:11.111 DBG] Actions :: Time to save 9.5564ms
+[2025-11-18 15:54:11.120 DBG] Commands :: Time to save 8.7994ms
+[2025-11-18 15:54:11.128 DBG] Twitch Rewards :: Time to save 8.4406ms
+[2025-11-18 15:54:11.136 DBG] Midi :: Time to save 7.6714ms
+[2025-11-18 15:54:11.143 DBG] OBS Settings :: Time to save 6.8793ms
+[2025-11-18 15:54:11.149 DBG] MeldStudio Settings :: Time to save 6.4726ms
+[2025-11-18 15:54:11.156 DBG] Credits :: Time to save 6.6524ms
+[2025-11-18 15:54:11.163 DBG] Quotes :: Time to save 6.9843ms
+[2025-11-18 15:54:11.173 INF] Shutting down...
+[2025-11-18 15:54:11.313 DBG] Config :: Time to save 11.2043ms
+[2025-11-18 15:54:11.355 INF] Closing services...
+[2025-11-18 15:54:11.355 DBG] UsbRemovalWatcher :: Disposed
+[2025-11-18 15:54:11.356 DBG] ProcessWatcher :: Disposed
+[2025-11-18 15:54:11.357 DBG] ProcessWatcher :: Disposed
+[2025-11-18 15:54:11.358 DBG] Events Service :: Shutting down event queue thread
+[2025-11-18 15:54:11.358 DBG] Events Service :: Shutting down raw event queue thread
+[2025-11-18 15:54:11.358 DBG] Events Service :: Shutting down application event queue thread
+[2025-11-18 15:54:11.360 DBG] DonorDrive :: Stopping service
+[2025-11-18 15:54:11.361 DBG] Http Listener :: Channel is not active
+[2025-11-18 15:54:11.361 DBG] MIDI Service :: Stopping service
+[2025-11-18 15:54:11.362 DBG] Websocket Client :: Disconnecting from all connected clients
+[2025-11-18 15:54:11.362 DBG] OBS Service :: Stopping service
+[2025-11-18 15:54:11.363 DBG] Websocket Custom Server :: Stopping all servers
+[2025-11-18 15:54:11.363 DBG] FileTailDaemon :: Waiting for file tails to shut down
+[2025-11-18 15:54:11.363 DBG] FileWatcherDaemon :: Waiting for file watchers to shut down
+[2025-11-18 15:54:11.363 DBG] MIDI Service :: Shutting down event thread
+[2025-11-18 15:54:11.363 DBG] SLOBS Service :: Stopping service
+[2025-11-18 15:54:11.364 DBG] ActionDispatcher :: Shutting down action queues
+[2025-11-18 15:54:11.366 DBG] ActionQueue :: Shutting down queue 00000000-0000-0000-0000-000000000000 thread
+[2025-11-18 15:54:11.366 INF] InlineCode :: Cleaning up '3' execute code instances
+[2025-11-18 15:54:11.367 DBG] SpeechToText :: Channel was null when trying to stop
+[2025-11-18 15:54:11.367 DBG] OBS Service :: Shutting down event thread
+[2025-11-18 15:54:11.368 DBG] InlineCode :: Unloading 'peaeab3ac0a046189304073e2bde09b5'
+[2025-11-18 15:54:11.370 DBG] Twitch (Broadcaster) :: Disconnected
+[2025-11-18 15:54:11.372 INF] TwitchService :: Disconnected from Broadcaster Chat Client
+[2025-11-18 15:54:11.385 DBG] InlineCode :: Unloading 'pdf97d4514624684a18598d5942322dc'
+[2025-11-18 15:54:11.489 DBG] MeldStudio Service :: Stopping service
+[2025-11-18 15:54:11.489 DBG] MeldStudio Service :: Shutting down event thread
+[2025-11-18 15:54:11.493 DBG] InlineCode :: Unloading 'qf5ec63951624004be01a7ec8aa5c7ee'
+[2025-11-18 15:54:11.521 DBG] InlineCode :: Cleaned up execute code instances
+[2025-11-18 15:54:11.657 DBG] Twitch EventSub (Broadcaster) :: Disconnected
+[2025-11-18 15:54:11.658 INF] TwitchService :: Disconnected from Broadcaster EventSub
+[2025-11-18 15:54:11.737 INF] BTTV :: WebSocket Disconnected
+[2025-11-18 15:54:11.777 DBG] MeldStudio Settings :: Time to save 14.5438ms
+[2025-11-18 15:54:11.777 DBG] Quotes :: Time to save 15.0866ms
+[2025-11-18 15:54:11.777 DBG] Midi :: Time to save 15.2549ms
+[2025-11-18 15:54:11.779 DBG] Credits :: Time to save 16.2734ms
+[2025-11-18 15:54:11.779 DBG] Users :: Time to save 16.487ms
+[2025-11-18 15:54:11.779 DBG] Commands :: Time to save 16.5027ms
+[2025-11-18 15:54:11.779 DBG] Twitch Rewards :: Time to save 16.4393ms
+[2025-11-18 15:54:11.779 DBG] Config :: Time to save 16.5717ms
+[2025-11-18 15:54:11.779 DBG] Actions :: Time to save 16.6356ms
+[2025-11-18 15:54:11.777 DBG] OBS Settings :: Time to save 14.6769ms
+[2025-11-18 15:54:11.780 INF] Streamer.bot exited

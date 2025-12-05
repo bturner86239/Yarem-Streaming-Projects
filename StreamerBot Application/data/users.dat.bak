@@ -1,6 +1,6 @@
 {
   "version": 9,
-  "t": "2025-11-12T15:36:06.6527316-05:00",
+  "t": "2025-12-04T14:00:55.4946199-05:00",
   "groups": [],
   "users": {
     "twitch_1143744201": {
@@ -11,67 +11,7 @@
       "subscribed": true,
       "type": "twitch",
       "present": false,
-      "previousActive": "2025-11-12T14:44:57.2606675-05:00",
-      "lastActive": "0001-01-01T00:00:00",
-      "exempt": false
-    },
-    "twitch_236924052": {
-      "id": "236924052",
-      "name": "yarem4",
-      "display": "Yarem4",
-      "role": 4,
-      "subscribed": true,
-      "type": "twitch",
-      "present": true,
-      "previousActive": "2025-11-12T14:45:03.9649186-05:00",
-      "lastActive": "2025-11-12T15:16:45.0778502-05:00",
-      "exempt": false
-    },
-    "twitch_402337290": {
-      "id": "402337290",
-      "name": "sery_bot",
-      "display": "Sery_Bot",
-      "role": 3,
-      "subscribed": false,
-      "type": "twitch",
-      "present": false,
-      "previousActive": "2025-11-12T14:41:53.5883236-05:00",
-      "lastActive": "2025-11-12T14:45:03.9649186-05:00",
-      "exempt": false
-    },
-    "twitch_55010194": {
-      "id": "55010194",
-      "name": "n30npum4",
-      "display": "N30NPUM4",
-      "role": 0,
-      "subscribed": true,
-      "type": "twitch",
-      "present": false,
-      "previousActive": "2025-11-12T14:44:57.2611702-05:00",
-      "lastActive": "0001-01-01T00:00:00",
-      "exempt": false
-    },
-    "twitch_431199284": {
-      "id": "431199284",
-      "name": "kofistreambot",
-      "display": "KofiStreamBot",
-      "role": 3,
-      "subscribed": false,
-      "type": "twitch",
-      "present": false,
-      "previousActive": "2025-11-12T14:41:53.5883236-05:00",
-      "lastActive": "2025-11-12T14:45:03.9649186-05:00",
-      "exempt": false
-    },
-    "twitch_644005299": {
-      "id": "644005299",
-      "name": "rustiplants",
-      "display": "RustiPlants",
-      "role": 0,
-      "subscribed": true,
-      "type": "twitch",
-      "present": false,
-      "previousActive": "2025-11-12T14:44:57.2611702-05:00",
+      "previousActive": "2025-12-04T12:36:43.1216445-05:00",
       "lastActive": "0001-01-01T00:00:00",
       "exempt": false
     },
@@ -83,8 +23,8 @@
       "subscribed": false,
       "type": "twitch",
       "present": false,
-      "previousActive": "2025-11-12T14:41:53.5883236-05:00",
-      "lastActive": "2025-11-12T14:45:03.9649186-05:00",
+      "previousActive": "2025-11-18T13:17:55.6658291-05:00",
+      "lastActive": "2025-12-04T12:36:51.0997164-05:00",
       "exempt": false
     },
     "twitch_146326437": {
@@ -95,8 +35,56 @@
       "subscribed": true,
       "type": "twitch",
       "present": false,
-      "previousActive": "2025-11-12T14:44:57.2611702-05:00",
+      "previousActive": "2025-12-04T12:36:43.1216445-05:00",
       "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_236924052": {
+      "id": "236924052",
+      "name": "yarem4",
+      "display": "Yarem4",
+      "role": 4,
+      "subscribed": true,
+      "type": "twitch",
+      "present": true,
+      "previousActive": "2025-12-04T13:42:05.5901493-05:00",
+      "lastActive": "2025-12-04T13:48:39.2758004-05:00",
+      "exempt": false
+    },
+    "twitch_83843340": {
+      "id": "83843340",
+      "name": "templarxr",
+      "display": "TemplarXR",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "0001-01-01T00:00:00",
+      "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_1299868783": {
+      "id": "1299868783",
+      "name": "foxofironiv",
+      "display": "FoxOfIronIV",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "0001-01-01T00:00:00",
+      "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_431199284": {
+      "id": "431199284",
+      "name": "kofistreambot",
+      "display": "KofiStreamBot",
+      "role": 3,
+      "subscribed": false,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-18T13:17:55.6658291-05:00",
+      "lastActive": "2025-12-04T12:36:51.0997164-05:00",
       "exempt": false
     },
     "twitch_160840198": {
@@ -107,8 +95,56 @@
       "subscribed": false,
       "type": "twitch",
       "present": false,
-      "previousActive": "2025-11-12T14:41:43.4974106-05:00",
+      "previousActive": "2025-12-04T12:36:43.1216445-05:00",
       "lastActive": "2025-11-12T15:03:30.8036035-05:00",
+      "exempt": false
+    },
+    "twitch_402337290": {
+      "id": "402337290",
+      "name": "sery_bot",
+      "display": "Sery_Bot",
+      "role": 3,
+      "subscribed": false,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-11-18T13:17:55.6658291-05:00",
+      "lastActive": "2025-12-04T12:36:51.0997164-05:00",
+      "exempt": false
+    },
+    "twitch_475075254": {
+      "id": "475075254",
+      "name": "cyantine137",
+      "display": "cyantine137",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "0001-01-01T00:00:00",
+      "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_644005299": {
+      "id": "644005299",
+      "name": "rustiplants",
+      "display": "RustiPlants",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-12-04T12:36:43.1216445-05:00",
+      "lastActive": "0001-01-01T00:00:00",
+      "exempt": false
+    },
+    "twitch_55010194": {
+      "id": "55010194",
+      "name": "n30npum4",
+      "display": "N30NPUM4",
+      "role": 0,
+      "subscribed": true,
+      "type": "twitch",
+      "present": false,
+      "previousActive": "2025-12-04T12:36:43.1216445-05:00",
+      "lastActive": "0001-01-01T00:00:00",
       "exempt": false
     }
   }
